@@ -18,7 +18,7 @@ const CreateAccount = () =>{
                 />
             </label>
             <label for="phone"> Telefono
-                <input type="tel" {...register('Phone',{reqired:true})}/>
+                <input type='tel' {...register('Phone',{reqired:true},{valueAsNumber:true})}/>
             </label>
             <label for ="email">Correo
                 <input type="email" {...register('Email',{reqired:true})}></input>
