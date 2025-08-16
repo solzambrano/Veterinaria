@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cepillo para Perros",
+    "precio": 1200,
+    "descripcion": "Cepillo suave ideal para eliminar el pelo muerto de tu mascota.",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_716262-MLU74345614108_022024-O.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Cama Acolchada Mediana",
+    "precio": 3500,
+    "descripcion": "Cama cómoda y resistente, perfecta para perros de tamaño mediano.",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_960640-MLA69622326114_052023-O.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Juguete Mordedor",
+    "precio": 800,
+    "descripcion": "Juguete de goma resistente para mantener entretenido a tu perro.",
+    "imagen": "https://ladracadabra.com/wp-content/uploads/2023/03/juguete-mordedor.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Correa Extensible 5m",
+    "precio": 2200,
+    "descripcion": "Correa extensible con freno automático para mayor seguridad.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-HWgPo1u8xZeMljtggWBFR3R9NScoYGlCHw&s"
+  },
+  {
+    "id": 5,
+    "nombre": "Bolsa de Alimento para Perros",
+    "precio": 1500,
+    "descripcion": "Alimento balanceado para perros de todas las edades y tamaños.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLleTsbLJgMUKXB11knv62-2EekNO0v52xJw&s"
+  },
+   {
+    "id": 6,
+    "nombre": "Bolsa de Alimento para Gatos",
+    "precio": 1300,
+    "descripcion": "Alimento balanceado para gatos con multiproteina.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OVVHoA9qEunI15_cu-JMO_1L78PsqivDaw&s"
+  },
+  {
+    "id": 7,
+    "nombre": "Cama para Gatos",
+    "precio": 2800,
+    "descripcion": "Cama suave y acogedora para gatos, perfecta para descansar.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8hVB_h2ig4-y9ByKRtBoE7_TcQvt_43BivA&s"
+  },
+  {
+    "id": 8,
+    "nombre": "Arnés para Perro",
+    "precio": 1800,
+    "descripcion": "Arnés ajustable y cómodo para paseos seguros.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwc_adQWm-70fnbEKuiU--z4Jb04wJpsVbgQ&s"
+  },
+  {
+    "id": 9,
+    "nombre": "Juguete para Gatos",
+    "precio": 600,
+    "descripcion": "Pelota interactiva para gatos, ideal para mantenerlos activos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9Y15yhN_jUoBtIEmyMXCJkLzVW2H_TuRew&s"
+  },
+  {
+    "id": 10,
+    "nombre": "Cucha para Perro Grande",
+    "precio": 4500,
+    "descripcion": "Cucha para perros grandes y medianos, resistente y cómoda.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlrgv8r1Uho-blzObIATv0ycTULuHpHDxeA&s"
+  },
+  {
+    "id": 11,
+    "nombre": "Ropa impermeable para Perros",
+    "precio": 1500,
+    "descripcion": "Abrigo impermeable para perros pequeños.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohzzgS5AElZ2Xn2VJAjrV873K751__SWypg&s"
+  },
+  {
+    "id": 12,
+    "nombre": "Snacks para Perros",
+    "precio": 500,
+    "descripcion": "Bocadillos saludables para consentir a tu mascota.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLh0iinJ9H2-4yOPe0ANLjaebLA6TxR_jUA&s"
+  },
+  {
+    "id": 13,
+    "nombre": "Comedero Automático para Perros y Gatos",
+    "precio": 3200,
+    "descripcion": "Comedero automático con temporizador para una alimentación programada.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-jyf-WF_fZntfkDjJLuhDuGEkTzmLJBjbA&s"
+  },
+  {
+    "id": 14,
+    "nombre": "Cucha para Gatos",
+    "precio": 1200,
+    "descripcion": "Cucha cómodo para gatos, perfecto para su descanso.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCRyzaGdeEX4YTP_8oSk8AoxM0DGuvhPyHg&s"
+  },
+  {
+    "id": 15,
+    "nombre": "Arnes para gatos",
+    "precio": 2800,
+    "descripcion": "Arnes ajustable para gatos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVh7jweBtUY3eKqO73a_1tCP8RE9LB_N8t1g&s"
+  },
+  {
+    "id": 16,
+    "nombre": "Mordedor para Perros",
+    "precio": 1000,
+    "descripcion": "Mordedor de plastico para perros.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4j7lpGSPBUQJJH_f8mAoXKBKLSBoP43woA&s"
+  }
+]

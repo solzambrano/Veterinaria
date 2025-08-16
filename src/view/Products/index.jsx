@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ContainerProducts,ContainerProduct,ContainerDescription,ContainerImage } from './Products.style';
+import { ContainerProducts,Imagen, ContainerProduct,ContainerDescription,ContainerImage } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js";
 
 const Products = () => {
@@ -17,17 +17,17 @@ const Products = () => {
       <li>Ropa</li>
       <li>Camas</li>
     </ul>
-    <p>aqyui va isloading</p>
+    <p>aqyi va isloading</p>
     <ContainerProducts>
     {products?.map((item) => {
       return(
       <ContainerProduct  key={item.id}>
          <ContainerImage>
-            <img src={item.image}/>
+            <Imagen src={item.imagen}></Imagen>
          </ContainerImage>
          <ContainerDescription>
-            <h4>{item.name}</h4>
-            <p>{item.description}</p>
+            <h4>{item.nombre}</h4>
+            <p>{item.descripcion}</p>
          </ContainerDescription>
       </ContainerProduct>
       )

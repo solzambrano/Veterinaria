@@ -1,23 +1,25 @@
 import {create} from 'zustand';
-
+import data from '../../public/data/products.json'
 const productsResults = create ((set)=>({
-products:[],
-isLoading:false,
-error:{},
+    products:[],
+    isLoading:false,
+    error:{},
 
-getProducts : async () =>{
-    try{
-        set(()=>({isLoading:true}))
-        const response = await fetch('https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/products.json')
-        const products= await response.json();
-        await set(()=>({products}))
-        await set(()=>({isLoading:false}))
+    getProducts : async () =>{
+        console.log(data);
+        
+        try{
+            set(()=>({isLoading:true}))
+            const response = await fetch('../../public/data/products.json')
+            const products= await response.json();
+            console.log('products',products);
+            await set(()=>({products}))
+            await set(()=>({isLoading:false}))
+        }
+        catch(error){
+            await set(()=>({error}))
+        }
     }
-    catch(error){
-        await set(()=>({error}))
-    console.log(error);
-    }
-}
 
 }))
 
