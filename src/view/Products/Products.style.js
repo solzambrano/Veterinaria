@@ -30,5 +30,10 @@ export const ContainerImage =styled.div`
   width: fit-content;
   height: auto;
   max-width: 100%;
-}
-`
+`;
+export const ContainerList =styled.ul`
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+cursor:pointer;
+`;

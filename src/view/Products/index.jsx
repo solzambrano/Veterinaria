@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ContainerProducts,Imagen, ContainerProduct,ContainerDescription,ContainerImage } from './Products.style';
+import { ContainerProducts,Imagen,ContainerList, ContainerProduct,ContainerDescription,ContainerImage } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js";
 
 const Products = () => {
@@ -11,12 +11,14 @@ const Products = () => {
  return(
     <>
     <h1>Tienda de productos</h1>
-    <ul>
-      <li>Comida</li>
+    <ContainerList>
+      <li>Alimento</li>
       <li>Juguetes</li>
       <li>Ropa</li>
       <li>Camas</li>
-    </ul>
+      <li>Limpieza</li>
+
+    </ContainerList>
     <p>aqyi va isloading</p>
     <ContainerProducts>
     {products?.map((item) => {
