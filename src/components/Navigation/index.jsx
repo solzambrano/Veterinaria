@@ -10,9 +10,8 @@ return(
         <li>Tienda</li>
         <li>Sobre nosotros</li>
         <li>Contactanos</li>
-        <li>Login</li>
-        <li></li>
-        <li></li>
+        <li><a href=''>Login</a></li>
+        <li><a href=''>Registrarse</a></li>
     </NavOptions>
     </NavList>
     </>
