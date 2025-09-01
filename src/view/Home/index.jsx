@@ -1,10 +1,8 @@
-import data from '../../data/products.json'
-
-
-console.log(data)
+import  Navigation  from '../../components/Navigation'
 const Home = () => {
     return (
     <>
+    <Navigation></Navigation>
         <p>aqui ira el home</p>
 
     </>
