@@ -4,6 +4,9 @@ import Error404 from '../view/Error/Error404'
 import Profile from '../view/Profile'
 import Products from '../view/Products'
 import Dashboard from '../view/Profile/Dashboard';
+import Login from '../view/Login';
+import CreateAcount from '../view/Login/CreateAcount'
+
 const Routes = () => {
 
     // aqui defino las rutas con path y el componente
@@ -18,11 +21,19 @@ const Routes = () => {
             element:<Products/>,
         },
         {
+            path:'/login',
+            element:<Login/>
+        },
+        {
+            path:'/register',
+            element:<CreateAcount/>
+        },
+        {
             path: '/profile',
             element:<Profile/>,
             children:[
                 {
-                    path:'profile/dashboard',
+                    path:'dashboard',
                     element:<Dashboard/>
                 }
             ]

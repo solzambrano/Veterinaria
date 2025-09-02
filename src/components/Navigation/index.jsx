@@ -1,4 +1,5 @@
-import {NavList,NavHeader,NavOptions} from './Navigate.style'
+import {NavList,NavHeader,NavOptions} from './Navigate.style';
+import { NavLink } from 'react-router-dom';
 const Navigation = () => {
 return(
     <>
@@ -10,8 +11,8 @@ return(
         <li>Tienda</li>
         <li>Sobre nosotros</li>
         <li>Contactanos</li>
-        <li><a href=''>Login</a></li>
-        <li><a href=''>Registrarse</a></li>
+        <li><NavLink to="/login">Login</NavLink></li>
+          <li><NavLink to="/register">Registrate</NavLink></li>
     </NavOptions>
     </NavList>
     </>
