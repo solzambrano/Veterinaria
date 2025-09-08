@@ -1,9 +1,13 @@
 import styled from 'styled-components'
 
-
 export const NavList =styled.div`
   display :flex;
   justify-content:space-between
+  
+`;
+export const NavContainerLogo =styled.div`
+  display :flex;
+ align-items: center;
   
 `;
 export const NavHeader =styled.h1`
@@ -19,3 +23,8 @@ export const NavOptions =styled.ul`
   justify-content:space-around
   
 `;
+export const Logo = styled.img `
+    width: 20px;
+    height:20px;
+    margin-right:15px
+`; 
