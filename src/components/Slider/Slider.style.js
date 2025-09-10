@@ -1,0 +1,73 @@
+import styled from 'styled-components'
+
+
+
+export const SwiperStyled =styled.div`
+   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+   .swiper {
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 70%;
+ }
+.swiper-wrapper{
+  display:flex;
+  flex-direction:row;
+}
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+ }
+`;
+
+
+
+
+
+// #app {
+//   height: 100%;
+// }
+// html,
+// body {
+//   position: relative;
+//   height: 100%;
+// }
+
+// body {
+//   background: #000;
+//   font-family:
+//     Helvetica Neue,
+//     Helvetica,
+//     Arial,
+//     sans-serif;
+//   font-size: 14px;
+//   color: #fff;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .swiper {
+//   width: 100%;
+//   padding-top: 50px;
+//   padding-bottom: 50px;
+// }
+
+// .swiper-slide {
+//   background-position: center;
+//   background-size: cover;
+//   width: 300px;
+//   height: 300px;
+// }
+
+// .swiper-slide img {
+//   display: block;
+//   width: 100%;
+// }
