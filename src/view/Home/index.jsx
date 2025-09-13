@@ -5,7 +5,6 @@ const Home = () => {
     <>
     <Navigation></Navigation>
     <Slider></Slider>
-        <p>aqui ira el home</p>
 
     </>
     )
