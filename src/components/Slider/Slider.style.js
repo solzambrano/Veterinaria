@@ -1,73 +1,52 @@
 import styled from 'styled-components'
 
-
-
 export const SwiperStyled =styled.div`
    width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
    .swiper {
-   width: 100%;
-   padding-top: 50px;
-   padding-bottom: 50px;
- }
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position:absolute
+    }
 
- .swiper-slide {
-   background-position: center;
-   background-size: cover;
-   width: 70%;
- }
-.swiper-wrapper{
-  display:flex;
-  flex-direction:row;
-}
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    }
+  
+  .swiper-wrapper{
+    display:flex;
+    flex-direction:row;
+    }
 
- .swiper-slide img {
-   display: block;
-   width: 100%;
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+`;
+export const SpanTitle =styled.p`
+  position:relative;
+  z-index:1;
+  bottom:230px;
+  color:white;
+  font-weight:600;
+  font-size: 19px;
+  margin: 0px 10px;
+  background: rgba(10,25,30,0.3);
  }
 `;
-
-
-
-
-
-// #app {
-//   height: 100%;
-// }
-// html,
-// body {
-//   position: relative;
-//   height: 100%;
-// }
-
-// body {
-//   background: #000;
-//   font-family:
-//     Helvetica Neue,
-//     Helvetica,
-//     Arial,
-//     sans-serif;
-//   font-size: 14px;
-//   color: #fff;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// .swiper {
-//   width: 100%;
-//   padding-top: 50px;
-//   padding-bottom: 50px;
-// }
-
-// .swiper-slide {
-//   background-position: center;
-//   background-size: cover;
-//   width: 300px;
-//   height: 300px;
-// }
-
-// .swiper-slide img {
-//   display: block;
-//   width: 100%;
-// }
+export const TituloImagenSlider =styled.h1`
+  position:relative;
+  z-index:1;
+  bottom:250px;
+  color:white;
+  font-weight:900;
+  margin:0px 10px;
+  background: rgba(10,25,30,0.3);
+ }
+`;

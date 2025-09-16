@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ContainerProducts,Imagen,ContainerList, ContainerProduct,ContainerDescription,ContainerImage } from './Products.style';
+import { ContainerProducts,ContainerList } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js";
-
+import Card from "../../components/Cards/Card";
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()
 
@@ -22,16 +22,8 @@ const Products = () => {
     <p>aqyi va isloading</p>
     <ContainerProducts>
     {products?.map((item) => {
-      return(
-      <ContainerProduct  key={item.id}>
-         <ContainerImage>
-            <Imagen src={item.imagen}></Imagen>
-         </ContainerImage>
-         <ContainerDescription>
-            <h4>{item.nombre}</h4>
-            <p>{item.descripcion}</p>
-         </ContainerDescription>
-      </ContainerProduct>
+      return(  
+       <Card key={item.id} item={item}></Card>
       )
     })}
     </ContainerProducts>

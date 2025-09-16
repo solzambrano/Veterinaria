@@ -29,14 +29,14 @@
   },
   {
     "id": 5,
-    "nombre": "Bolsa de Alimento para Perros",
+    "nombre": "Alimento para Perros",
     "precio": 1500,
     "descripcion": "Alimento balanceado para perros de todas las edades y tamaños.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLleTsbLJgMUKXB11knv62-2EekNO0v52xJw&s"
   },
    {
     "id": 6,
-    "nombre": "Bolsa de Alimento para Gatos",
+    "nombre": "Alimento para Gatos",
     "precio": 1300,
     "descripcion": "Alimento balanceado para gatos con multiproteina.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OVVHoA9qEunI15_cu-JMO_1L78PsqivDaw&s"
@@ -71,7 +71,7 @@
   },
   {
     "id": 11,
-    "nombre": "Ropa impermeable para Perros",
+    "nombre": "Ropa impermeable ",
     "precio": 1500,
     "descripcion": "Abrigo impermeable para perros pequeños.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohzzgS5AElZ2Xn2VJAjrV873K751__SWypg&s"
@@ -85,9 +85,9 @@
   },
   {
     "id": 13,
-    "nombre": "Comedero Automático para Perros y Gatos",
+    "nombre": "Comedero Automático ",
     "precio": 3200,
-    "descripcion": "Comedero automático con temporizador para una alimentación programada.",
+    "descripcion": "Comedero automático con temporizador para una alimentación programada, para perros y gatos.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-jyf-WF_fZntfkDjJLuhDuGEkTzmLJBjbA&s"
   },
   {
@@ -110,5 +110,13 @@
     "precio": 1000,
     "descripcion": "Mordedor de plastico para perros.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4j7lpGSPBUQJJH_f8mAoXKBKLSBoP43woA&s"
+  },
+  {
+    "id": 17,
+    "nombre": "Collar para Perros",
+    "precio": 500,
+    "descripcion": "Collar con accesorio de moño para perros.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYfCT5yY-i81HgpfTzz1JF8npKTLscXyInQ&s"
+  
   }
 ]
