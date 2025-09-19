@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom";
 
 const Login= ()=>{
     const[user,setUser]=useState('');
@@ -21,7 +22,7 @@ return(
             </label>
             <button type ="submit">Sign Up</button>
         </form>
-        <p> No tienes cuenta? Registrate !</p>
+        <p> No tienes cuenta? <NavLink to='register'>Registrate ! </NavLink></p>
         </>
     )
 }

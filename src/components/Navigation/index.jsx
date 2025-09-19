@@ -1,4 +1,4 @@
-import {NavList,NavHeader,NavOptions,Logo,NavContainerLogo} from './Navigate.style';
+import {NavList,NavHeader,Lista, NavOptions,Logo,NavContainerLogo} from './Navigate.style';
 import { NavLink } from 'react-router-dom';
 import VeterinaryIcon from '../../assets/icons/veterinaria.svg'
 
@@ -7,18 +7,18 @@ return(
     <>
     <NavList>
         <NavContainerLogo>
-    <Logo src={VeterinaryIcon} alt="Home" />
-    <NavHeader>Veterinaria COQUETOS</NavHeader>
+            <Logo src={VeterinaryIcon} alt="Home" />
+            <NavHeader>Veterinaria COQUETOS</NavHeader>
         </NavContainerLogo>
-    <NavOptions>
-        <li>Servicios</li>
-        <li>Citas</li>
-        <li>Tienda</li>
-        <li>Sobre nosotros</li>
-        <li>Contactanos</li>
-        <li><NavLink to="/login">Login</NavLink></li>
-        <li><NavLink to="/register">Registrate</NavLink></li>
-    </NavOptions>
+        <NavOptions>
+            <Lista>Servicios</Lista>
+            <Lista>Citas</Lista>
+            <Lista>Tienda</Lista>
+            <Lista>Sobre nosotros</Lista>
+            <Lista>Contactanos</Lista>
+            <Lista>Ayuda</Lista>
+            <Lista><NavLink to="/login">Login</NavLink></Lista>
+        </NavOptions>
     </NavList>
     </>
 )

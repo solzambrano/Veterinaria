@@ -2,15 +2,15 @@ import { ContainerFooter,Icons, Reserved, ContainerParagraph,Paragraph,Container
 import Facebook from '../../assets/icons/facebook.svg';
 import Twitter from '../../assets/icons/twitter.svg';
 import Instagram from '../../assets/icons/instagram.svg';
-
+import { NavLink } from "react-router";
 
 const Footer = () => {
     return(
         <ContainerFooter>
             <ContainerParagraph>
-                <Paragraph>Politica de Privacidad</Paragraph>
-                <Paragraph>Terminos del Servicio</Paragraph>
-                <Paragraph>Contacto</Paragraph>
+                <Paragraph><NavLink to='politic'>Politica de Privacidad </NavLink></Paragraph>
+                <Paragraph><NavLink to='terms'> Térmios del Servicio</NavLink></Paragraph>
+                <Paragraph><NavLink to='contact'>Contacto</NavLink></Paragraph>
             </ContainerParagraph>
             <ContainerIcons>
                 <Icons src={Facebook} alt='icono facebook'></Icons>
@@ -20,7 +20,6 @@ const Footer = () => {
             <ContainerParagraph>
             <Reserved> @ Veterinaria Coquetos, todos los derechos reservados</Reserved>
             </ContainerParagraph>
-
         </ContainerFooter>
     )
 }

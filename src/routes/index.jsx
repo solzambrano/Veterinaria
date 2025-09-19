@@ -21,7 +21,7 @@ const Routes = () => {
             element:<Products/>,
         },
         {
-            path:'/login',
+            path:'/ingresa',
             element:<Login/>
         },
         {

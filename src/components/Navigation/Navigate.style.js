@@ -20,7 +20,11 @@ export const NavOptions =styled.ul`
   list-style-type:none;
   display:flex;
   width:50%;
-  justify-content:space-around
+  justify-content:space-around;
+  a{
+  text-decoration:none;
+  color:black;
+  }
   
 `;
 export const Logo = styled.img `
@@ -28,3 +32,6 @@ export const Logo = styled.img `
     height:20px;
     margin-right:15px
 `; 
+export const Lista =styled.li `
+
+`

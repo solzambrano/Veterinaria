@@ -15,6 +15,10 @@ width:920px;
 export const Paragraph =styled.p `
 color:green;
 width:160px;
+a{
+text-decoration:none;
+color:inherit;
+}
 `
 
 export const ContainerIcons = styled.div`
