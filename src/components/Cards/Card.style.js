@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const ContainerCard =styled.div`
   margin: 10px 5px;
   gap:24px;
@@ -14,18 +13,20 @@ export const ContainerCard =styled.div`
 export const ContainerImage= styled.div`
   width: fit-content;
   height: auto;
+  margin-top: ${props => props.isServices ? '30px' : 'inherit'};
 `;
 export const Imagen = styled.img `
-    width: 200px;
-    height:200px;
+    width: ${props => props.isServices ? '20px' : '200px'};
+    height: ${props => props.isServices ? '20px' : '200px'};
+
 `; 
 export const ContainerDescription= styled.div`
 width:235px;
 margin:0 auto;
-height:120px;
+height: ${props => props.isServices ? 'auto' : '120px'};
 `;
 
-export const Title =styled.h3`
+export const Title =styled.h3` 
 color:black;
 margin:0px 10px ;
 `
