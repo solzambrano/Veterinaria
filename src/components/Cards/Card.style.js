@@ -16,8 +16,8 @@ export const ContainerImage= styled.div`
   margin-top: ${props => props.isServices ? '30px' : 'inherit'};
 `;
 export const Imagen = styled.img `
-    width: ${props => props.isServices ? '20px' : '200px'};
-    height: ${props => props.isServices ? '20px' : '200px'};
+    width: ${props => props.isServices ? '24px' : '200px'};
+    height: ${props => props.isServices ? '24px' : '200px'};
 
 `; 
 export const ContainerDescription= styled.div`

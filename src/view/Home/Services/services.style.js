@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const TitleServices =styled.h3`
-
+line-height:28px
 `
 export const ContainerServices = styled.div `
     display:flex;
     color:red;
     flex-wrap:wrap;
-    margin:20px;
-    justify-content:center
+    justify-content:space-around;
+    margin-bottom:80px
 `;
