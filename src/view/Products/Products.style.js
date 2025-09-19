@@ -12,3 +12,8 @@ display: flex;
 justify-content: space-around;
 cursor:pointer;
 `;
+export const TitleProducts =styled.h1`
+
+`;
+export const Lista =styled.li `
+`

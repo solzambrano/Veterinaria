@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { ContainerProducts,ContainerList } from './Products.style';
+import { ContainerProducts,Lista, TitleProducts, ContainerList } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js";
 import Card from "../../components/Cards/Card";
+import Footer from '../../components/Footer'
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()
 
@@ -10,13 +11,13 @@ const Products = () => {
   }, []);
  return(
     <>
-    <h1>Tienda de productos</h1>
+    <TitleProducts>Tienda de productos</TitleProducts>
     <ContainerList>
-      <li>Alimento</li>
-      <li>Juguetes</li>
-      <li>Ropa</li>
-      <li>Camas</li>
-      <li>Limpieza</li>
+      <Lista>Alimento</Lista>
+      <Lista>Juguetes</Lista>
+      <Lista>Ropa</Lista>
+      <Lista>Camas</Lista>
+      <Lista>Limpieza</Lista>
 
     </ContainerList>
     <p>aqyi va isloading</p>
@@ -27,6 +28,7 @@ const Products = () => {
       )
     })}
     </ContainerProducts>
+    <Footer></Footer>
     </>
  )   
 }

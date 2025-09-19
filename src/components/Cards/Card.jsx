@@ -5,12 +5,12 @@
     return(
         <ContainerCard>
             <ContainerImage>
-                <Imagen src={item.imagen}></Imagen>
+                <Imagen src={item.image}></Imagen>
             </ContainerImage>
-            <Title>{`$${item.precio}`}</Title>
+            <Title>{`$${item.price}`}</Title>
             <ContainerDescription>
-                <Title>{item.nombre} </Title>
-                <Paragraph>{item.descripcion}</Paragraph>
+                <Title>{item.title} </Title>
+                <Paragraph>{item.description}</Paragraph>
             </ContainerDescription>
         </ContainerCard>
 

@@ -8,7 +8,7 @@ export const ContainerCard =styled.div`
   width: 250px;
   flex-direction: column; 
   align-items:center;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
   border-radius:15px;
 `;
 export const ContainerImage= styled.div`
