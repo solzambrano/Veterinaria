@@ -9,7 +9,7 @@ export const SwiperStyled =styled.div`
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    position:absolute
+    position:relative;
     }
 
   .swiper-slide {

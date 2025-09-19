@@ -7,26 +7,27 @@ width:960px
 `
 export const ContainerParagraph =styled.div `
 display:flex;
-justify-content:space-around;
+justify-content:space-between;
 width:920px;
-position:relative;
-margin-bottom:30px
+
 
 `
 export const Paragraph =styled.p `
 color:green;
+width:160px;
 `
 
 export const ContainerIcons = styled.div`
 display:flex;
 justify-content:center;
 width:920px;
-position:absolute;
-top:368vh;
-left:195px;
 `
 
 export const Icons= styled.img `
 width:20px;
 margin:20px 15px;
+`
+export const  Reserved =styled.div`
+color:green;
+margin:auto
 `
