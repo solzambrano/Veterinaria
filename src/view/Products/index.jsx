@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ContainerProducts,Lista, TitleProducts, ContainerList } from './Products.style';
-import productsResults from "../../state/prodcuts-result-js";
+import productsResults from "../../state/prodcuts-result-js.js";
 import Card from "../../components/Cards/Card";
 import Footer from '../../components/Footer'
 const Products = () => {
@@ -20,14 +20,16 @@ const Products = () => {
       <Lista>Limpieza</Lista>
 
     </ContainerList>
-    <p>aqyi va isloading</p>
+    {!isLoading &&
     <ContainerProducts>
     {products?.map((item) => {
       return(  
        <Card key={item.id} item={item}></Card>
       )
-    })}
+    })
+    }
     </ContainerProducts>
+}
     <Footer></Footer>
     </>
  )   

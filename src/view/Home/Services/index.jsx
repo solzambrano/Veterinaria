@@ -1,8 +1,6 @@
 import Card from "../../../components/Cards/Card"
 import serviceDetail from "../../../../public/data/service-detail"
 import { ContainerServices, TitleServices } from "./services.style";
-console.log('service');
-
 const Services = () =>{
     return(
         <>

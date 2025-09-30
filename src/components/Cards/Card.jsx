@@ -1,8 +1,7 @@
  import {ContainerCard,ContainerImage,Imagen,
     ContainerDescription,Title,Paragraph} from './Card.style'
  const Card = ({item,isServices}) => {
-console.log('legue',item);
-    
+
     return(
         <ContainerCard>
             <ContainerImage isServices={isServices}>

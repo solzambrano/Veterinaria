@@ -40,9 +40,7 @@ const Routes = () => {
         }
 ])
 return (
-    <>
     <RouterProvider router={router} />
-    </>
 )
 }
 export default Routes
