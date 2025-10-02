@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
-import { ContainerProducts,Lista, TitleProducts, ContainerList } from './Products.style';
+import { ContainerProducts,Lista, 
+  ContainerSectionProducts, TitleProducts, ContainerList,ImagenSpinner, ContainerSpinner } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js.js";
 import Card from "../../components/Cards/Card";
-import Footer from '../../components/Footer'
+import Footer from '../../components/Footer';
+import Spinner from '../../assets/icons/loader.svg'
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()
-
   useEffect(() => {
     getProducts();
   }, []);
  return(
-    <>
+    <ContainerSectionProducts>
     <TitleProducts>Tienda de productos</TitleProducts>
     <ContainerList>
       <Lista>Alimento</Lista>
@@ -20,6 +21,12 @@ const Products = () => {
       <Lista>Limpieza</Lista>
 
     </ContainerList>
+    {isLoading &&
+    <ContainerSpinner>
+      <ImagenSpinner src={Spinner} alt ='cargando...'></ImagenSpinner>
+      <p>Cargando elementos</p>
+    </ContainerSpinner>
+    }
     {!isLoading &&
     <ContainerProducts>
     {products?.map((item) => {
@@ -30,8 +37,7 @@ const Products = () => {
     }
     </ContainerProducts>
 }
-    <Footer></Footer>
-    </>
+    </ContainerSectionProducts>
  )   
 }
 export default Products  

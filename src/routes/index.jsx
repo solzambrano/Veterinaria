@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from '../view/Home';
+import Layout from '../components/Layout';
 import Error404 from '../view/Error/Error404'
 import Profile from '../view/Profile'
 import Products from '../view/Products'
@@ -13,12 +14,19 @@ const Routes = () => {
     const router = createBrowserRouter([
        { 
             path :'/',
-            element:<Home/>,
-            errorElement:<Error404/>
-        },
-        {
-            path:'/products',
-            element:<Products/>,
+            element: <Layout/>,
+            errorElement:<Error404/>,
+            children:[
+                {
+                    index:true,
+                    element:<Home/>,
+
+                },
+                {
+                    path:'products',
+                    element:<Products/>,
+                },
+            ]
         },
         {
             path:'/ingresa',

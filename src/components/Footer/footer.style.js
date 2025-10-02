@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const ContainerFooter = styled.div `
 margin:0 auto ;
-width:960px
+width:960px;
+text-align: center;
 
 `
 export const ContainerParagraph =styled.div `
