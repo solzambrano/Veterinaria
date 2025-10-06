@@ -26,27 +26,30 @@ export const SwiperStyled =styled.div`
   .swiper-slide img {
     display: block;
     width: 100%;
-    background: rgba(0,0,0,0.5);
+    opacity:0.5;
+
   }
 `;
 export const SpanTitle =styled.p`
   position:relative;
   z-index:1;
   bottom:230px;
-  color:white;
+	position: relative;
+	z-index: 1;
+	bottom: 250px;
+	color: #065106;
   font-weight:600;
-  font-size: 19px;
+  font-size: 18px;
   margin: 0px 10px;
-  background: rgba(10,25,30,0.3);
  }
 `;
 export const TituloImagenSlider =styled.h1`
   position:relative;
   z-index:1;
   bottom:250px;
-  color:white;
+  margin-bottom:10px;
+  color:#065106;
   font-weight:900;
-  margin:0px 10px;
-  background: rgba(10,25,30,0.3);
+  margin:15px 10px;
  }
 `;

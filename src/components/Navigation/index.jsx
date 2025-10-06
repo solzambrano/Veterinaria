@@ -6,9 +6,11 @@ const Navigation = () => {
 return(
     <>
     <NavList>
-        <NavContainerLogo>
+       <NavContainerLogo>
+        <NavLink to='/'> 
             <Logo src={VeterinaryIcon} alt="Home" />
             <NavHeader>Veterinaria COQUETOS</NavHeader>
+            </NavLink>
         </NavContainerLogo>
         <NavOptions>
             <Lista>Servicios</Lista>

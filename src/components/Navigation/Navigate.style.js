@@ -2,12 +2,20 @@ import styled from 'styled-components'
 
 export const NavList =styled.div`
   display :flex;
-  justify-content:space-between
+  justify-content:space-between;
+  padding:0px 15px;
   
 `;
 export const NavContainerLogo =styled.div`
   display :flex;
  align-items: center;
+ flex-direction:row;
+ a{
+ text-decoration:none;
+ color:black;
+ display:ruby
+ }
+ 
   
 `;
 export const NavHeader =styled.h1`
