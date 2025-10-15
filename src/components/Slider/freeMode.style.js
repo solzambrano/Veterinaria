@@ -1,9 +1,9 @@
-import styled from 'styled-components'
-
+import styled from "styled-components";
 export const SwiperStyled =styled.div`
    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    cursor:pointer;
 
    .swiper {
     width: 100%;
@@ -25,15 +25,15 @@ export const SwiperStyled =styled.div`
 
   .swiper-slide img {
     display: block;
-    width: 100%;
-    opacity:0.6;
+    width: 200px;
+    height:200px;
+  }`
 
-  }
-`;
 export const SpanTitle =styled.p`
   position:relative;
   z-index:1;
-  bottom:250px;
+	bottom: 0;
+  width:200px;
 	color: #065106;
   font-weight:600;
   font-size: 18px;
@@ -48,5 +48,4 @@ export const TituloImagenSlider =styled.h1`
   color:#065106;
   font-weight:900;
   margin:15px 10px;
- }
-`;
+ }`;

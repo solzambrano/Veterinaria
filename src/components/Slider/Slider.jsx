@@ -11,7 +11,6 @@ import images from '../../../public/data/slider-data'
 
 const Slider = () =>{
 return(
-    <>
     <SwiperStyled>
       <Swiper
         effect={'coverflow'}
@@ -40,7 +39,6 @@ return(
         })}
       </Swiper>
     </SwiperStyled>
-    </>
 )
 }
 export default Slider
