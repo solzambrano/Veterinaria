@@ -3,7 +3,6 @@ import { ContainerProducts,Lista,
   ContainerSectionProducts, TitleProducts, ContainerList,ImagenSpinner, ContainerSpinner } from './Products.style';
 import productsResults from "../../state/prodcuts-result-js.js";
 import Card from "../../components/Cards/Card";
-import Footer from '../../components/Footer';
 import Spinner from '../../assets/icons/loader.svg'
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()

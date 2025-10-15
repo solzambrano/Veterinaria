@@ -1,10 +1,11 @@
 import {create} from 'zustand';
 const productsResults = create ((set)=>({
     products:[],
-    isLoading:false,
+    isLoading:true,
     error:{},
 
     getProducts : async () =>{
+         setTimeout(async () => {
         try{
             set(()=>({ isLoading:true}))
             const response = await fetch('/data/products.json')
@@ -15,6 +16,7 @@ const productsResults = create ((set)=>({
         catch(error){
             set(()=>({error}))
         }
+         }, 3000);
     }
 
 }))
