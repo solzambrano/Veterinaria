@@ -36,3 +36,6 @@ export const  Reserved =styled.div`
 color:green;
 margin:auto
 `
+export const  Link =styled.a`
+cursor:pointer;
+`

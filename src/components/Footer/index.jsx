@@ -1,4 +1,4 @@
-import { ContainerFooter,Icons, Reserved, ContainerParagraph,Paragraph,ContainerIcons } from "./footer.style"
+import { ContainerFooter,Icons,Link, Reserved, ContainerParagraph,Paragraph,ContainerIcons } from "./footer.style"
 import Facebook from '../../assets/icons/facebook.svg';
 import Twitter from '../../assets/icons/twitter.svg';
 import Instagram from '../../assets/icons/instagram.svg';
@@ -13,9 +13,9 @@ const Footer = () => {
                 <Paragraph><NavLink to='contact'>Contacto</NavLink></Paragraph>
             </ContainerParagraph>
             <ContainerIcons>
-               <a href='https://www.facebook.com/'><Icons src={Facebook} alt='icono facebook'></Icons></a> 
-               <a href="https://x.com/?lang=es"> <Icons src={Twitter} alt='icono twitter'></Icons> </a>
-               <a href="https://www.instagram.com/">  <Icons src={Instagram} alt='icono instagram'></Icons></a>
+               <Link href='https://www.facebook.com/'><Icons src={Facebook} alt='icono facebook'></Icons></Link> 
+               <Link href="https://x.com/?lang=es"> <Icons src={Twitter} alt='icono twitter'></Icons> </Link>
+               <Link href="https://www.instagram.com/">  <Icons src={Instagram} alt='icono instagram'></Icons></Link>
             </ContainerIcons>
             <ContainerParagraph>
             <Reserved> @ Veterinaria Coquetos, todos los derechos reservados</Reserved>
