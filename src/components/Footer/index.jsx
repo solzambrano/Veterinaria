@@ -8,7 +8,7 @@ const Footer = () => {
     return(
         <ContainerFooter>
             <ContainerParagraph>
-                <Paragraph><NavLink to='politic'>Politica de Privacidad </NavLink></Paragraph>
+                <Paragraph><NavLink to='politica-de-privacidad'>Politica de Privacidad </NavLink></Paragraph>
                 <Paragraph><NavLink to='terms'> Términos del Servicio</NavLink></Paragraph>
                 <Paragraph><NavLink to='contact'>Contacto</NavLink></Paragraph>
             </ContainerParagraph>
