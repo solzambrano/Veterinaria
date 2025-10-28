@@ -6,7 +6,8 @@ import Profile from '../view/Profile'
 import Products from '../view/Products'
 import Dashboard from '../view/Profile/Dashboard';
 import Login from '../view/Login';
-import CreateAcount from '../view/Login/CreateAcount'
+import CreateAcount from '../view/Login/CreateAcount';
+import Politic from '../view/Politic';
 
 const Routes = () => {
 
@@ -26,6 +27,10 @@ const Routes = () => {
                     path:'products',
                     element:<Products/>,
                 },
+                 {
+            path:'/politica-de-privacidad',
+            element:<Politic/>
+        },
             ]
         },
         {
@@ -36,6 +41,7 @@ const Routes = () => {
             path:'/register',
             element:<CreateAcount/>
         },
+       
         {
             path: '/profile',
             element:<Profile/>,

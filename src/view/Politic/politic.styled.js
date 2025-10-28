@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles} from "../../styles/GlobalStyles";
 
 export const StyledText= styled.p`
 color:var(--color-Green);
@@ -16,16 +15,18 @@ font-weigth:500;
 export const Paragraph = styled.p`
 color:  ${props => props.date? 'gray': ''};
 font-size:1.1em;
-margin:10px
 `
 export const ListaTitulos = styled.ol`
+margin-left:10%;
 
 `
 export const ListaItems =styled.ul`
 
+list-style-position: outside;
+list-style-type:disc;
 `
 export const Items =styled.li`
-
+line-height: 20px;
 `
 export const ContainerPrincipal = styled.div`
 display:grid;
@@ -34,8 +35,14 @@ width:80%;
 margin:auto;
 `
 export const ContainerImage =styled.div`
-margin:auto
+margin:auto;
+width:75%
 `
 export const ContainerBodyText = styled.div`
-flex-direction:column
+flex-direction:column;
+margin-top:15%
+`
+
+export const Imagen = styled.img`
+width:100%
 `
