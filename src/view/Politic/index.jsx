@@ -1,4 +1,4 @@
-import { ContainerPrincipal,ContainerImage,Title,Imagen,Subtitle,ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items } from "./politic.styled"
+import { ContainerPrincipal,ContainerImage,Title,Imagen,Subtitle,ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items } from "./politic.styles"
 
 const Politic = () => {
 return(
