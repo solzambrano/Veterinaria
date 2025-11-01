@@ -10,7 +10,10 @@ font-weight:700
 
 export const Subtitle =styled(StyledText)`
 font-size:1.3em;
-font-weigth:500;
+font-weight:600;
+`
+export const SpanEmail =styled.span `
+color:var(--color-Green);
 `
 export const Paragraph = styled.p`
 color:  ${props => props.date? 'gray': ''};

@@ -1,4 +1,5 @@
-import { ContainerPrincipal,ContainerImage,Title,Imagen,Subtitle,ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items } from "./politic.styles"
+import { ContainerPrincipal,ContainerImage,Title,Imagen,Subtitle,
+    ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items,SpanEmail } from "./politic.styles"
 
 const Politic = () => {
 return(
@@ -54,7 +55,7 @@ return(
         <Paragraph>Nos reservamos el derecho de modificar esta politica de privacdad en cualquier momento. Cualquier cambio será notificado publicando la nueva política en nuestro sitio web y actualizando la fecha de "Ultima actualización"</Paragraph>
         
         <Items><Subtitle>Informacion de Contacto</Subtitle></Items>
-        <Paragraph>Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad , no dude en contactarnos en: privacidad.veterinaria@coquetos.com</Paragraph>
+        <Paragraph>Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad , no dude en contactarnos en: <SpanEmail>privacidad.veterinaria@coquetos.com </SpanEmail></Paragraph>
     </ListaTitulos>
     </>
 )
