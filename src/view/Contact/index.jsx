@@ -1,4 +1,7 @@
-import { Paragraph } from "../Politic/politic.styles"
+import { Paragraph,Container,ContainerContactUs,ContainerData
+    ,ContainerDirection,ContainerEmail,ContainerPhone,ContainerShowInformation,
+    ContainerTime,Title,Subtitle
+ } from "./contact.styles"
 
 const Contact = () => {
 return(

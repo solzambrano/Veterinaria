@@ -8,6 +8,7 @@ import Dashboard from '../view/Profile/Dashboard';
 import Login from '../view/Login';
 import CreateAcount from '../view/Login/CreateAcount';
 import Politic from '../view/Politic';
+import Contact from '../view/Contact';
 
 const Routes = () => {
 
@@ -27,10 +28,14 @@ const Routes = () => {
                     path:'products',
                     element:<Products/>,
                 },
-                 {
-            path:'/politica-de-privacidad',
-            element:<Politic/>
-        },
+                {
+                    path:'/politica-de-privacidad',
+                    element:<Politic/>
+                },
+                {
+                    path:'/contact-us',
+                    element:<Contact/>
+                },
             ]
         },
         {
