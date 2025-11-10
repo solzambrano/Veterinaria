@@ -1,16 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div `
+display:grid;
+grid-template-columns: repeat(2 , 1fr)
 
 `
 export const ContainerContactUs = styled.div `
-
+grid-column:1
 `
 export const ContainerData = styled.div `
 
 `
 export const ContainerShowInformation = styled.div `
-
+grid-column:2
 `
 export const ContainerDirection = styled.div `
 

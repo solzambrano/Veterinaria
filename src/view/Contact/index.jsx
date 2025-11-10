@@ -2,7 +2,7 @@ import { Paragraph,Container,ContainerContactUs,ContainerData
     ,ContainerDirection,ContainerEmail,ContainerPhone,ContainerShowInformation,
     ContainerTime,Title,Subtitle
  } from "./contact.styles"
-
+import FormContact from "../../components/Form/FormContact/FormContact"
 const Contact = () => {
 return(
     <Container>
@@ -12,24 +12,23 @@ return(
                 que no este en las preguntas frecuentes, puedes rellenar el formulario
                 y nos pondremos en contacto contigo lo antes posible.
             </Paragraph>
-        
+            <FormContact></FormContact>
         </ContainerContactUs>
-<ContainerShowInformation>
-    <Title>Información de contacto</Title>
-    <ContainerData>
-        <ContainerDirection>
-            <Subtitle>Dirección</Subtitle>
-            Av. La merced 1025, San Salvador de Jujuy-Jujuy-Argentina
-        </ContainerDirection>
-        <ContainerPhone>
-            <Subtitle>Teléfono</Subtitle>
-
-            +54 388 345678
-        </ContainerPhone>
-        <ContainerEmail>
-            <Subtitle>Correo Electronico</Subtitle>
+        <ContainerShowInformation>
+            <Title>Información de contacto</Title>
+            <ContainerData>
+                <ContainerDirection>
+                    <Subtitle>Dirección</Subtitle>
+                    <Paragraph>Av. La merced 1025, San Salvador de Jujuy-Jujuy-Argentina</Paragraph>
+                </ContainerDirection>
+                <ContainerPhone>
+                    <Subtitle>Teléfono</Subtitle>
+                    <Paragraph>+54 388 345678</Paragraph>
+                </ContainerPhone>
+                <ContainerEmail>
+                    <Subtitle>Correo Electronico</Subtitle>
+            <Paragraph>contacto@coquetos.com</Paragraph>
             
-            contacto@coquetos.com
         </ContainerEmail>
         <ContainerTime>
             <Subtitle>Horario de Atención</Subtitle>
