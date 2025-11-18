@@ -3,7 +3,9 @@ import { Paragraph,Container,ContainerContactUs,ContainerData
     ContainerTime,Title,Subtitle
  } from "./contact.styles"
 import FormContact from "../../components/Form/FormContact/FormContact"
+import { useState } from "react"
 const Contact = () => {
+    const [isContact,setIsContact] =useState(true)
 return(
     <Container>
         <ContainerContactUs>
@@ -12,7 +14,7 @@ return(
                 que no este en las preguntas frecuentes, puedes rellenar el formulario
                 y nos pondremos en contacto contigo lo antes posible.
             </Paragraph>
-            <FormContact></FormContact>
+            <FormContact contact={isContact}></FormContact>
         </ContainerContactUs>
         <ContainerShowInformation>
             <Title>Información de contacto</Title>
@@ -32,7 +34,6 @@ return(
         </ContainerEmail>
         <ContainerTime>
             <Subtitle>Horario de Atención</Subtitle>
-            
             Lunes a Viernes de 8:00 - 20:00
             Sabados de 08:00 - 14:00
             Por urgencias Guardia las 24 horas
