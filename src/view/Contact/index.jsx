@@ -5,7 +5,7 @@ import { Paragraph,Container,ContainerContactUs,ContainerData
 import FormContact from "../../components/Form/FormContact/FormContact"
 import { useState } from "react"
 const Contact = () => {
-    const [isContact,setIsContact] =useState(true)
+    const [IsContact,setIsContact] =useState(true)
 return(
     <Container>
         <ContainerContactUs>
@@ -14,7 +14,7 @@ return(
                 que no este en las preguntas frecuentes, puedes rellenar el formulario
                 y nos pondremos en contacto contigo lo antes posible.
             </Paragraph>
-            <FormContact contact={isContact}></FormContact>
+            <FormContact IsContact={IsContact}></FormContact>
         </ContainerContactUs>
         <ContainerShowInformation>
             <Title>Información de contacto</Title>

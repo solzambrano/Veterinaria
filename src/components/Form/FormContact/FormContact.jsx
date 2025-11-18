@@ -1,7 +1,7 @@
 import {useForm} from 'react-hook-form'
 import { Form,Label,Input } from './formContact.styles';
 
-const FormContact = ({contact}) => {
+const FormContact = ({IsContact,IsLogin=false}) => {
     const {register,handleSubmit,formState:{errors}}=useForm()
     const handleSubmitForm = (inputs) =>{
         console.log(inputs);
@@ -20,21 +20,22 @@ const FormContact = ({contact}) => {
             <Label for ="email">Correo
                 <Input type="email" {...register('Email',{reqired:true})}></Input>
             </Label>
-            { contact &&
-            <>
-            <Label for="pass"> Contraseña
+            
+            {IsLogin &&
+             <Label for="pass"> Contraseña
                 <Input type="password" 
               {...register('Password',{reqired:true,maxLength:8})}
-                ></Input>
+              ></Input>
             </Label>
+            }
+              { IsContact && 
             <Label> Mensaje
                 <textarea>
 
                 </textarea>
             </Label>
-            <button type ="submit">Sign Up</button>
-            </>
             }
+            <button type ="submit">Sign Up</button>
             </Form>
     )
 };export default FormContact
