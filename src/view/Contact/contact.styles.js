@@ -26,10 +26,12 @@ export const ContainerEmail = styled.div `
 export const ContainerTime = styled.div `
 
 `
-export const Title = styled.h2 `
+export const Title = styled.h1 `
 
 `
 export const Paragraph = styled.p`
+color:gray;
+font-size:1.2em
 
 `
 export const Subtitle = styled.p `

@@ -10,7 +10,7 @@ const Footer = () => {
             <ContainerParagraph>
                 <Paragraph><NavLink to='politica-de-privacidad'>Politica de Privacidad </NavLink></Paragraph>
                 <Paragraph><NavLink to='terms'> Términos del Servicio</NavLink></Paragraph>
-                <Paragraph><NavLink to='contact'>Contacto</NavLink></Paragraph>
+                <Paragraph><NavLink to='contact-us'>Contacto</NavLink></Paragraph>
             </ContainerParagraph>
             <ContainerIcons>
                <Link href='https://www.facebook.com/'><Icons src={Facebook} alt='icono facebook'></Icons></Link> 

@@ -34,9 +34,11 @@ return(
         </ContainerEmail>
         <ContainerTime>
             <Subtitle>Horario de Atención</Subtitle>
-            Lunes a Viernes de 8:00 - 20:00
-            Sabados de 08:00 - 14:00
-            Por urgencias Guardia las 24 horas
+            <Paragraph>
+                Lunes a Viernes de 8:00 - 20:00
+                Sabados de 08:00 - 14:00
+                Por urgencias Guardia las 24 horas
+            </Paragraph>
         </ContainerTime>
     </ContainerData>
 </ContainerShowInformation>
