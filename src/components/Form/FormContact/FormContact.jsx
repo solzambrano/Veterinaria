@@ -1,5 +1,5 @@
 import {useForm} from 'react-hook-form'
-import { Form,Label,Input } from './formContact.styles';
+import { Form,Label,Input,TextArea,ButtonSend } from './formContact.styles';
 
 const FormContact = ({IsContact,IsLogin=false}) => {
     const {register,handleSubmit,formState:{errors}}=useForm()
@@ -30,12 +30,15 @@ const FormContact = ({IsContact,IsLogin=false}) => {
             }
               { IsContact && 
             <Label> Mensaje
-                <textarea>
-
-                </textarea>
+                <TextArea 
+                rows="4"
+                placeholder="Escribe tu mensaje aqui....."
+                name="consulta"
+                >
+                </TextArea>
             </Label>
             }
-            <button type ="submit">Sign Up</button>
+            <ButtonSend type ="submit">Sign Up</ButtonSend>
             </Form>
     )
 };export default FormContact

@@ -3,9 +3,9 @@ import { Paragraph,Container,ContainerContactUs,ContainerData
     ContainerTime,Title,Subtitle
  } from "./contact.styles"
 import FormContact from "../../components/Form/FormContact/FormContact"
-import { useState } from "react"
+import { useRef } from "react"
 const Contact = () => {
-    const [IsContact,setIsContact] =useState(true)
+    const IsContact =useRef(true)
 return(
     <Container>
         <ContainerContactUs>
@@ -20,20 +20,20 @@ return(
             <Title>Información de contacto</Title>
             <ContainerData>
                 <ContainerDirection>
-                    <Subtitle>Dirección</Subtitle>
+                    <Subtitle>Dirección:</Subtitle>
                     <Paragraph>Av. La merced 1025, San Salvador de Jujuy-Jujuy-Argentina</Paragraph>
                 </ContainerDirection>
                 <ContainerPhone>
-                    <Subtitle>Teléfono</Subtitle>
+                    <Subtitle>Teléfono: </Subtitle>
                     <Paragraph>+54 388 345678</Paragraph>
                 </ContainerPhone>
                 <ContainerEmail>
-                    <Subtitle>Correo Electronico</Subtitle>
+                    <Subtitle>Correo Electronico: </Subtitle>
             <Paragraph>contacto@coquetos.com</Paragraph>
             
         </ContainerEmail>
         <ContainerTime>
-            <Subtitle>Horario de Atención</Subtitle>
+            <Subtitle>Horario de Atención: </Subtitle>
             <Paragraph>
                 Lunes a Viernes de 8:00 - 20:00
                 Sabados de 08:00 - 14:00
