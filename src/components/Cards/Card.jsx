@@ -1,7 +1,6 @@
  import {ContainerCard,ContainerImage,Imagen,
     ContainerDescription,Title,Paragraph} from './Card.style'
  const Card = ({item,isServices}) => {
-
     return(
         <ContainerCard>
             <ContainerImage isServices={isServices}>
