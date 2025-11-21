@@ -1,6 +1,6 @@
 import Navigation from "../Navigation"
 import Footer from "../Footer"
-import { Content } from './Layout.style';
+import { Content,Container } from './Layout.style';
 import { useEffect } from 'react';
 import { useLocation,Outlet } from 'react-router-dom';
 const Layout = () => {
@@ -10,13 +10,13 @@ const Layout = () => {
   }, [pathname]);
 
     return(
-        <>
-         <Navigation></Navigation>
+        <Container>
+        <Navigation></Navigation>
         <Content>
             <Outlet/>
         </Content>
         <Footer></Footer>
-        </>
+        </Container>
        
     )
 }
