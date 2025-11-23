@@ -12,23 +12,18 @@ grid-column:1
 export const ContainerData = styled.div `
 height:50%;
 box-shadow: 2px 2px 5px rgb(161, 161, 158);
-padding-left:10px;
+padding:20px 25px;
 background-color:white;
 `
 export const ContainerShowInformation = styled.div `
 grid-column:2
 `
-export const ContainerDirection = styled.div `
-
+export const ContainerInfoContact = styled.div `
+display:flex;
+align-items:center
 `
-export const ContainerPhone = styled.div `
-
-`
-export const ContainerEmail = styled.div `
-
-`
-export const ContainerTime = styled.div `
-
+export const Icons =styled.img`
+width:30px;
 `
 export const Title = styled.h1 `
 font-weight:700;
@@ -44,6 +39,7 @@ font-size:1.1em;
 `
 export const Subtitle = styled(Text)`
 font-size:1.2em;
-font-weight:600
+font-weight:600;
+padding:0px 25px
 
 `

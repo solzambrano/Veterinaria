@@ -1,7 +1,10 @@
 import { Paragraph,Container,ContainerContactUs,ContainerData
-    ,ContainerDirection,ContainerEmail,ContainerPhone,ContainerShowInformation,
-    ContainerTime,Title,Subtitle
+    ,ContainerInfoContact,ContainerShowInformation,Title,Subtitle,Icons
  } from "./contact.styles"
+import Clock from '../../assets/icons/clock.svg'
+import Phone from '../../assets/icons/phone.svg'
+import Mail from '../../assets/icons/mail.svg'
+import Location from '../../assets/icons/location.svg'
 import FormContact from "../../components/Form/FormContact/FormContact"
 import { useRef } from "react"
 const Contact = () => {
@@ -19,29 +22,32 @@ return(
         <ContainerShowInformation>
             <Title>Información de contacto</Title>
             <ContainerData>
-                <ContainerDirection>
+                <ContainerInfoContact>
+                    <Icons src={Location}></Icons>
                     <Subtitle>Dirección:</Subtitle>
                     <Paragraph>Av. La merced 1025, San Salvador de Jujuy-Jujuy-Argentina</Paragraph>
-                </ContainerDirection>
-                <ContainerPhone>
+                </ContainerInfoContact>
+                <ContainerInfoContact>
+                    <Icons src={Phone}></Icons>
                     <Subtitle>Teléfono: </Subtitle>
                     <Paragraph>+54 388 345678</Paragraph>
-                </ContainerPhone>
-                <ContainerEmail>
+                </ContainerInfoContact>
+                <ContainerInfoContact>
+                    <Icons src={Mail}></Icons>
                     <Subtitle>Correo Electronico: </Subtitle>
-            <Paragraph>contacto@coquetos.com</Paragraph>
-            
-        </ContainerEmail>
-        <ContainerTime>
-            <Subtitle>Horario de Atención: </Subtitle>
-            <Paragraph>
-                Lunes a Viernes de 8:00 - 20:00
-                Sabados de 08:00 - 14:00
-                Por urgencias Guardia las 24 horas
-            </Paragraph>
-        </ContainerTime>
-    </ContainerData>
-</ContainerShowInformation>
+                    <Paragraph>contacto@coquetos.com</Paragraph>
+                </ContainerInfoContact>
+                <ContainerInfoContact>
+                    <Icons src={Clock}></Icons>
+                    <Subtitle>Horario de Atención: </Subtitle>
+                    <Paragraph>
+                        Lunes a Viernes de 8:00 - 20:00
+                        Sabados de 08:00 - 14:00
+                        Por urgencias Guardia las 24 horas
+                    </Paragraph>
+                </ContainerInfoContact>
+            </ContainerData>
+        </ContainerShowInformation>
     </Container>
 )
 }
