@@ -17,7 +17,7 @@ return(
             <Lista>Citas</Lista>
             <Lista>Tienda</Lista>
             <Lista>Sobre nosotros</Lista>
-            <Lista>Contactanos</Lista>
+            <Lista><NavLink to='contact-us'>Contactanos </NavLink></Lista>
             <Lista>Ayuda</Lista>
             <Lista><NavLink to="/login">Login</NavLink></Lista>
         </NavOptions>

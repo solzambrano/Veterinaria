@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div `
 display:grid;
 grid-template-columns: repeat(2 , 1fr);
-height:750px
+height:720px
 
 `
 export const ContainerContactUs = styled.div `
@@ -20,7 +20,7 @@ grid-column:2
 `
 export const ContainerInfoContact = styled.div `
 display:flex;
-align-items:center
+align-items:center;
 `
 export const Icons =styled.img`
 width:30px;
