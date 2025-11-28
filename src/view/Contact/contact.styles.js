@@ -10,7 +10,7 @@ export const ContainerContactUs = styled.div `
 grid-column:1
 `
 export const ContainerData = styled.div `
-height:50%;
+height:35%;
 box-shadow: 2px 2px 5px rgb(161, 161, 158);
 padding:20px 25px;
 background-color:white;
