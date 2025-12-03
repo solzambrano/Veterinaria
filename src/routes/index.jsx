@@ -9,6 +9,7 @@ import Login from '../view/Login';
 import CreateAcount from '../view/Login/CreateAcount';
 import Politic from '../view/Politic';
 import Contact from '../view/Contact';
+import Terms from '../view/Terms';
 
 const Routes = () => {
 
@@ -36,6 +37,10 @@ const Routes = () => {
                     path:'/contact-us',
                     element:<Contact/>
                 },
+                {
+                    path:'/terms-services',
+                    element: <Terms/>
+                }
             ]
         },
         {
