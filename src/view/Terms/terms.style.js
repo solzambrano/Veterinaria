@@ -24,3 +24,7 @@ export const Item = styled.li`
 export const Subparagraph =styled(Text)`
 
 `
+export const Detail= styled.details`
+`
+export const Sumary = styled.summary`
+`

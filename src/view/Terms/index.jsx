@@ -1,5 +1,5 @@
-// import { Paragraph } from "../Contact/contact.styles"
-import {ContainerTerms,Title,Paragraph,List,Item,Subparagraph} from './terms.style'
+
+import {ContainerTerms,Title,Paragraph,List,Item,Subparagraph,Sumary,Detail} from './terms.style'
 
 const Terms = () =>{
     return(
@@ -10,49 +10,59 @@ const Terms = () =>{
                 sitio web. Al acceder a este sitio, asumimos que aceptas estos términos y condiciones , a continuación establecidos
             </Paragraph>
         <List>
-            <Item>Aceptación de los Términos
-                <Subparagraph>Al acceder y utilizar este sitio web, el usuario 
-                    declara haber leído, comprendido y aceptado los presentes Términos 
-                    del Servicio. Si no está de acuerdo con alguna de las condiciones 
-                    aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos
-                </Subparagraph>
+            <Item> 
+                <Detail>
+                    <Sumary>Aceptación de los Términos  </Sumary>
+                        <Subparagraph>Al acceder y utilizar este sitio web, el usuario 
+                            declara haber leído, comprendido y aceptado los presentes Términos 
+                            del Servicio. Si no está de acuerdo con alguna de las condiciones 
+                            aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos
+                        </Subparagraph>
+                </Detail>
             </Item>
-            <Item>Descripción de los servicios
-                <Subparagraph>El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.
-Está prohibido:
-
-Realizar acciones que puedan dañar, alterar o afectar el funcionamiento del sitio.
-
-Publicar información falsa, ofensiva o que infrinja derechos de terceros.
-
-Intentar acceder sin autorización a sistemas, datos o información restringida.
-
-La veterinaria se reserva el derecho de restringir o suspender el acceso a usuarios que incumplan estas condiciones.</Subparagraph>
+            <Item>
+                <Detail>
+                    <Sumary> Descripción de los servicios </Sumary>
+                        <Subparagraph>El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.
+                            Está prohibido: 
+                            Realizar acciones que puedan dañar, alterar o afectar el funcionamiento del sitio.
+                            Publicar información falsa, ofensiva o que infrinja derechos de terceros.
+                            Intentar acceder sin autorización a sistemas, datos o información restringida.
+                            La veterinaria se reserva el derecho de restringir o suspender el acceso a usuarios que incumplan estas condiciones.</Subparagraph>
+                </Detail>
             </Item>
-            <Item>Uso del sitio Web y Obligaciones del Usuarios
-                <Subparagraph>El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
-Los cambios o cancelaciones deben realizarse con anticipación razonable.</Subparagraph>
+            <Item>
+                <Detail>
+                    <Sumary> Uso del sitio Web y Obligaciones del Usuarios </Sumary>
+                    <Subparagraph>El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
+                    Los cambios o cancelaciones deben realizarse con anticipación razonable.</Subparagraph>
+                </Detail>
             </Item>
-            <Item>Citas y Pagos
-                <Subparagraph>El sistema de turnos online facilita la solicitud de citas, pero la confirmación final puede estar sujeta a disponibilidad.
-El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
-Los cambios o cancelaciones deben realizarse con anticipación razonable.
-En casos de urgencia, se recomienda comunicarse directamente por los medios indicados en el sitio.</Subparagraph>
+            <Item>
+                <Detail>
+                    <Sumary> Citas y Pagos </Sumary>
+                    <Subparagraph>El sistema de turnos online facilita la solicitud de citas, pero la confirmación final puede estar sujeta a disponibilidad.
+                    El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
+                    Los cambios o cancelaciones deben realizarse con anticipación razonable.
+                    En casos de urgencia, se recomienda comunicarse directamente por los medios indicados en el sitio.</Subparagraph>
+                </Detail>
             </Item>
-            <Item>Propiedad Intelectual
-                <Subparagraph>Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, gráficos y diseños, son propiedad exclusiva de la veterinaria o de sus respectivos titulares y están protegidos por leyes de propiedad intelectual.
-Queda prohibida la copia, reproducción, distribución o modificación de cualquier contenido sin autorización previa y por escrito.</Subparagraph>
+            <Item>
+                <Detail>
+                    <Sumary> Propiedad Intelectual </Sumary>
+                    <Subparagraph>Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, gráficos y diseños, son propiedad exclusiva de la veterinaria o de sus respectivos titulares y están protegidos por leyes de propiedad intelectual.
+                    Queda prohibida la copia, reproducción, distribución o modificación de cualquier contenido sin autorización previa y por escrito.</Subparagraph>
+                </Detail>
             </Item>
-            <Item>Limitación de Responsabilidad
-                <Subparagraph>La veterinaria no se hace responsable por:
-
-Daños derivados del uso o la imposibilidad de uso del sitio web.
-
-Errores u omisiones en la información publicada.
-
-Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.
-
-Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal.</Subparagraph>
+            <Item>
+                <Detail>
+                    <Sumary>Limitación de Responsabilidad</Sumary>
+                    <Subparagraph>La veterinaria no se hace responsable por:
+                    Daños derivados del uso o la imposibilidad de uso del sitio web.
+                    Errores u omisiones en la información publicada.
+                    Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.
+                    Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal.</Subparagraph>
+                </Detail>
             </Item>
 
         </List>
