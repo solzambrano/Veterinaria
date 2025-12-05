@@ -1,6 +1,5 @@
-
-import {ContainerTerms,Title,Paragraph,List,Item,Subparagraph,Sumary,Detail} from './terms.style'
-
+import {ContainerTerms,Title,Paragraph,List,Item,Subparagraph,Sumary,Detail,Image} from './terms.style'
+import Arrow from '../../assets/icons/arrow-up.svg'
 const Terms = () =>{
     return(
         <ContainerTerms>
@@ -12,7 +11,7 @@ const Terms = () =>{
         <List>
             <Item> 
                 <Detail>
-                    <Sumary>Aceptación de los Términos  </Sumary>
+                    <Sumary>Aceptación de los Términos   <Image src={Arrow}></Image></Sumary>
                         <Subparagraph>Al acceder y utilizar este sitio web, el usuario 
                             declara haber leído, comprendido y aceptado los presentes Términos 
                             del Servicio. Si no está de acuerdo con alguna de las condiciones 
@@ -22,7 +21,7 @@ const Terms = () =>{
             </Item>
             <Item>
                 <Detail>
-                    <Sumary> Descripción de los servicios </Sumary>
+                    <Sumary> Descripción de los servicios  <Image src={Arrow}></Image></Sumary>
                         <Subparagraph>El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.
                             Está prohibido: 
                             Realizar acciones que puedan dañar, alterar o afectar el funcionamiento del sitio.
@@ -33,14 +32,14 @@ const Terms = () =>{
             </Item>
             <Item>
                 <Detail>
-                    <Sumary> Uso del sitio Web y Obligaciones del Usuarios </Sumary>
+                    <Sumary> Uso del sitio Web y Obligaciones del Usuarios  <Image src={Arrow}></Image></Sumary>
                     <Subparagraph>El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
                     Los cambios o cancelaciones deben realizarse con anticipación razonable.</Subparagraph>
                 </Detail>
             </Item>
             <Item>
                 <Detail>
-                    <Sumary> Citas y Pagos </Sumary>
+                    <Sumary> Citas y Pagos  <Image src={Arrow}></Image></Sumary>
                     <Subparagraph>El sistema de turnos online facilita la solicitud de citas, pero la confirmación final puede estar sujeta a disponibilidad.
                     El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
                     Los cambios o cancelaciones deben realizarse con anticipación razonable.
@@ -49,14 +48,14 @@ const Terms = () =>{
             </Item>
             <Item>
                 <Detail>
-                    <Sumary> Propiedad Intelectual </Sumary>
+                    <Sumary> Propiedad Intelectual <Image src={Arrow}></Image></Sumary>
                     <Subparagraph>Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, gráficos y diseños, son propiedad exclusiva de la veterinaria o de sus respectivos titulares y están protegidos por leyes de propiedad intelectual.
                     Queda prohibida la copia, reproducción, distribución o modificación de cualquier contenido sin autorización previa y por escrito.</Subparagraph>
                 </Detail>
             </Item>
             <Item>
                 <Detail>
-                    <Sumary>Limitación de Responsabilidad</Sumary>
+                    <Sumary>Limitación de Responsabilidad <Image src={Arrow}></Image></Sumary>
                     <Subparagraph>La veterinaria no se hace responsable por:
                     Daños derivados del uso o la imposibilidad de uso del sitio web.
                     Errores u omisiones en la información publicada.
