@@ -27,6 +27,7 @@ border: 1px solid #eadbdb;
 
 `
 export const Subparagraph =styled(Text)`
+color:gray;
 
 `
 export const Detail= styled.details`
@@ -43,6 +44,7 @@ cursor:pointer;
 list-style:none;
 display: flex;
 justify-content: space-between;
+font-size:18px
 
 
 `
