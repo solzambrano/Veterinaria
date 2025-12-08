@@ -13,9 +13,9 @@ const Terms = () =>{
                 <Detail>
                     <Sumary>Aceptación de los Términos   <Image src={Arrow}></Image></Sumary>
                         <Subparagraph>Al acceder y utilizar este sitio web, el usuario 
-                            declara haber leído, comprendido y aceptado los presentes Términos 
-                            del Servicio. Si no está de acuerdo con alguna de las condiciones 
-                            aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos
+                            declara haber leído, comprendido y aceptado los presentes términos. 
+                            Si no está de acuerdo con alguna de las condiciones 
+                            aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos.
                         </Subparagraph>
                 </Detail>
             </Item>
