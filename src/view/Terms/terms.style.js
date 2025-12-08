@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Text =styled.p`
-font-family:'verdana'
+font-family:var(--font)
 `
 export const ContainerTerms = styled.div `
 
@@ -12,7 +12,7 @@ font-weight:800;
 
 export const Paragraph = styled(Text)`
 font-size:16px;
-font-weight:600;
+font-weight:550;
 `
 
 export const List = styled.ol`
