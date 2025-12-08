@@ -57,10 +57,10 @@ const Terms = () =>{
                 <Detail>
                     <Sumary>Limitación de Responsabilidad <Image src={Arrow}></Image></Sumary>
                     <Subparagraph>La veterinaria no se hace responsable por:
-                    Daños derivados del uso o la imposibilidad de uso del sitio web.
-                    Errores u omisiones en la información publicada.
-                    Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.
-                    Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal.</Subparagraph>
+                    *Daños derivados del uso o la imposibilidad de uso del sitio web.
+                    *Errores u omisiones en la información publicada.
+                    *Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.
+                    *Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal.</Subparagraph>
                 </Detail>
             </Item>
 
