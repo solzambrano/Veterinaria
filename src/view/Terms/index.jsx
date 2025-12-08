@@ -6,7 +6,7 @@ const Terms = () =>{
         <Title>Términos del Servicio</Title>
             <Subparagraph>Ultima actualizacion : 24 de Noviembre de 2025</Subparagraph>
             <Paragraph>Bienvenido a Veterinaria Coquetos.Estos términos y condiciones describen las reglas y regulaciones para el uso del 
-                sitio web. Al acceder a este sitio, asumimos que aceptas estos términos y condiciones , a continuación establecidos
+                sitio web. Al acceder a este sitio, asumimos que aceptas estos términos y condiciones , a continuación establecidos.
             </Paragraph>
         <List>
             <Item> 

@@ -4,7 +4,8 @@ export const Text =styled.p`
 font-family:var(--font)
 `
 export const ContainerTerms = styled.div `
-
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding:35px:
 `
 export const Title = styled.h1`
 font-weight:800;
