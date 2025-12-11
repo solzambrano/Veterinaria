@@ -1,5 +1,4 @@
 import Routes from './routes'
-import { useEffect, useState } from "react";
 import { GlobalStyles } from './styles/GlobalStyles';
 // import useFetchProducts from './hooks/useFetchProducts'
 

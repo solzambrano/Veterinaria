@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles } from "../../styles/GlobalStyles";
 export const SwiperStyled =styled.div`
    width: 100%;
     padding-top: 50px;
@@ -28,7 +27,8 @@ export const SwiperStyled =styled.div`
     display: block;
     width: 200px;
     height:200px;
-  }`
+  }
+    `
 
 export const StyledText = styled.p`
 position:relative;
@@ -46,8 +46,10 @@ export const SpanTitle =styled(StyledText)`
 `;
 export const TituloImagenSlider =styled(StyledText)`
   bottom:250px;
-  margin-bottom:10px;
   font-weight:900;
   font-size:2em;
-  margin:15px 10px;
+  margin:5px 10px;
  }`;
+ export const ImagenSlider =styled.img`
+ border-radius:45px;
+ `
