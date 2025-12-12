@@ -27,10 +27,10 @@ width:30px;
 `
 export const Title = styled.h1 `
 font-weight:700;
-font-family:Cambria;
+font-family:var(--font)
 `
 export const Text = styled.p `
-font-family:Cambria;
+font-family:var(--font)
 font-weight:500;
 `
 export const Paragraph = styled(Text)`

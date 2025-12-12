@@ -9,7 +9,7 @@ const Footer = () => {
         <ContainerFooter>
             <ContainerParagraph>
                 <Paragraph><NavLink to='politica-de-privacidad'>Politica de Privacidad </NavLink></Paragraph>
-                <Paragraph><NavLink to='terms'> Términos del Servicio</NavLink></Paragraph>
+                <Paragraph><NavLink to='terms-services'> Términos del Servicio</NavLink></Paragraph>
                 <Paragraph><NavLink to='contact-us'>Contacto</NavLink></Paragraph>
             </ContainerParagraph>
             <ContainerIcons>

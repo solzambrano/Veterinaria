@@ -17,8 +17,8 @@ export const Paragraph =styled.p `
 color:green;
 width:200px;
 a{
-text-decoration:none;
-color:inherit;
+    text-decoration:none;
+    color:inherit;
 }
 `
 
