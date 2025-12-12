@@ -1,6 +1,8 @@
-import {ContainerTerms,Title,Paragraph,List,Item,Subparagraph,Sumary,Detail,Image} from './terms.style'
+import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagraph,Sumary,Detail,Image} from './terms.style'
 import Arrow from '../../assets/icons/arrow-up.svg'
+import { useState } from 'react'
 const Terms = () =>{
+    const [ordered,setOrdered]=useState(true)
     return(
         <ContainerTerms>
         <Title>Términos del Servicio</Title>
@@ -8,7 +10,7 @@ const Terms = () =>{
             <Paragraph>Bienvenido a Veterinaria Coquetos.Estos términos y condiciones describen las reglas y regulaciones para el uso del 
                 sitio web. Al acceder a este sitio, asumimos que aceptas estos términos y condiciones , a continuación establecidos.
             </Paragraph>
-        <List>
+        <ListOrdered>
             <Item> 
                 <Detail>
                     <Sumary>Aceptación de los Términos   <Image src={Arrow}></Image></Sumary>
@@ -22,19 +24,21 @@ const Terms = () =>{
             <Item>
                 <Detail>
                     <Sumary> Descripción de los servicios  <Image src={Arrow}></Image></Sumary>
-                        <Subparagraph>El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.
-                            Está prohibido: 
-                            Realizar acciones que puedan dañar, alterar o afectar el funcionamiento del sitio.
-                            Publicar información falsa, ofensiva o que infrinja derechos de terceros.
-                            Intentar acceder sin autorización a sistemas, datos o información restringida.
-                            La veterinaria se reserva el derecho de restringir o suspender el acceso a usuarios que incumplan estas condiciones.</Subparagraph>
+                        <Subparagraph>El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.</Subparagraph>
+                            <ListUnordered> <Subparagraph> Está prohibido:  </Subparagraph> 
+                            <Item> Realizar acciones que puedan dañar, alterar o afectar el funcionamiento del sitio. </Item>
+                            <Item>Publicar información falsa, ofensiva o que infrinja derechos de terceros.</Item>
+                            <Item>Intentar acceder sin autorización a sistemas, datos o información restringida.</Item> 
+                            <Subparagraph> La veterinaria se reserva el derecho de restringir o suspender el acceso a usuarios que incumplan estas condiciones.</Subparagraph>
+                </ListUnordered>
                 </Detail>
             </Item>
             <Item>
                 <Detail>
                     <Sumary> Uso del sitio Web y Obligaciones del Usuarios  <Image src={Arrow}></Image></Sumary>
-                    <Subparagraph>El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.
-                    Los cambios o cancelaciones deben realizarse con anticipación razonable.</Subparagraph>
+                    <Subparagraph>El acceso y uso del sitio son exclusivos para la gestión de turnos y servicios relacionados con la atención veterinaria.Cualquier uso indebido podrá dar lugar a la 
+                        suspensión temporal o definitiva del acceso al sitio, sin perjuicio de otras acciones legales que correspondan.
+                    </Subparagraph>
                 </Detail>
             </Item>
             <Item>
@@ -64,7 +68,7 @@ const Terms = () =>{
                 </Detail>
             </Item>
 
-        </List>
+        </ListOrdered>
         </ContainerTerms>
     )
 }
