@@ -10,6 +10,7 @@ import CreateAcount from '../view/Login/CreateAcount';
 import Politic from '../view/Politic';
 import Contact from '../view/Contact';
 import Terms from '../view/Terms';
+import Help from '../view/Help';
 
 const Routes = () => {
 
@@ -40,6 +41,10 @@ const Routes = () => {
                 {
                     path:'/terms-services',
                     element: <Terms/>
+                },
+                {
+                    path:'help-support',
+                    element:<Help/>
                 }
             ]
         },
