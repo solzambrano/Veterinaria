@@ -1,7 +1,14 @@
+import { Paragraph } from "./help,styles"
+import Seeker from '../../components/Seeker'
+
+
 const Help = () => {
     return(
-
-        <p>Ayuda seccion</p>
+        <ContainerHelp>
+            <TitleHelp>¿Como podemos ayudar a tu <ParagraphGreen>mascota</ParagraphGreen>hoy?</TitleHelp>
+        <Paragraph>Encuentra respuestas rápidas sobre nuestros servicios veterinarios, citas , cuidados generales y emergencias.</Paragraph>
+        <Seeker></Seeker>
+        </ContainerHelp>
     )
 
 }
