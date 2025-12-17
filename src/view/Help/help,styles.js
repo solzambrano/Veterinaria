@@ -24,11 +24,12 @@ margin-bottom:30px;
 
 `
 export const ContainerHelpCategory =styled.div`
-
+width:100%;
 `
 export const CategorySectionHelp =styled.div`
-background-color:ffffff;
+background-color:#e9fded;
 `
 export const SubtitleCategory =styled.h2`
+text-align:center
 
 `

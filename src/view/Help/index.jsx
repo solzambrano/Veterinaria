@@ -1,6 +1,8 @@
 import { Paragraph,ContainerHelp,
     CategorySectionHelp, SubtitleCategory, TitleHelp,ContainerHelpCategory,ParagraphGreen } from "./help,styles"
-import Seeker from '../../components/Seeker'
+import Seeker from '../../components/Seeker';
+import FrequentlyQuestions from "./FrequentlyQuestions";
+import CardCategory from "../../components/Cards/CardCategory";
 
 
 const Help = () => {
@@ -12,7 +14,8 @@ const Help = () => {
         <ContainerHelpCategory>
             <CategorySectionHelp>
                 <SubtitleCategory>Explorar por categoría</SubtitleCategory>
-                
+                <CardCategory></CardCategory>
+                <FrequentlyQuestions></FrequentlyQuestions>
             </CategorySectionHelp>
         </ContainerHelpCategory>
         </ContainerHelp>
