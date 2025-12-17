@@ -17,8 +17,18 @@ width:50%;
 
 `
 export const Paragraph =styled.p`
+font-size:18px;
+color:gray;
+letter-spacing:2px;
+margin-bottom:30px;
 
 `
 export const ContainerHelpCategory =styled.div`
+
+`
+export const CategorySectionHelp =styled.div`
+background-color:ffffff;
+`
+export const SubtitleCategory =styled.h2`
 
 `

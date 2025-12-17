@@ -1,4 +1,5 @@
-import { Paragraph,ContainerHelp,TitleHelp,ContainerHelpCategory,ParagraphGreen } from "./help,styles"
+import { Paragraph,ContainerHelp,
+    CategorySectionHelp, SubtitleCategory, TitleHelp,ContainerHelpCategory,ParagraphGreen } from "./help,styles"
 import Seeker from '../../components/Seeker'
 
 
@@ -9,7 +10,10 @@ const Help = () => {
         <Paragraph>Encuentra respuestas rápidas sobre nuestros servicios veterinarios, citas , cuidados generales y emergencias.</Paragraph>
         <Seeker></Seeker>
         <ContainerHelpCategory>
-            
+            <CategorySectionHelp>
+                <SubtitleCategory>Explorar por categoría</SubtitleCategory>
+                
+            </CategorySectionHelp>
         </ContainerHelpCategory>
         </ContainerHelp>
     )
