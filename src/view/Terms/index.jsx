@@ -2,7 +2,6 @@ import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagra
 import Arrow from '../../assets/icons/arrow-up.svg'
 import { useState } from 'react'
 const Terms = () =>{
-    const [ordered,setOrdered]=useState(true)
     return(
         <ContainerTerms>
         <Title>Términos del Servicio</Title>

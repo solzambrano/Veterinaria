@@ -47,10 +47,11 @@ color:gray;
 export const Detail= styled.details`
   img {
     transition: transform 0.3s ease;
+    transform: rotate(180deg);
   }
 
   &[open] img {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
 `
 export const Sumary = styled.summary`
