@@ -11,23 +11,19 @@ const Categories =[
     },
       {
         image:emergency,
-        title:'Atencion Medica'
+        title:'Servicio de Emergencia'
     },
       {
         image:hairdryer,
-        title:'Atencion Medica'
+        title:'Grooming'
     },
       {
         image:vaccine,
-        title:'Atencion Medica'
-    },
-      {
-        image:stethoscope,
-        title:'Atencion Medica'
+        title:'Historial de vacunas'
     },
       {
         image:calendar,
-        title:'Atencion Medica'
+        title:'Control de citas'
     },
 ]
 export default Categories
