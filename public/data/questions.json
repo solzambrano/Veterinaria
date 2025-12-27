@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "title":"citas",
+        "preguntas":[
+                    {
+                    "pregunta":"¿Cómo agendo una cita?",
+                    "respuesta":"Para agendar citas, primero debe iniciar sesion"
+                    },
+                    {
+                        "pregunta":"¿Cual es el horario de atención?",
+                        "respuesta":"De Lunes a Viernes de 09:00 a 18:00 horario corrido, Sabados de 09:00 a 14:00" 
+                    },
+                    {
+                        "pregunta":"¿Cuanto cuesta la atención veterinaria?",
+                        "respuesta":"La consulta tiene un costo inicial de $25.000, el precio final varia dependiendo de inyectables,pastillas,estudios, etc"
+                    },
+                    {
+                        "pregunta":"¿Que medios de pago aceptan?",
+                        "respuesta":"Aceptamos todos los medios de pago"
+                    },
+                    {
+                        "pregunta":"¿Puedo cancelar una cita agendada?",
+                        "respuesta": "Si, desde la página iniciando sesion"
+                    },
+                    {
+                        "pregunta":"¿Cual es la tolerancia para las citas?",
+                        "respuesta":"Se recomienda estar presente 10 minutos antes, de no ser asi, se tendrá una tolerancia de 5 minutos, para evitar afectar el resto de turnos"
+                    },
+                    {
+                        "pregunta":"¿Si no tengo una cita, pueden atender a mi mascota?",
+                        "respuesta":"En el caso de no contar con una cita agendada, puede presentarse en la veterinaria y se la atendera por orden de llegada, respetando los turnos existenes, a menos que se considere de urgencia"
+                    },
+                    {
+                        "pregunta":"¿Cual es el tiempo de demora en una atención?",
+                        "respuesta":"La atención tiene una duración mínima de media hora, pudiendo variar según la atención que se esté realizando."
+                    },
+                    {
+                        "pregunta":"¿Con cuanto tiempo de anticipación puedo agendar una cita?",
+                        "respuesta": "Hasta con un dia de anticipación"
+                    }
+        ]
+    }
+]
