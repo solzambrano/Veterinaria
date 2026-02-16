@@ -6,22 +6,32 @@ import hairdryer from '../../src/assets/icons/hairdry.svg';
 
 const Categories =[
     {
+        id:1,
+        slug:'atencion',
         image:stethoscope,
         title:'Atencion Medica'
     },
       {
+        id:2,
+        slug:'emergencia',
         image:emergency,
         title:'Servicio de Emergencia'
     },
       {
+        id:3,
+        slug:'grooming',
         image:hairdryer,
         title:'Grooming'
     },
       {
+        id:4,
+        slug:'vacunas',
         image:vaccine,
         title:'Historial de vacunas'
     },
       {
+        id:5,
+        slug:'citas',
         image:calendar,
         title:'Control de citas'
     },

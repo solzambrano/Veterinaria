@@ -3,13 +3,18 @@ import {ContainerCategory,Category,ImageCategory,TitleCategory}from './cardCateg
 const CardCategory = () => {
    console.log(Categories);
    
+   const selectedQuestion = (categorie) => {
+console.log(categorie);
+
+   }
 return(
     <ContainerCategory>
 {Categories.map(categorie => {
-   return  <Category>
-        <ImageCategory src={categorie.image}></ImageCategory>
-        <TitleCategory>{categorie.title}</TitleCategory>
-    </Category>
+   return  <Category  key={categorie.id}
+             onClick={() => selectedQuestion(categorie.slug)}>
+                <ImageCategory src={categorie.image}></ImageCategory>
+                <TitleCategory>{categorie.title}</TitleCategory>
+            </Category>
 })}
     </ContainerCategory>
 )
