@@ -15,7 +15,7 @@ return(
         <NavOptions>
             <Lista>Servicios</Lista>
             <Lista>Citas</Lista>
-            <Lista>Tienda</Lista>
+            <Lista><NavLink to='products'>Tienda </NavLink></Lista>
             <Lista>Sobre nosotros</Lista>
             <Lista><NavLink to='contact-us'>Contactanos </NavLink></Lista>
             <Lista><NavLink to ='help-support'> Ayuda</NavLink></Lista>
