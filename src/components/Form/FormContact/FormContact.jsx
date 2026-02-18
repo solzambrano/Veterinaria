@@ -4,7 +4,7 @@ import { useRef } from 'react';
 const FormContact = ({IsContact,IsLogin=false}) => {
     const {register,handleSubmit,formState:{errors}}=useForm()
     const handleSubmitForm = (inputs) =>{
-        console.log(inputs);
+
     }
     const IsComment =useRef(true)
     

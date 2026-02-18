@@ -3,8 +3,6 @@ import {useForm} from 'react-hook-form'
 const CreateAccount = () =>{
     const {register,handleSubmit,formState:{errors}}=useForm()
     const handleSubmitForm = (inputs) =>{
-        console.log(inputs);
-        
     }
     return(
         <>

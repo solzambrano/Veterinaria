@@ -8,11 +8,7 @@ const commentsResult = create ((set)=>({
         try{
             set(()=>({ isLoading:true}))
             const response = await fetch('/data/comments.json');
-            console.log(response);
-            
             const comments =await response.json();
-            console.log('comentarios',comments);
-            
             set(()=>({comments}))
             set(()=>({ isLoading:false}))  
         }
