@@ -1,0 +1,26 @@
+[
+    {"title":"Aceptación de los Terminos",
+    "subtitle": "Al acceder y utilizar este sitio web, el usuario declara haber leído, comprendido y aceptado los presentes términos. Si no está de acuerdo con alguna de las condiciones aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos.",
+    "content":""
+},
+{   "title":"Descripción de los servicios",
+    "subtitle": "El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.",
+    "content":""
+},
+{   "title":" Uso del sitio Web y Obligaciones del Usuarios",
+    "subtitle": "El acceso y uso del sitio son exclusivos para la gestión de turnos y servicios relacionados con la atención veterinaria.Cualquier uso indebido podrá dar lugar a la suspensión temporal o definitiva del acceso al sitio, sin perjuicio de otras acciones legales que correspondan.",
+    "content":""
+},
+{   "title": "Citas y Pagos ",
+    "subtitle":"El sistema de turnos online facilita la solicitud de citas, pero la confirmación final puede estar sujeta a disponibilidad. El usuario es responsable de proporcionar información correcta y acudir en el horario acordado.Los cambios o cancelaciones deben realizarse con anticipación razonable.En casos de urgencia, se recomienda comunicarse directamente por los medios indicados en el sitio" ,
+    "content":""
+},
+{   "title": "Propiedad Intelectual ",
+    "subtitle":"Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, gráficos y diseños, son propiedad exclusiva de la veterinaria o de sus respectivos titulares y están protegidos por leyes de propiedad intelectual.Queda prohibida la copia, reproducción, distribución o modificación de cualquier contenido sin autorización previa y por escrito" ,
+    "content":""
+},
+{   "title": "Limitación de Responsabilidad ",
+    "subtitle": "La veterinaria no se hace responsable por: *Daños derivados del uso o la imposibilidad de uso del sitio web Errores u omisiones en la información publicada. Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal",
+    "content":""
+}
+]

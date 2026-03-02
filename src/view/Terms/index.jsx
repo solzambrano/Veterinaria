@@ -1,7 +1,20 @@
 import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagraph,Sumary,Detail,Image} from './terms.style'
-import Arrow from '../../assets/icons/arrow-up.svg'
-import { useState } from 'react'
+import Arrow from '../../assets/icons/arrow-up.svg';
+import DetailInfo from '../../components/Detail';
+import { useState,useEffect } from 'react';
+
 const Terms = () =>{
+    const [terms, setTerms] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+        useEffect (()=>{
+         const fetchTerms = async () => {
+       const response= await  fetch("/data/terms.json");
+        const data= await response.json()
+        setTerms(data)
+        setIsLoading(false)
+         }
+          fetchTerms();
+    },[])
     return(
         <ContainerTerms>
         <Title>Términos del Servicio</Title>
@@ -10,7 +23,11 @@ const Terms = () =>{
                 sitio web. Al acceder a este sitio, asumimos que aceptas estos términos y condiciones , a continuación establecidos.
             </Paragraph>
         <ListOrdered>
-            <Item> 
+            <DetailInfo 
+            terms={terms}
+            isLoading={isLoading}
+            ></DetailInfo>
+            {/* <Item> 
                 <Detail>
                     <Sumary>Aceptación de los Términos   <Image src={Arrow}></Image></Sumary>
                         <Subparagraph>Al acceder y utilizar este sitio web, el usuario 
@@ -65,7 +82,7 @@ const Terms = () =>{
                     *Decisiones tomadas por el usuario basadas únicamente en el contenido del sitio sin consultar a un profesional.
                     *Los servicios veterinarios serán realizados por profesionales habilitados, pero los resultados pueden variar según cada caso clínico del animal.</Subparagraph>
                 </Detail>
-            </Item>
+            </Item> */}
 
         </ListOrdered>
         </ContainerTerms>
