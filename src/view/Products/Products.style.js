@@ -22,18 +22,7 @@ background-color: #c9ead1;
   text-align: center;
 `
 
-export const ContainerSpinner =styled.div `
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-`
 
-
-export const ImagenSpinner =styled.img ` 
-width:100px;
-height:100px
-`
 export const ContainerSectionProducts =styled.div ` 
 
   min-height: 100vh;

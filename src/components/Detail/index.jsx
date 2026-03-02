@@ -1,5 +1,5 @@
-import Spinner from '../../assets/icons/loader.svg'
 
+import Loader from '../Spinner';
 import Arrow from '../../assets/icons/arrow-up.svg'
 
 import {Sumary,Detail,Subparagraph,Image,Item,ImagenSpinner} from './detail.style'
@@ -9,7 +9,7 @@ const DetailInfo = ({terms, isLoading}) => {
     return(
     <>
     {isLoading ?  (
-        <ImagenSpinner src={Spinner} alt ='cargando...'></ImagenSpinner>
+        <Loader></Loader>
     )
     :(
         terms?.map((item, index) => {

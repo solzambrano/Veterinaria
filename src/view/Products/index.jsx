@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import Loader from "../../components/Spinner/index.jsx";
 import { ContainerProducts,Lista, 
-  ContainerSectionProducts, TitleProducts, ContainerList,ImagenSpinner, ContainerSpinner } from './Products.style';
+  ContainerSectionProducts, TitleProducts, ContainerList} from './Products.style';
 import productsResults from "../../state/prodcuts-result-js.js";
 import Card from "../../components/Cards/Card";
-import Spinner from '../../assets/icons/loader.svg'
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()
   useEffect(() => {
@@ -20,21 +20,20 @@ const Products = () => {
       <Lista>Limpieza</Lista>
 
     </ContainerList>
-    {isLoading &&
-    <ContainerSpinner>
-      <ImagenSpinner src={Spinner} alt ='cargando...'></ImagenSpinner>
-      <p>Cargando elementos</p>
-    </ContainerSpinner>
-    }
-    {!isLoading &&
+    {isLoading ?(
+    <Loader></Loader>
+    )
+    :
+    (
     <ContainerProducts>
     {products?.map((item) => {
       return(  
        <Card key={item.id} item={item}></Card>
       )
     })
-    }
+  }
     </ContainerProducts>
+)
 }
     </ContainerSectionProducts>
  )   

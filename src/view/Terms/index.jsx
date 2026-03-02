@@ -1,5 +1,4 @@
-import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagraph,Sumary,Detail,Image} from './terms.style'
-import Arrow from '../../assets/icons/arrow-up.svg';
+import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagraph} from './terms.style'
 import DetailInfo from '../../components/Detail';
 import { useState,useEffect } from 'react';
 
@@ -11,7 +10,9 @@ const Terms = () =>{
        const response= await  fetch("/data/terms.json");
         const data= await response.json()
         setTerms(data)
+        // setIsLoading(true)
         setIsLoading(false)
+
          }
           fetchTerms();
     },[])
