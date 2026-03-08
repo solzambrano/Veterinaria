@@ -1,15 +1,24 @@
 [
     {
         "id":"1",
-        "title":"citas",
+        "slug":"atencion",
+        "title":"atencion",
         "preguntas":[
                     {
                     "pregunta":"¿Cómo agendo una cita?",
                     "respuesta":"Para agendar citas, primero debe iniciar sesion"
                     },
+                       {
+                    "pregunta":"¿Cuanto dura una consulta?",
+                    "respuesta":"Cada consulta como minimo dura 30 minutos, dependiendo del caso puede extenderse sin cobro extra"
+                    },
                     {
                         "pregunta":"¿Cual es el horario de atención?",
                         "respuesta":"De Lunes a Viernes de 09:00 a 18:00 horario corrido, Sabados de 09:00 a 14:00" 
+                    },
+                    {
+                        "pregunta":"Qué incluye una consulta clínica veterinaria",
+                        "respuesta":"Revisión general, diagnóstico inicial, indicación de estudios o tratamientos."
                     },
                     {
                         "pregunta":"¿Cuanto cuesta la atención veterinaria?",
@@ -17,11 +26,11 @@
                     },
                     {
                         "pregunta":"¿Que medios de pago aceptan?",
-                        "respuesta":"Aceptamos todos los medios de pago"
+                        "respuesta":"Aceptamos todos los medios de pago, transferencia, QR, débito y crédito"
                     },
                     {
                         "pregunta":"¿Puedo cancelar una cita agendada?",
-                        "respuesta": "Si, desde la página iniciando sesion"
+                        "respuesta": "Si, desde la página iniciando sesion o desde nuestro whatsapp, con 6 horas de anticipación"
                     },
                     {
                         "pregunta":"¿Cual es la tolerancia para las citas?",
@@ -37,8 +46,104 @@
                     },
                     {
                         "pregunta":"¿Con cuanto tiempo de anticipación puedo agendar una cita?",
-                        "respuesta": "Hasta con un dia de anticipación"
+                        "respuesta": "Hasta con un dia de anticipación, por nuestra pagina, si no estas registrando no te preocupes podes hacerlo por whatsapp desde la sección contáctanos"
                     }
+        ]
+    },
+     {
+        "id":"2",
+        "slug": "urgencias",
+        "title":"urgencias",
+        "preguntas":[
+                    {
+                        "pregunta":"¿La veterinaria atiende urgencias las 24 horas?",
+                        "respuesta":"Sí, nuestro servicio de urgencia esta disponible las 24 horas , todos los dias del año, no es necesario solicitar turno previamente, puedes acudir con tu mascota." 
+                    },
+                    {
+                        "pregunta":"¿Cómo funciona la atención de urgencias?",
+                        "respuesta":"Cuando una mascota llega a urgencias, un profesional realiza una evaluación inicial inmediata (triaje) para determinar la gravedad del caso.Los pacientes son atendidos según la prioridad médica, no por orden de llegada. Esto permite brindar atención inmediata a los casos más críticos."
+                    },
+                    {
+                        "pregunta":"¿Qué pasa si llego sin turno pero creo que es una urgencia?",
+                        "respuesta":"Nuestro equipo realizará una evaluación rápida del estado del animal.Si el profesional determina que se trata de una urgencia, se priorizará su atención de inmediato."
+                    },
+                    {
+                        "pregunta":"¿Qué se considera una urgencia veterinaria?",
+                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                    },
+                    {
+                        "pregunta":"¿Cuanto demora un resultado de analisis de sangre?",
+                        "respuesta":"Los resultados estan siponibles 24 horas despues."
+                    },
+                    {
+                        "pregunta":"¿Donde puedo ver los resultados de un analisis?",
+                        "respuesta": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
+                    },
+                    {
+                        "pregunta":"¿Cuentan con internación veterinaria?",
+                        "respuesta":"Si, ofrecemos servicio de internación"
+                    },
+                    {
+                        "pregunta":"¿Cómo es el seguimiento de mascotas internadas?",
+                        "respuesta":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la respuesta al tratamiento indicado."
+                    },
+                    {
+                        "pregunta":"¿Quien controla a mi mascota fuera del horario de atención?",
+                        "respuesta":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
+                    },
+                     {
+                        "pregunta":"¿La clínica puede realizar estudios en una urgencia?",
+                        "respuesta":"Sí. Contamos con el equipamiento necesario para realizar estudios diagnósticos durante la atención de urgencia, como análisis, imágenes o monitoreo, lo que permite actuar con rapidez en situaciones críticas."
+                    },
+                     {
+                        "pregunta":"¿Qué debo hacer antes de traer a mi mascota?",
+                        "respuesta":"Si tu mascota está en una emergencia:Mantén la calma Trasládala con cuidado Evita medicarla sin indicación veterinaria Si es posible, trae información médica previa o medicamentos que esté usando."
+                    }
+        ]
+    },
+    {
+        "id":"2",
+        "slug": "servicios",
+        "title":"servicios",
+        "preguntas":[
+                    {
+                        "pregunta":"¿Realizan cirugías veterinarias?",
+                        "respuesta":"Sí, realizamos cirugías programadas y de urgencia, incluyendo castraciones, cirugías traumatológicas, abdominales y extracción de tumores." 
+                    },
+                    {
+                        "pregunta":"¿Con que especialistas cuenta la veterinaria?",
+                        "respuesta":"Clínica general,traumatología, neurología,cardiología dermatología, oftalmología, oncología."
+                    },
+                                        {
+                        "pregunta":"¿Que estudios puedo realizarle a mi mascota?",
+                        "respuesta":"Contamos con equipo para realizar: analisis de sangre, radiografías, ecografías, electrocardiogramas,ecocardiograma, biopsias, citologías."
+                    },
+                    {
+                        "pregunta":"¿Para el análisis de sangre, cómo debo preparar a mi mascota?",
+                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                    },
+                    {
+                        "pregunta":"¿Cuanto demora un resultado de analisis de sangre?",
+                        "respuesta":"Los resultados estan siponibles 24 horas despues."
+                    },
+                    {
+                        "pregunta":"¿Donde puedo ver los resultados de un analisis?",
+                        "respuesta": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
+                    },
+                    {
+                        "pregunta":"¿Cuentan con internación veterinaria?",
+                        "respuesta":"Si, ofrecemos servicio de internación"
+                    },
+                    {
+                        "pregunta":"¿Cómo es el seguimiento de mascotas internadas?",
+                        "respuesta":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la respuesta al tratamiento indicado."
+                    },
+                    {
+                        "pregunta":"¿Quien controla a mi mascota fuera del horario de atención?",
+                        "respuesta":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
+                    }
+
+             
         ]
     }
 ]
