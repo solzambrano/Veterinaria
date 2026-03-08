@@ -2,7 +2,7 @@
     {
         "id":"1",
         "slug":"atencion",
-        "title":"atencion",
+        "title":"atencion medica",
         "preguntas":[
                     {
                     "pregunta":"¿Cómo agendo una cita?",
@@ -50,7 +50,7 @@
                     }
         ]
     },
-     {
+    {
         "id":"2",
         "slug": "urgencias",
         "title":"urgencias",
@@ -102,6 +102,57 @@
         ]
     },
     {
+        "id":"3",
+        "slug": "grooming",
+        "title":"grooming",
+        "preguntas":[
+                    {
+                        "pregunta":"¿Que significa grooming?",
+                        "respuesta":"Llamamos grooming a un conjunto de técnicas de higiene y peluqueria, escenciales para la salud, bienestar y estética de mascotas." 
+                    },
+                    {
+                        "pregunta":"¿Que servicios incluye??",
+                        "respuesta":"Además de baño y corte de uñas incluye: Limpieza de oidos, deslanado(quitar pelo muerto), cepillado profundo,limpieza de ojos/lagañas,."
+                    },
+                    {
+                        "pregunta":"¿Donde puedo solicitar un turno?",
+                        "respuesta":"Si ya posee una cuenta puede hacerlo a traves de la sección turnos, de no ser asi, puede enviarnos un mensaje de whatssapp."
+                    },
+                    {
+                        "pregunta":"¿Qué se considera una urgencia veterinaria?",
+                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                    },
+                    {
+                        "pregunta":"¿Que pasa si mi perro necesita un shampoo especial?",
+                        "respuesta":"Cuando reserve el turno, puede indicar como observación si su mascota tiene problemas en la piel, si es su priera vez, se pone nervioso o muerde."
+                    },
+                    {
+                        "pregunta":"¿Debo llevar algun elemento de baño?",
+                        "respuesta": "No, nuestros pet groomer cuentan con todo lo necesario,pero la mascota debe asistir con correa y bozal en caso de ser una mascota reactiva."
+                    },
+                    {
+                        "pregunta":"¿Cuanto cuesta el servicio?",
+                        "respuesta":"El costo depende de muchos factores como tamaño de la mascota, tipo y largo de pelaje,condición especial en la piel y por supuesto del servicio que solicite."
+                    },
+                    {
+                        "pregunta":"¿Cuanto tiempo demora el servicio?",
+                        "respuesta":"Nuestro personal le indicara al momento de recibir a la mascota, el tiempo varia según el tamaño del animal y el servicio que solicite"
+                    },
+                    {
+                        "pregunta":"¿Como se abona?",
+                        "respuesta":"El monto se cobra al momento de recibir a la mascota, aceptamos transferencia, QR y tarjetas."
+                    },
+                     {
+                        "pregunta":"¿Puede otra persona retirar a mi mascota?",
+                        "respuesta":"Si, siempre y cuando el dueño notifique al personal responsable."
+                    },
+                     {
+                        "pregunta":"¿Mi perro es reactivo ,puede tener servicio de grooming?",
+                        "respuesta":"Por la seguridad de nuestro personal y de su mascota, debe informarlo al momento de solicitar el turno, también debe llevar bozal (obligatorio)."
+                    }
+        ]
+    },
+    {
         "id":"2",
         "slug": "servicios",
         "title":"servicios",
@@ -112,7 +163,7 @@
                     },
                     {
                         "pregunta":"¿Con que especialistas cuenta la veterinaria?",
-                        "respuesta":"Clínica general,traumatología, neurología,cardiología dermatología, oftalmología, oncología."
+                        "respuesta":"Clínica general,traumatología, neurología,cardiología dermatología, oftalmología, oncología y grooming."
                     },
                                         {
                         "pregunta":"¿Que estudios puedo realizarle a mi mascota?",
