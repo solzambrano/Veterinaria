@@ -1,6 +1,6 @@
 import DetailInfo from "../../../components/Detail"
 import { useState,useEffect } from "react"
-const FrequentlyQuestions = () => {
+const FrequentlyQuestions = ({category}) => {
     const [faqs,setFaqs]=useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -17,14 +17,17 @@ const FrequentlyQuestions = () => {
              }
               fetchFaqs();
         },[])
-        
+     const filteredFaqs = category
+    ? faqs.filter((section) => section.slug === category)
+    : faqs; // si no hay slug, muestra todas las secciones
+    
       
 return (
     <>
       <p>Preguntas Frequentes</p>
       <p>Las dudas más comunes de nuestros clientes, resueltas</p>
 
-      {faqs.map((section) => {
+      {filteredFaqs.map((section) => {
         const frequentlyQuestions = section.questions.map(({ question, answer }) => ({
           title: question,
           subtitle: answer

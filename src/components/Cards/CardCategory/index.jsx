@@ -1,19 +1,15 @@
 import Categories from "../../../../public/data/data-category";
 import {ContainerCategory,Category,ImageCategory,TitleCategory}from './cardCategory.style'
-const CardCategory = () => {
-   console.log(Categories);
-   
-   const selectedQuestion = (categorie) => {
-console.log(categorie);
+              
+const CardCategory = ({onSelectedCategory}) => {
 
-   }
 return(
     <ContainerCategory>
-{Categories.map(categorie => {
-   return  <Category  key={categorie.id}
-             onClick={() => selectedQuestion(categorie.slug)}>
-                <ImageCategory src={categorie.image}></ImageCategory>
-                <TitleCategory>{categorie.title}</TitleCategory>
+{Categories.map(category => {
+   return  <Category  key={category.id}
+             onClick={() => onSelectedCategory(category.slug)}>
+                <ImageCategory src={category.image}></ImageCategory>
+                <TitleCategory>{category.title}</TitleCategory>
             </Category>
 })}
     </ContainerCategory>

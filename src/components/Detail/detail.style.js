@@ -18,10 +18,6 @@ border: 1px solid #eadbdb;
     }
 
 `
-export const ImagenSpinner =styled.img ` 
-width:100px;
-height:100px
-`
 export const Image =styled.img`
 width:20px;
 `

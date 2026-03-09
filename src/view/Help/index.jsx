@@ -4,9 +4,14 @@ import { Paragraph,ContainerHelp,
 import Seeker from '../../components/Seeker';
 import FrequentlyQuestions from "./FrequentlyQuestions";
 import CardCategory from "../../components/Cards/CardCategory";
-import Detail from "../../components/Detail/index"
-
+import { useState } from "react";
 const Help = () => {
+    const [category, setCategory] = useState('atencion');
+       const selectedQuestion = (slug) => {
+        setCategory(slug)
+    console.log(slug);
+    
+       }
     return(
         <ContainerHelp>
             <TitleHelp>¿Como podemos ayudar a tu <ParagraphGreen>mascota </ParagraphGreen> hoy?</TitleHelp>
@@ -15,9 +20,8 @@ const Help = () => {
         <ContainerHelpCategory>
             <CategorySectionHelp>
                 <SubtitleCategory>Explorar por categoría</SubtitleCategory>
-                <CardCategory></CardCategory>
-                <FrequentlyQuestions></FrequentlyQuestions>
-            <Detail></Detail>
+                <CardCategory onSelectedCategory={selectedQuestion}></CardCategory>
+                <FrequentlyQuestions category={category}></FrequentlyQuestions>
             </CategorySectionHelp>
         </ContainerHelpCategory>
         </ContainerHelp>
