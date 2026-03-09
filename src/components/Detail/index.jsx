@@ -2,17 +2,15 @@
 import Loader from '../Spinner';
 import Arrow from '../../assets/icons/arrow-up.svg'
 
-import {Sumary,Detail,Subparagraph,Image,Item,ImagenSpinner} from './detail.style'
-const DetailInfo = ({terms, isLoading}) => {
-    console.log(terms);
-
+import {Sumary,Detail,Subparagraph,Image,Item} from './detail.style'
+const DetailInfo = ({entry, isLoading}) => {
     return(
     <>
     {isLoading ?  (
         <Loader></Loader>
     )
     :(
-        terms?.map((item, index) => {
+        entry?.map((item, index) => {
             return(
                 <Item>
                    <Detail>

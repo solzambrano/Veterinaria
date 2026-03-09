@@ -25,7 +25,7 @@ const Terms = () =>{
             </Paragraph>
         <ListOrdered>
             <DetailInfo 
-            terms={terms}
+            entry={terms}
             isLoading={isLoading}
             ></DetailInfo>
             {/* <Item> 
