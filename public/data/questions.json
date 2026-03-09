@@ -2,7 +2,7 @@
     {
         "id":"1",
         "slug":"atencion",
-        "title":"atencion medica",
+        "title":"Atencion medica",
         "preguntas":[
                     {
                     "pregunta":"¿Cómo agendo una cita?",
@@ -53,7 +53,7 @@
     {
         "id":"2",
         "slug": "urgencias",
-        "title":"urgencias",
+        "title":"Urgencias",
         "preguntas":[
                     {
                         "pregunta":"¿La veterinaria atiende urgencias las 24 horas?",
@@ -104,19 +104,19 @@
     {
         "id":"3",
         "slug": "grooming",
-        "title":"grooming",
+        "title":"Grooming",
         "preguntas":[
                     {
                         "pregunta":"¿Que significa grooming?",
                         "respuesta":"Llamamos grooming a un conjunto de técnicas de higiene y peluqueria, escenciales para la salud, bienestar y estética de mascotas." 
                     },
                     {
-                        "pregunta":"¿Que servicios incluye??",
+                        "pregunta":"¿Que servicios incluye?",
                         "respuesta":"Además de baño y corte de uñas incluye: Limpieza de oidos, deslanado(quitar pelo muerto), cepillado profundo,limpieza de ojos/lagañas,."
                     },
                     {
                         "pregunta":"¿Donde puedo solicitar un turno?",
-                        "respuesta":"Si ya posee una cuenta puede hacerlo a traves de la sección turnos, de no ser asi, puede enviarnos un mensaje de whatssapp."
+                        "respuesta":"Si ya posee una cuenta puede hacerlo a traves de la sección turnos, de no ser asi, puede enviarnos un mensaje de whatsapp."
                     },
                     {
                         "pregunta":"¿Qué se considera una urgencia veterinaria?",
@@ -153,7 +153,66 @@
         ]
     },
     {
-        "id":"2",
+        "id":"4",
+        "slug": "perfil",
+        "title":"Mi cuenta",
+        "preguntas":[
+                    {
+                        "pregunta":"¿Crear una cuenta tiene algún costo?",
+                        "respuesta":"No. Crear un perfil en la plataforma es completamente gratuito." 
+                    },
+                       {
+                        "pregunta":"¿Como creo mi perfil?",
+                        "respuesta":"Puede crear una cuenta desde nuestra pagina, con su email y nombre, el perfil se crea automaticamente y puedo editar la información que necesite." 
+                    },
+                      {
+                        "pregunta":"¿Es obligatorio crear una cuenta y hacer un perfil?",
+                        "respuesta":"La creación de la cuenta y del perfil no son obligatorias, solo le ayuda a llevar un mejor control de el cuidado de su mascota." 
+                    },
+                     {
+                        "pregunta":"¿Debo crear el perfil antes de una atención o despues?",
+                        "respuesta":"Puede crear la cuenta cuando lo desee, en caso de crearla antes de una atención, el profesional encargado cargará toda la información relevante y estará disponible en su perfil.También puede crearla despues de una atención y cargar la información que se le ha brindado , en las proximas consultas se cargará todo en su perfil."
+                    },
+                    {
+                        "pregunta":"¿Qué información puedo ver en mi perfil?",
+                        "respuesta":"En tu perfil podrás acceder a:Tus datos como propietario,Las mascotas registradas,Historial médico de cada mascota,Resultados de análisis y estudios realizados con nosotros,Vacunas aplicadas y vacunas pendientes,Turnos reservados ,Información de servicios disponibles."
+                    },
+                    {
+                        "pregunta":"¿Cómo agrego a mi mascota?",
+                        "respuesta":"Una vez creado tu perfil podrás agregar una o varias mascotas.Solo debes completar la información básica de cada una para que podamos llevar su historial clínico correctamente."
+                    },
+                    {
+                        "pregunta":"¿QQué información puedo ver de cada mascota?",
+                        "respuesta": "Dentro del perfil de cada mascota podrás consultar:Historial clínico,Resultados de análisis y estudios,Registro de vacunas,Próximas vacunas recomendadas,Turnos programados,Servicios realizados."
+                    },
+                    {
+                        "pregunta":"¿Puedo reservar turnos desde la página?",
+                        "respuesta":"Actualmente puedes solicitar turnos para:Atención veterinaria,Grooming (baño, corte y cuidados de higiene)."
+                    },
+                    {
+                        "pregunta":"¿Puedo consultar el calendario de vacunas de mi mascota?",
+                        "respuesta": "Sí. En la sección de vacunas podrás ver:Vacunas aplicadas,Vacunas pendientes,Fechas recomendadas para próximas aplicaciones."
+                    },
+                    {
+                        "pregunta":"¿Puedo registrar más de una mascota?",
+                        "respuesta":"Sí. Puedes agregar todas tus mascotas y administrar su información desde una sola cuenta.."
+                    },
+                    {
+                        "pregunta":"¿Qué hago si necesito modificar o cancelar un turno?",
+                        "respuesta":"Puedes gestionar tus turnos desde tu perfil. Allí podrás revisar la información del turno reservado y realizar los cambios necesarios según disponibilidad."
+                    },
+                    {
+                        "pregunta":"¿Mi información y la de mi mascota está protegida?",
+                        "respuesta":"Sí. La información almacenada en tu perfil se utiliza únicamente para la gestión de los servicios veterinarios y el seguimiento médico de tus mascotas."
+                    },
+                     {
+                        "pregunta":"¿Puedo crear un perfil para mi mascota aunque no este siendo atendido en la veterinaria",
+                        "respuesta":"Puedes registrar a tus mascotas aunque aún no sean pacientes de la veterinaria. El historial clínico, vacunas y estudios se irán completando a medida que se realicen consultas con nosotros."
+                    }
+        ]
+    },
+    {
+        "id":"5",
         "slug": "servicios",
         "title":"servicios",
         "preguntas":[
