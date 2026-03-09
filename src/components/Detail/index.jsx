@@ -4,6 +4,8 @@ import Arrow from '../../assets/icons/arrow-up.svg'
 
 import {Sumary,Detail,Subparagraph,Image,Item} from './detail.style'
 const DetailInfo = ({entry, isLoading}) => {
+    console.log('esto llega en entry',entry);
+    
     return(
     <>
     {isLoading ?  (

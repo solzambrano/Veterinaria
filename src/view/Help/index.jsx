@@ -4,7 +4,7 @@ import { Paragraph,ContainerHelp,
 import Seeker from '../../components/Seeker';
 import FrequentlyQuestions from "./FrequentlyQuestions";
 import CardCategory from "../../components/Cards/CardCategory";
-
+import Detail from "../../components/Detail/index"
 
 const Help = () => {
     return(
@@ -17,6 +17,7 @@ const Help = () => {
                 <SubtitleCategory>Explorar por categoría</SubtitleCategory>
                 <CardCategory></CardCategory>
                 <FrequentlyQuestions></FrequentlyQuestions>
+            <Detail></Detail>
             </CategorySectionHelp>
         </ContainerHelpCategory>
         </ContainerHelp>

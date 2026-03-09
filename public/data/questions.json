@@ -3,50 +3,50 @@
         "id":"1",
         "slug":"atencion",
         "title":"Atencion medica",
-        "preguntas":[
+        "questions":[
                     {
-                    "pregunta":"¿Cómo agendo una cita?",
-                    "respuesta":"Para agendar citas, primero debe iniciar sesion"
+                    "question":"¿Cómo agendo una cita?",
+                    "answer":"Para agendar citas, primero debe iniciar sesion"
                     },
                        {
-                    "pregunta":"¿Cuanto dura una consulta?",
-                    "respuesta":"Cada consulta como minimo dura 30 minutos, dependiendo del caso puede extenderse sin cobro extra"
+                    "question":"¿Cuanto dura una consulta?",
+                    "answer":"Cada consulta como minimo dura 30 minutos, dependiendo del caso puede extenderse sin cobro extra"
                     },
                     {
-                        "pregunta":"¿Cual es el horario de atención?",
-                        "respuesta":"De Lunes a Viernes de 09:00 a 18:00 horario corrido, Sabados de 09:00 a 14:00" 
+                        "question":"¿Cual es el horario de atención?",
+                        "answer":"De Lunes a Viernes de 09:00 a 18:00 horario corrido, Sabados de 09:00 a 14:00" 
                     },
                     {
-                        "pregunta":"Qué incluye una consulta clínica veterinaria",
-                        "respuesta":"Revisión general, diagnóstico inicial, indicación de estudios o tratamientos."
+                        "question":"Qué incluye una consulta clínica veterinaria",
+                        "answer":"Revisión general, diagnóstico inicial, indicación de estudios o tratamientos."
                     },
                     {
-                        "pregunta":"¿Cuanto cuesta la atención veterinaria?",
-                        "respuesta":"La consulta tiene un costo inicial de $25.000, el precio final varia dependiendo de inyectables,pastillas,estudios, etc"
+                        "question":"¿Cuanto cuesta la atención veterinaria?",
+                        "answer":"La consulta tiene un costo inicial de $25.000, el precio final varia dependiendo de inyectables,pastillas,estudios, etc"
                     },
                     {
-                        "pregunta":"¿Que medios de pago aceptan?",
-                        "respuesta":"Aceptamos todos los medios de pago, transferencia, QR, débito y crédito"
+                        "question":"¿Que medios de pago aceptan?",
+                        "answer":"Aceptamos todos los medios de pago, transferencia, QR, débito y crédito"
                     },
                     {
-                        "pregunta":"¿Puedo cancelar una cita agendada?",
-                        "respuesta": "Si, desde la página iniciando sesion o desde nuestro whatsapp, con 6 horas de anticipación"
+                        "question":"¿Puedo cancelar una cita agendada?",
+                        "answer": "Si, desde la página iniciando sesion o desde nuestro whatsapp, con 6 horas de anticipación"
                     },
                     {
-                        "pregunta":"¿Cual es la tolerancia para las citas?",
-                        "respuesta":"Se recomienda estar presente 10 minutos antes, de no ser asi, se tendrá una tolerancia de 5 minutos, para evitar afectar el resto de turnos"
+                        "question":"¿Cual es la tolerancia para las citas?",
+                        "answer":"Se recomienda estar presente 10 minutos antes, de no ser asi, se tendrá una tolerancia de 5 minutos, para evitar afectar el resto de turnos"
                     },
                     {
-                        "pregunta":"¿Si no tengo una cita, pueden atender a mi mascota?",
-                        "respuesta":"En el caso de no contar con una cita agendada, puede presentarse en la veterinaria y se la atendera por orden de llegada, respetando los turnos existenes, a menos que se considere de urgencia"
+                        "question":"¿Si no tengo una cita, pueden atender a mi mascota?",
+                        "answer":"En el caso de no contar con una cita agendada, puede presentarse en la veterinaria y se la atendera por orden de llegada, respetando los turnos existenes, a menos que se considere de urgencia"
                     },
                     {
-                        "pregunta":"¿Cual es el tiempo de demora en una atención?",
-                        "respuesta":"La atención tiene una duración mínima de media hora, pudiendo variar según la atención que se esté realizando."
+                        "question":"¿Cual es el tiempo de demora en una atención?",
+                        "answer":"La atención tiene una duración mínima de media hora, pudiendo variar según la atención que se esté realizando."
                     },
                     {
-                        "pregunta":"¿Con cuanto tiempo de anticipación puedo agendar una cita?",
-                        "respuesta": "Hasta con un dia de anticipación, por nuestra pagina, si no estas registrando no te preocupes podes hacerlo por whatsapp desde la sección contáctanos"
+                        "question":"¿Con cuanto tiempo de anticipación puedo agendar una cita?",
+                        "answer": "Hasta con un dia de anticipación, por nuestra pagina, si no estas registrando no te preocupes podes hacerlo por whatsapp desde la sección contáctanos"
                     }
         ]
     },
@@ -54,50 +54,50 @@
         "id":"2",
         "slug": "urgencias",
         "title":"Urgencias",
-        "preguntas":[
+        "questions":[
                     {
-                        "pregunta":"¿La veterinaria atiende urgencias las 24 horas?",
-                        "respuesta":"Sí, nuestro servicio de urgencia esta disponible las 24 horas , todos los dias del año, no es necesario solicitar turno previamente, puedes acudir con tu mascota." 
+                        "question":"¿La veterinaria atiende urgencias las 24 horas?",
+                        "answer":"Sí, nuestro servicio de urgencia esta disponible las 24 horas , todos los dias del año, no es necesario solicitar turno previamente, puedes acudir con tu mascota." 
                     },
                     {
-                        "pregunta":"¿Cómo funciona la atención de urgencias?",
-                        "respuesta":"Cuando una mascota llega a urgencias, un profesional realiza una evaluación inicial inmediata (triaje) para determinar la gravedad del caso.Los pacientes son atendidos según la prioridad médica, no por orden de llegada. Esto permite brindar atención inmediata a los casos más críticos."
+                        "question":"¿Cómo funciona la atención de urgencias?",
+                        "answer":"Cuando una mascota llega a urgencias, un profesional realiza una evaluación inicial inmediata (triaje) para determinar la gravedad del caso.Los pacientes son atendidos según la prioridad médica, no por orden de llegada. Esto permite brindar atención inmediata a los casos más críticos."
                     },
                     {
-                        "pregunta":"¿Qué pasa si llego sin turno pero creo que es una urgencia?",
-                        "respuesta":"Nuestro equipo realizará una evaluación rápida del estado del animal.Si el profesional determina que se trata de una urgencia, se priorizará su atención de inmediato."
+                        "question":"¿Qué pasa si llego sin turno pero creo que es una urgencia?",
+                        "answer":"Nuestro equipo realizará una evaluación rápida del estado del animal.Si el profesional determina que se trata de una urgencia, se priorizará su atención de inmediato."
                     },
                     {
-                        "pregunta":"¿Qué se considera una urgencia veterinaria?",
-                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                        "question":"¿Qué se considera una urgencia veterinaria?",
+                        "answer": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
                     },
                     {
-                        "pregunta":"¿Cuanto demora un resultado de analisis de sangre?",
-                        "respuesta":"Los resultados estan siponibles 24 horas despues."
+                        "question":"¿Cuanto demora un resultado de analisis de sangre?",
+                        "answer":"Los resultados estan siponibles 24 horas despues."
                     },
                     {
-                        "pregunta":"¿Donde puedo ver los resultados de un analisis?",
-                        "respuesta": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
+                        "question":"¿Donde puedo ver los resultados de un analisis?",
+                        "answer": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
                     },
                     {
-                        "pregunta":"¿Cuentan con internación veterinaria?",
-                        "respuesta":"Si, ofrecemos servicio de internación"
+                        "question":"¿Cuentan con internación veterinaria?",
+                        "answer":"Si, ofrecemos servicio de internación"
                     },
                     {
-                        "pregunta":"¿Cómo es el seguimiento de mascotas internadas?",
-                        "respuesta":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la respuesta al tratamiento indicado."
+                        "question":"¿Cómo es el seguimiento de mascotas internadas?",
+                        "answer":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la answer al tratamiento indicado."
                     },
                     {
-                        "pregunta":"¿Quien controla a mi mascota fuera del horario de atención?",
-                        "respuesta":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
+                        "question":"¿Quien controla a mi mascota fuera del horario de atención?",
+                        "answer":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
                     },
                      {
-                        "pregunta":"¿La clínica puede realizar estudios en una urgencia?",
-                        "respuesta":"Sí. Contamos con el equipamiento necesario para realizar estudios diagnósticos durante la atención de urgencia, como análisis, imágenes o monitoreo, lo que permite actuar con rapidez en situaciones críticas."
+                        "question":"¿La clínica puede realizar estudios en una urgencia?",
+                        "answer":"Sí. Contamos con el equipamiento necesario para realizar estudios diagnósticos durante la atención de urgencia, como análisis, imágenes o monitoreo, lo que permite actuar con rapidez en situaciones críticas."
                     },
                      {
-                        "pregunta":"¿Qué debo hacer antes de traer a mi mascota?",
-                        "respuesta":"Si tu mascota está en una emergencia:Mantén la calma Trasládala con cuidado Evita medicarla sin indicación veterinaria Si es posible, trae información médica previa o medicamentos que esté usando."
+                        "question":"¿Qué debo hacer antes de traer a mi mascota?",
+                        "answer":"Si tu mascota está en una emergencia:Mantén la calma Trasládala con cuidado Evita medicarla sin indicación veterinaria Si es posible, trae información médica previa o medicamentos que esté usando."
                     }
         ]
     },
@@ -105,50 +105,50 @@
         "id":"3",
         "slug": "grooming",
         "title":"Grooming",
-        "preguntas":[
+        "questions":[
                     {
-                        "pregunta":"¿Que significa grooming?",
-                        "respuesta":"Llamamos grooming a un conjunto de técnicas de higiene y peluqueria, escenciales para la salud, bienestar y estética de mascotas." 
+                        "question":"¿Que significa grooming?",
+                        "answer":"Llamamos grooming a un conjunto de técnicas de higiene y peluqueria, escenciales para la salud, bienestar y estética de mascotas." 
                     },
                     {
-                        "pregunta":"¿Que servicios incluye?",
-                        "respuesta":"Además de baño y corte de uñas incluye: Limpieza de oidos, deslanado(quitar pelo muerto), cepillado profundo,limpieza de ojos/lagañas,."
+                        "question":"¿Que servicios incluye?",
+                        "answer":"Además de baño y corte de uñas incluye: Limpieza de oidos, deslanado(quitar pelo muerto), cepillado profundo,limpieza de ojos/lagañas,."
                     },
                     {
-                        "pregunta":"¿Donde puedo solicitar un turno?",
-                        "respuesta":"Si ya posee una cuenta puede hacerlo a traves de la sección turnos, de no ser asi, puede enviarnos un mensaje de whatsapp."
+                        "question":"¿Donde puedo solicitar un turno?",
+                        "answer":"Si ya posee una cuenta puede hacerlo a traves de la sección turnos, de no ser asi, puede enviarnos un mensaje de whatsapp."
                     },
                     {
-                        "pregunta":"¿Qué se considera una urgencia veterinaria?",
-                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                        "question":"¿Qué se considera una urgencia veterinaria?",
+                        "answer": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
                     },
                     {
-                        "pregunta":"¿Que pasa si mi perro necesita un shampoo especial?",
-                        "respuesta":"Cuando reserve el turno, puede indicar como observación si su mascota tiene problemas en la piel, si es su priera vez, se pone nervioso o muerde."
+                        "question":"¿Que pasa si mi perro necesita un shampoo especial?",
+                        "answer":"Cuando reserve el turno, puede indicar como observación si su mascota tiene problemas en la piel, si es su priera vez, se pone nervioso o muerde."
                     },
                     {
-                        "pregunta":"¿Debo llevar algun elemento de baño?",
-                        "respuesta": "No, nuestros pet groomer cuentan con todo lo necesario,pero la mascota debe asistir con correa y bozal en caso de ser una mascota reactiva."
+                        "question":"¿Debo llevar algun elemento de baño?",
+                        "answer": "No, nuestros pet groomer cuentan con todo lo necesario,pero la mascota debe asistir con correa y bozal en caso de ser una mascota reactiva."
                     },
                     {
-                        "pregunta":"¿Cuanto cuesta el servicio?",
-                        "respuesta":"El costo depende de muchos factores como tamaño de la mascota, tipo y largo de pelaje,condición especial en la piel y por supuesto del servicio que solicite."
+                        "question":"¿Cuanto cuesta el servicio?",
+                        "answer":"El costo depende de muchos factores como tamaño de la mascota, tipo y largo de pelaje,condición especial en la piel y por supuesto del servicio que solicite."
                     },
                     {
-                        "pregunta":"¿Cuanto tiempo demora el servicio?",
-                        "respuesta":"Nuestro personal le indicara al momento de recibir a la mascota, el tiempo varia según el tamaño del animal y el servicio que solicite"
+                        "question":"¿Cuanto tiempo demora el servicio?",
+                        "answer":"Nuestro personal le indicara al momento de recibir a la mascota, el tiempo varia según el tamaño del animal y el servicio que solicite"
                     },
                     {
-                        "pregunta":"¿Como se abona?",
-                        "respuesta":"El monto se cobra al momento de recibir a la mascota, aceptamos transferencia, QR y tarjetas."
+                        "question":"¿Como se abona?",
+                        "answer":"El monto se cobra al momento de recibir a la mascota, aceptamos transferencia, QR y tarjetas."
                     },
                      {
-                        "pregunta":"¿Puede otra persona retirar a mi mascota?",
-                        "respuesta":"Si, siempre y cuando el dueño notifique al personal responsable."
+                        "question":"¿Puede otra persona retirar a mi mascota?",
+                        "answer":"Si, siempre y cuando el dueño notifique al personal responsable."
                     },
                      {
-                        "pregunta":"¿Mi perro es reactivo ,puede tener servicio de grooming?",
-                        "respuesta":"Por la seguridad de nuestro personal y de su mascota, debe informarlo al momento de solicitar el turno, también debe llevar bozal (obligatorio)."
+                        "question":"¿Mi perro es reactivo ,puede tener servicio de grooming?",
+                        "answer":"Por la seguridad de nuestro personal y de su mascota, debe informarlo al momento de solicitar el turno, también debe llevar bozal (obligatorio)."
                     }
         ]
     },
@@ -156,58 +156,58 @@
         "id":"4",
         "slug": "perfil",
         "title":"Mi cuenta",
-        "preguntas":[
+        "questions":[
                     {
-                        "pregunta":"¿Crear una cuenta tiene algún costo?",
-                        "respuesta":"No. Crear un perfil en la plataforma es completamente gratuito." 
+                        "question":"¿Crear una cuenta tiene algún costo?",
+                        "answer":"No. Crear un perfil en la plataforma es completamente gratuito." 
                     },
                        {
-                        "pregunta":"¿Como creo mi perfil?",
-                        "respuesta":"Puede crear una cuenta desde nuestra pagina, con su email y nombre, el perfil se crea automaticamente y puedo editar la información que necesite." 
+                        "question":"¿Como creo mi perfil?",
+                        "answer":"Puede crear una cuenta desde nuestra pagina, con su email y nombre, el perfil se crea automaticamente y puedo editar la información que necesite." 
                     },
                       {
-                        "pregunta":"¿Es obligatorio crear una cuenta y hacer un perfil?",
-                        "respuesta":"La creación de la cuenta y del perfil no son obligatorias, solo le ayuda a llevar un mejor control de el cuidado de su mascota." 
+                        "question":"¿Es obligatorio crear una cuenta y hacer un perfil?",
+                        "answer":"La creación de la cuenta y del perfil no son obligatorias, solo le ayuda a llevar un mejor control de el cuidado de su mascota." 
                     },
                      {
-                        "pregunta":"¿Debo crear el perfil antes de una atención o despues?",
-                        "respuesta":"Puede crear la cuenta cuando lo desee, en caso de crearla antes de una atención, el profesional encargado cargará toda la información relevante y estará disponible en su perfil.También puede crearla despues de una atención y cargar la información que se le ha brindado , en las proximas consultas se cargará todo en su perfil."
+                        "question":"¿Debo crear el perfil antes de una atención o despues?",
+                        "answer":"Puede crear la cuenta cuando lo desee, en caso de crearla antes de una atención, el profesional encargado cargará toda la información relevante y estará disponible en su perfil.También puede crearla despues de una atención y cargar la información que se le ha brindado , en las proximas consultas se cargará todo en su perfil."
                     },
                     {
-                        "pregunta":"¿Qué información puedo ver en mi perfil?",
-                        "respuesta":"En tu perfil podrás acceder a:Tus datos como propietario,Las mascotas registradas,Historial médico de cada mascota,Resultados de análisis y estudios realizados con nosotros,Vacunas aplicadas y vacunas pendientes,Turnos reservados ,Información de servicios disponibles."
+                        "question":"¿Qué información puedo ver en mi perfil?",
+                        "answer":"En tu perfil podrás acceder a:Tus datos como propietario,Las mascotas registradas,Historial médico de cada mascota,Resultados de análisis y estudios realizados con nosotros,Vacunas aplicadas y vacunas pendientes,Turnos reservados ,Información de servicios disponibles."
                     },
                     {
-                        "pregunta":"¿Cómo agrego a mi mascota?",
-                        "respuesta":"Una vez creado tu perfil podrás agregar una o varias mascotas.Solo debes completar la información básica de cada una para que podamos llevar su historial clínico correctamente."
+                        "question":"¿Cómo agrego a mi mascota?",
+                        "answer":"Una vez creado tu perfil podrás agregar una o varias mascotas.Solo debes completar la información básica de cada una para que podamos llevar su historial clínico correctamente."
                     },
                     {
-                        "pregunta":"¿QQué información puedo ver de cada mascota?",
-                        "respuesta": "Dentro del perfil de cada mascota podrás consultar:Historial clínico,Resultados de análisis y estudios,Registro de vacunas,Próximas vacunas recomendadas,Turnos programados,Servicios realizados."
+                        "question":"¿QQué información puedo ver de cada mascota?",
+                        "answer": "Dentro del perfil de cada mascota podrás consultar:Historial clínico,Resultados de análisis y estudios,Registro de vacunas,Próximas vacunas recomendadas,Turnos programados,Servicios realizados."
                     },
                     {
-                        "pregunta":"¿Puedo reservar turnos desde la página?",
-                        "respuesta":"Actualmente puedes solicitar turnos para:Atención veterinaria,Grooming (baño, corte y cuidados de higiene)."
+                        "question":"¿Puedo reservar turnos desde la página?",
+                        "answer":"Actualmente puedes solicitar turnos para:Atención veterinaria,Grooming (baño, corte y cuidados de higiene)."
                     },
                     {
-                        "pregunta":"¿Puedo consultar el calendario de vacunas de mi mascota?",
-                        "respuesta": "Sí. En la sección de vacunas podrás ver:Vacunas aplicadas,Vacunas pendientes,Fechas recomendadas para próximas aplicaciones."
+                        "question":"¿Puedo consultar el calendario de vacunas de mi mascota?",
+                        "answer": "Sí. En la sección de vacunas podrás ver:Vacunas aplicadas,Vacunas pendientes,Fechas recomendadas para próximas aplicaciones."
                     },
                     {
-                        "pregunta":"¿Puedo registrar más de una mascota?",
-                        "respuesta":"Sí. Puedes agregar todas tus mascotas y administrar su información desde una sola cuenta.."
+                        "question":"¿Puedo registrar más de una mascota?",
+                        "answer":"Sí. Puedes agregar todas tus mascotas y administrar su información desde una sola cuenta.."
                     },
                     {
-                        "pregunta":"¿Qué hago si necesito modificar o cancelar un turno?",
-                        "respuesta":"Puedes gestionar tus turnos desde tu perfil. Allí podrás revisar la información del turno reservado y realizar los cambios necesarios según disponibilidad."
+                        "question":"¿Qué hago si necesito modificar o cancelar un turno?",
+                        "answer":"Puedes gestionar tus turnos desde tu perfil. Allí podrás revisar la información del turno reservado y realizar los cambios necesarios según disponibilidad."
                     },
                     {
-                        "pregunta":"¿Mi información y la de mi mascota está protegida?",
-                        "respuesta":"Sí. La información almacenada en tu perfil se utiliza únicamente para la gestión de los servicios veterinarios y el seguimiento médico de tus mascotas."
+                        "question":"¿Mi información y la de mi mascota está protegida?",
+                        "answer":"Sí. La información almacenada en tu perfil se utiliza únicamente para la gestión de los servicios veterinarios y el seguimiento médico de tus mascotas."
                     },
                      {
-                        "pregunta":"¿Puedo crear un perfil para mi mascota aunque no este siendo atendido en la veterinaria",
-                        "respuesta":"Puedes registrar a tus mascotas aunque aún no sean pacientes de la veterinaria. El historial clínico, vacunas y estudios se irán completando a medida que se realicen consultas con nosotros."
+                        "question":"¿Puedo crear un perfil para mi mascota aunque no este siendo atendido en la veterinaria",
+                        "answer":"Puedes registrar a tus mascotas aunque aún no sean pacientes de la veterinaria. El historial clínico, vacunas y estudios se irán completando a medida que se realicen consultas con nosotros."
                     }
         ]
     },
@@ -215,42 +215,42 @@
         "id":"5",
         "slug": "servicios",
         "title":"servicios",
-        "preguntas":[
+        "questions":[
                     {
-                        "pregunta":"¿Realizan cirugías veterinarias?",
-                        "respuesta":"Sí, realizamos cirugías programadas y de urgencia, incluyendo castraciones, cirugías traumatológicas, abdominales y extracción de tumores." 
+                        "question":"¿Realizan cirugías veterinarias?",
+                        "answer":"Sí, realizamos cirugías programadas y de urgencia, incluyendo castraciones, cirugías traumatológicas, abdominales y extracción de tumores." 
                     },
                     {
-                        "pregunta":"¿Con que especialistas cuenta la veterinaria?",
-                        "respuesta":"Clínica general,traumatología, neurología,cardiología dermatología, oftalmología, oncología y grooming."
+                        "question":"¿Con que especialistas cuenta la veterinaria?",
+                        "answer":"Clínica general,traumatología, neurología,cardiología dermatología, oftalmología, oncología y grooming."
                     },
                                         {
-                        "pregunta":"¿Que estudios puedo realizarle a mi mascota?",
-                        "respuesta":"Contamos con equipo para realizar: analisis de sangre, radiografías, ecografías, electrocardiogramas,ecocardiograma, biopsias, citologías."
+                        "question":"¿Que estudios puedo realizarle a mi mascota?",
+                        "answer":"Contamos con equipo para realizar: analisis de sangre, radiografías, ecografías, electrocardiogramas,ecocardiograma, biopsias, citologías."
                     },
                     {
-                        "pregunta":"¿Para el análisis de sangre, cómo debo preparar a mi mascota?",
-                        "respuesta": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
+                        "question":"¿Para el análisis de sangre, cómo debo preparar a mi mascota?",
+                        "answer": "Recomendamos ayuno sólido de 8 a 12 horas para asegurar resultados precisos."
                     },
                     {
-                        "pregunta":"¿Cuanto demora un resultado de analisis de sangre?",
-                        "respuesta":"Los resultados estan siponibles 24 horas despues."
+                        "question":"¿Cuanto demora un resultado de analisis de sangre?",
+                        "answer":"Los resultados estan siponibles 24 horas despues."
                     },
                     {
-                        "pregunta":"¿Donde puedo ver los resultados de un analisis?",
-                        "respuesta": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
+                        "question":"¿Donde puedo ver los resultados de un analisis?",
+                        "answer": "Los resultados se suben a su  perfil, dentro de la seccion mascotas."
                     },
                     {
-                        "pregunta":"¿Cuentan con internación veterinaria?",
-                        "respuesta":"Si, ofrecemos servicio de internación"
+                        "question":"¿Cuentan con internación veterinaria?",
+                        "answer":"Si, ofrecemos servicio de internación"
                     },
                     {
-                        "pregunta":"¿Cómo es el seguimiento de mascotas internadas?",
-                        "respuesta":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la respuesta al tratamiento indicado."
+                        "question":"¿Cómo es el seguimiento de mascotas internadas?",
+                        "answer":"La mascota internada recibe un seguimiento veterinario continuo adaptado a su condición clínica.Nuestro equipo controla de forma periódica sus signos vitales (temperatura, frecuencia cardíaca y respiratoria), su estado general y la answer al tratamiento indicado."
                     },
                     {
-                        "pregunta":"¿Quien controla a mi mascota fuera del horario de atención?",
-                        "respuesta":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
+                        "question":"¿Quien controla a mi mascota fuera del horario de atención?",
+                        "answer":"Gracias a nuestro servicio de urgencia las 24 horas, un profesional siempre estará monitoreando a las mascotas internadas, por cualquier cambio en su condición, se le notifica al dueño/a inmediatamente."
                     }
 
              

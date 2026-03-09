@@ -25,15 +25,15 @@ const Categories =[
     },
       {
         id:4,
-        slug:'vacunas',
+        slug:'perfil',
         image:vaccine,
-        title:'Historial de vacunas'
+        title:'Mi perfil'
     },
       {
         id:5,
         slug:'citas',
         image:calendar,
-        title:'Control de citas'
+        title:'Servicios'
     },
 ]
 export default Categories
