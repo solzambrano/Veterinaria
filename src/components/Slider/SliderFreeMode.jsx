@@ -10,7 +10,7 @@ import { TituloImagenSlider,SpanTitle,SwiperStyled,ImagenSlider } from "./freeMo
 const SliderFreeMode = () =>{
     
     const {comments, isLoading,error, getComments} = commentsResult()
-    console.log(comments);
+
     useEffect(() => {
         getComments();
       }, []);

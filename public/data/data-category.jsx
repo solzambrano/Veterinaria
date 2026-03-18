@@ -13,7 +13,7 @@ const Categories =[
     },
       {
         id:2,
-        slug:'emergencia',
+        slug:'urgencias',
         image:emergency,
         title:'Servicio de Emergencia'
     },
@@ -27,11 +27,11 @@ const Categories =[
         id:4,
         slug:'perfil',
         image:vaccine,
-        title:'Mi perfil'
+        title:'Mi cuenta'
     },
       {
         id:5,
-        slug:'citas',
+        slug:'servicios',
         image:calendar,
         title:'Servicios'
     },
