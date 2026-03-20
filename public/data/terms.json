@@ -1,15 +1,12 @@
 [
     {"title":"Aceptación de los Terminos",
-    "subtitle": "Al acceder y utilizar este sitio web, el usuario declara haber leído, comprendido y aceptado los presentes términos. Si no está de acuerdo con alguna de las condiciones aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos.",
-    "items":[]
+    "subtitle": "Al acceder y utilizar este sitio web, el usuario declara haber leído, comprendido y aceptado los presentes términos. Si no está de acuerdo con alguna de las condiciones aquí establecidas, deberá abstenerse de utilizar el sitio y los servicios ofrecidos."
 },
 {   "title":"Descripción de los servicios",
-    "subtitle": "El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada.",
-    "items":[]
+    "subtitle": "El usuario se compromete a utilizar este sitio web únicamente para fines lícitos y de manera adecuada."
 },
 {   "title":" Uso del sitio Web y Obligaciones del Usuarios",
-    "subtitle": "El acceso y uso del sitio son exclusivos para la gestión de turnos y servicios relacionados con la atención veterinaria.Cualquier uso indebido podrá dar lugar a la suspensión temporal o definitiva del acceso al sitio, sin perjuicio de otras acciones legales que correspondan.",
-    "items":[]
+    "subtitle": "El acceso y uso del sitio son exclusivos para la gestión de turnos y servicios relacionados con la atención veterinaria.Cualquier uso indebido podrá dar lugar a la suspensión temporal o definitiva del acceso al sitio, sin perjuicio de otras acciones legales que correspondan."
 },
 {   "title": "Citas y Pagos ",
     "subtitle":"El sistema de turnos online facilita la solicitud de citas, pero la confirmación final puede estar sujeta a disponibilidad. " ,

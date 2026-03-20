@@ -28,9 +28,10 @@ return (
       <p>Las dudas más comunes de nuestros clientes, resueltas</p>
 
       {filteredFaqs.map((section) => {
-        const frequentlyQuestions = section.questions.map(({ question, answer }) => ({
+        const frequentlyQuestions = section.questions.map(({ question, answer ,items}) => ({
           title: question,
-          subtitle: answer
+          subtitle: answer,
+          items
         }));
 
         return (

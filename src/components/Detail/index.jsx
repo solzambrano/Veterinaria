@@ -19,7 +19,7 @@ const DetailInfo = ({entry, isLoading}) => {
                    <Detail>
                         <Sumary>{item?.title}<Image src={Arrow}></Image></Sumary>
                             <Subparagraph>{item?.subtitle}</Subparagraph>
-                            {item?.items.length >0 && (
+                            {item?.items?.length >0 && (
                                 <Unorder>
                                     {item.items.map((item, index) => (
                                         <Item key={index}>{item}</Item>
