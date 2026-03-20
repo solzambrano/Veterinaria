@@ -9,7 +9,7 @@ const serviceDetail = [
     {
         image:heart,
         title: 'Guardia Veterinaria',
-        description:'Contamos con un profesional las 24 hs, no importa de que se trate la emergencia,podemos atenderlo, contamos con el equipo necesario para realizar cirugias, radiografias y analisis clínicos.'
+        description:'Contamos con un profesional las 24 hs, no importa de que se trate la emergencia,podemos atenderlo, contamos con el equipo necesario para realizar: cirugias, radiografias y analisis clínicos.'
     },
     {
         image:stethoscope,
