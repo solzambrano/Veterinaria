@@ -45,7 +45,7 @@ export const TituloImagenSlider =styled.h1`
   z-index:1;
   bottom:250px;
   margin-bottom:10px;
-  color:#065106;
+  color:#328741;
   font-weight:900;
   margin:15px 10px;
  }

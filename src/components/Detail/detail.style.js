@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Subparagraph =styled.p`
 color:gray;
-
 `
 
 export const Unorder = styled.ul`
@@ -41,7 +40,11 @@ cursor:pointer;
 list-style:none;
 display: flex;
 justify-content: space-between;
-font-size:18px
+font-size:18px;
+:hover {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+color:pink;
+}
 
 
 `

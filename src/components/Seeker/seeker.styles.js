@@ -12,16 +12,17 @@ border-radius:12px
 export const SearchSeeker =styled.img`
 width:20px;
 height:20px;
-margin:0px 15px
-
+margin:0px 15px;
 `
 
 export const ButtonSeeker =styled.button`
-background-color: var(--color-Green);
-  color: white;
+background-color: var(--color-Green-s);
+  color: var(--color-Black);
   width: 70px;
   height: 100%;
   border-radius: 10px;
+  border:none;
+  font-weight:bold;
 
 `
 export const InputSeeker =styled.input`

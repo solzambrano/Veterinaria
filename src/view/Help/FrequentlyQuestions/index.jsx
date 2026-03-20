@@ -1,4 +1,5 @@
 import DetailInfo from "../../../components/Detail"
+import {Container,Paragraph,Subparagraph} from "./frequently-questions.styles"
 import { useState,useEffect } from "react"
 const FrequentlyQuestions = ({category}) => {
     const [faqs,setFaqs]=useState([]);
@@ -24,8 +25,11 @@ const FrequentlyQuestions = ({category}) => {
       
 return (
     <>
-      <p>Preguntas Frequentes</p>
-      <p>Las dudas más comunes de nuestros clientes, resueltas</p>
+    <Container>
+      <Paragraph>Preguntas Frecuentes</Paragraph>
+      <Subparagraph>Las dudas más comunes de nuestros clientes, resueltas</Subparagraph>
+
+    </Container>
 
       {filteredFaqs.map((section) => {
         const frequentlyQuestions = section.questions.map(({ question, answer ,items}) => ({

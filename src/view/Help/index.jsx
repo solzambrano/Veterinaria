@@ -9,7 +9,6 @@ const Help = () => {
     const [category, setCategory] = useState('atencion');
        const selectedQuestion = (slug) => {
         setCategory(slug)
-    console.log(slug);
     
        }
     return(
@@ -21,8 +20,8 @@ const Help = () => {
             <CategorySectionHelp>
                 <SubtitleCategory>Explorar por categoría</SubtitleCategory>
                 <CardCategory onSelectedCategory={selectedQuestion}></CardCategory>
-                <FrequentlyQuestions category={category}></FrequentlyQuestions>
             </CategorySectionHelp>
+                <FrequentlyQuestions category={category}></FrequentlyQuestions>
         </ContainerHelpCategory>
         </ContainerHelp>
     )
