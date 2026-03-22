@@ -1,14 +1,15 @@
 import DetailInfo from "../../../components/Detail"
-import {Container,Paragraph,Subparagraph} from "./frequently-questions.styles"
+import {Container,Paragraph,Subparagraph,Icons,ContainerMoreQuestion} from "./frequently-questions.styles"
 import { useState,useEffect } from "react"
+import More from '../../../assets/icons/more.svg'
 const FrequentlyQuestions = ({category}) => {
     const [faqs,setFaqs]=useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [visible, setVisible] = useState(5);
 
     useEffect (()=>{
             const fetchFaqs = async () => {
             const response= await  fetch("/data/questions.json");
-            
             const data= await response.json()
             console.log('respuesta',data);
             setFaqs(data)
@@ -18,11 +19,23 @@ const FrequentlyQuestions = ({category}) => {
              }
               fetchFaqs();
         },[])
+
+   useEffect(() => {
+        setVisible(5);
+    }, [category])
+
      const filteredFaqs = category
-    ? faqs.filter((section) => section.slug === category)
-    : faqs; // si no hay slug, muestra todas las secciones
-    
+      ? faqs.filter((section) => section.slug === category)
+      : faqs; // si no hay slug, muestra todas las secciones
       
+      const allQuestions = filteredFaqs.flatMap(section => section.questions);
+      const totalQuestions = allQuestions.length;
+      const visibilityButton =totalQuestions > visible
+console.log('aquiiiiii',totalQuestions);
+
+      const moreQuestion = (e) => {
+ setVisible((prev) => prev + 5);
+      }
 return (
     <>
     <Container>
@@ -32,7 +45,7 @@ return (
     </Container>
 
       {filteredFaqs.map((section) => {
-        const frequentlyQuestions = section.questions.map(({ question, answer ,items}) => ({
+        const frequentlyQuestions = section.questions.slice(0, visible).map(({ question, answer ,items}) => ({
           title: question,
           subtitle: answer,
           items
@@ -45,6 +58,11 @@ return (
           </div>
         );
       })}
+      {visibilityButton &&
+      <ContainerMoreQuestion onClick={moreQuestion}>
+        <Icons src={More}></Icons>
+        <Subparagraph >Cargar más preguntas</Subparagraph></ContainerMoreQuestion>
+      }
     </>
   );
 };
