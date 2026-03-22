@@ -1,20 +1,29 @@
 import styled from 'styled-components'
 
-export const NavList =styled.div`
+export const NavList =styled.nav`
   display :flex;
   justify-content:space-between;
   padding:0px 15px;
+  a{
+    text-decoration:none;
+    color:black;
+    display:ruby
+  }
+   a:hover {
+    color: var(--color-Green-s);
+  }
+  a.active {
+    color: var(--color-Green-s);;
+    font-weight: bold;
+  }
+ 
   
 `;
 export const NavContainerLogo =styled.div`
   display :flex;
  align-items: center;
  flex-direction:row;
- a{
- text-decoration:none;
- color:black;
- display:ruby
- }
+
  
   
 `;
@@ -33,6 +42,8 @@ export const NavOptions =styled.ul`
   text-decoration:none;
   color:black;
   }
+
+
   
 `;
 export const Logo = styled.img `
@@ -41,5 +52,8 @@ export const Logo = styled.img `
     margin-right:15px
 `; 
 export const Lista =styled.li `
+color:black;
+:visited{
+color:var(--color-Green-s)}
 
 `

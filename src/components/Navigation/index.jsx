@@ -7,19 +7,19 @@ return(
     <>
     <NavList>
        <NavContainerLogo>
-        <NavLink to='/'> 
+        <NavLink to='/' end> 
             <Logo src={VeterinaryIcon} alt="Home" />
             <NavHeader>Veterinaria COQUETOS</NavHeader>
             </NavLink>
         </NavContainerLogo>
         <NavOptions>
-            <Lista>Servicios</Lista>
-            <Lista>Citas</Lista>
-            <Lista><NavLink to='products'>Tienda </NavLink></Lista>
-            <Lista>Sobre nosotros</Lista>
-            <Lista><NavLink to='contact-us'>Contactanos </NavLink></Lista>
-            <Lista><NavLink to ='help-support'> Ayuda</NavLink></Lista>
-            <Lista><NavLink to="/login">Login</NavLink></Lista>
+           Servicios
+            Citas
+           <NavLink to='products' >Tienda </NavLink>
+            Sobre nosotros
+            <NavLink to='contact-us'>Contactanos </NavLink>
+            <NavLink to ='help-support'> Ayuda</NavLink>
+            <NavLink to="/login">Login</NavLink>
         </NavOptions>
     </NavList>
     </>
