@@ -11,9 +11,7 @@ const FrequentlyQuestions = ({category}) => {
             const fetchFaqs = async () => {
             const response= await  fetch("/data/questions.json");
             const data= await response.json()
-            console.log('respuesta',data);
             setFaqs(data)
-            // setIsLoading(true)
             setIsLoading(false)
     
              }
@@ -31,10 +29,9 @@ const FrequentlyQuestions = ({category}) => {
       const allQuestions = filteredFaqs.flatMap(section => section.questions);
       const totalQuestions = allQuestions.length;
       const visibilityButton =totalQuestions > visible
-console.log('aquiiiiii',totalQuestions);
 
       const moreQuestion = (e) => {
- setVisible((prev) => prev + 5);
+          setVisible((prev) => prev + 5);
       }
 return (
     <>
