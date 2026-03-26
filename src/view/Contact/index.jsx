@@ -1,6 +1,6 @@
 import { Paragraph,Container,ContainerContactUs,ContainerData
     ,ContainerInfoContact,ContainerShowInformation,Title,Subtitle,Icons
- } from "./contact.styles"
+ } from "./contact.style"
 import Clock from '../../assets/icons/clock.svg'
 import Phone from '../../assets/icons/phone.svg'
 import Mail from '../../assets/icons/mail.svg'

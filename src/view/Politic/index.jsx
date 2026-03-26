@@ -1,5 +1,5 @@
 import { ContainerPrincipal,ContainerImage,Title,Imagen,Subtitle,
-    ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items,SpanEmail } from "./politic.styles"
+    ContainerBodyText,Paragraph,ListaTitulos,ListaItems,Items,SpanEmail } from "./politic.style"
 
 const Politic = () => {
 return(

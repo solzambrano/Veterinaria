@@ -1,4 +1,4 @@
-import {ContainerSeeker, ButtonSeeker,SearchSeeker,InputSeeker} from './seeker.styles'
+import {ContainerSeeker, ButtonSeeker,SearchSeeker,InputSeeker} from './seeker.style'
 import Search from '../../assets/icons/search.svg'
 const Seeker = () => {
     return(

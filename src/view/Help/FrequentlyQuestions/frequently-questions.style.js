@@ -43,7 +43,7 @@ display: grid;
   gap: 8px;
 padding-left:15px;
 `
-export const TitleContact = styled.h3`
+export const TitleContact = styled.h2`
  grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 `
