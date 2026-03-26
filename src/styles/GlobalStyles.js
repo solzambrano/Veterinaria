@@ -9,6 +9,7 @@ export const GlobalStyles=createGlobalStyle`
     --color-Green-s: #19e65e;
     --color-Terra: #f4f3f4;
     --color-Gray: #707a6d;
+    --color-Green-fondo:#e6f4e6;
     --font:'Lexend'
 }
      body {

@@ -1,5 +1,6 @@
 import DetailInfo from "../../../components/Detail"
-import {Container,Paragraph,Subparagraph,Icons,ContainerMoreQuestion} from "./frequently-questions.styles"
+import {Container,Paragraph,Subparagraph,Icons,ContainerContact,
+  ContainerMoreQuestion,SectionTitle,TitleContact,TextContact,Button} from "./frequently-questions.styles"
 import { useState,useEffect } from "react"
 import More from '../../../assets/icons/more.svg'
 const FrequentlyQuestions = ({category}) => {
@@ -38,9 +39,7 @@ return (
     <Container>
       <Paragraph>Preguntas Frecuentes</Paragraph>
       <Subparagraph>Las dudas más comunes de nuestros clientes, resueltas</Subparagraph>
-
     </Container>
-
       {filteredFaqs.map((section) => {
         const frequentlyQuestions = section.questions.slice(0, visible).map(({ question, answer ,items}) => ({
           title: question,
@@ -49,10 +48,10 @@ return (
         }));
 
         return (
-          <div key={section.id}>
-            <h2>{section.title}</h2>
+            <>
+            <SectionTitle key={section.id}>{section.title}</SectionTitle>
             <DetailInfo entry={frequentlyQuestions} isLoading={isLoading} />
-          </div>
+            </>
         );
       })}
       {visibilityButton &&
@@ -60,6 +59,11 @@ return (
         <Icons src={More}></Icons>
         <Subparagraph >Cargar más preguntas</Subparagraph></ContainerMoreQuestion>
       }
+      <ContainerContact>
+        <TitleContact>No encuentras lo que buscas?</TitleContact>
+        <TextContact>Nuestro equipo esta disponible para ayudarte con cualquier duda especifica sobre la salud de tu mascota</TextContact>
+        <Button>Contáctanos</Button>
+      </ContainerContact>
     </>
   );
 };

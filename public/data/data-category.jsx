@@ -1,14 +1,14 @@
-import stethoscope from '../../src/assets/icons/stethoscope.svg';
-import vaccine from '../../src/assets/icons/vaccine.svg';
+import veterinary from '../../src/assets/icons/veterinary-care.svg';
+import user from '../../src/assets/icons/user.svg';
 import emergency from '../../src/assets/icons/emergency.svg';
-import calendar from '../../src/assets/icons/calendar.svg';
+import stethoscope from '../../src/assets/icons/stethoscope.svg';
 import hairdryer from '../../src/assets/icons/hairdry.svg';
 
 const Categories =[
     {
         id:1,
         slug:'atencion',
-        image:stethoscope,
+        image:veterinary,
         title:'Atencion Medica'
     },
       {
@@ -26,13 +26,13 @@ const Categories =[
       {
         id:4,
         slug:'perfil',
-        image:vaccine,
+        image:user,
         title:'Mi cuenta'
     },
       {
         id:5,
         slug:'servicios',
-        image:calendar,
+        image:stethoscope,
         title:'Servicios'
     },
 ]
