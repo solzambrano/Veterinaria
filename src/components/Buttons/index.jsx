@@ -1,9 +1,9 @@
-
-const Button = ({text, color}) => {
+import {ButtonStyle} from './button.style'
+const Button = ({text, variant}) => {
 return(
-    <Button text={text}  color= {color}>
-
-    </Button>
+    <ButtonStyle variant= {variant}>
+        {text}
+    </ButtonStyle>
 )
 
 }
