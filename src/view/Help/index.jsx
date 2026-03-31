@@ -1,10 +1,11 @@
 import { Paragraph,ContainerHelp,
     CategorySectionHelp, SubtitleCategory, TitleHelp,ContainerHelpCategory,
-    ParagraphGreen } from "./help,styles"
+    ParagraphGreen,ContainerContact,TitleContact,TextContact } from "./help,styles"
 import Seeker from '../../components/Seeker';
 import FrequentlyQuestions from "./FrequentlyQuestions";
 import CardCategory from "../../components/Cards/CardCategory";
 import { useState } from "react";
+import Button from "../../components/Buttons";
 const Help = () => {
     const [category, setCategory] = useState('atencion');
        const selectedQuestion = (slug) => {
@@ -23,6 +24,11 @@ const Help = () => {
             </CategorySectionHelp>
                 <FrequentlyQuestions category={category}></FrequentlyQuestions>
         </ContainerHelpCategory>
+              <ContainerContact>
+        <TitleContact>No encuentras lo que buscas?</TitleContact>
+        <TextContact>Nuestro equipo esta disponible para ayudarte con cualquier duda especifica sobre la salud de tu mascota</TextContact>
+        <Button text={'Contáctanos'} variant ={'verde'}></Button>
+      </ContainerContact>
         </ContainerHelp>
     )
 
