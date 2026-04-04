@@ -6,9 +6,9 @@ import Services from './Services';
 const Home = () => {    
     return (
     <>
-    <Slider></Slider>
-    <SliderFreeMode></SliderFreeMode>
-    <Services></Services>
+    <Slider/>
+    <SliderFreeMode/>
+    <Services/>
     </>
     )
 }
