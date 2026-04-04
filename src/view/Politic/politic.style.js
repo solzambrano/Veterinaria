@@ -36,13 +36,13 @@ display:grid;
 grid-template-columns:repeat(2,1fr);
 width:80%;
 margin:auto;
+margin-top:45px;
 `
 export const ContainerImage =styled.div`
 margin:auto;
 width:75%
 `
 export const ContainerBodyText = styled.div`
-flex-direction:column;
 margin-top:15%
 `
 

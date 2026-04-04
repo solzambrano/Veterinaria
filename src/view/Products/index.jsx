@@ -20,21 +20,18 @@ const Products = () => {
       <Lista>Limpieza</Lista>
 
     </ContainerList>
-    {isLoading ?(
-    <Loader></Loader>
-    )
-    :
-    (
-    <ContainerProducts>
-    {products?.map((item) => {
-      return(  
-       <Card key={item.id} item={item}></Card>
-      )
-    })
-  }
-    </ContainerProducts>
-)
-}
+    {isLoading ?
+         (<Loader></Loader>)
+         :
+         (
+         <ContainerProducts>
+            {products?.map((item) => {
+              return(  <Card key={item.id} item={item}></Card>)
+              })
+            }
+          </ContainerProducts>
+        )
+    }
     </ContainerSectionProducts>
  )   
 }

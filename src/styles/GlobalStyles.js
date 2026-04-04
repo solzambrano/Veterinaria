@@ -13,10 +13,14 @@ export const GlobalStyles=createGlobalStyle`
     --font:'Lexend'
 }
      body {
-    font-family: 'Lexend', sans-serif;
+        font-family: 'Lexend', sans-serif;
+    }
+
+ `
+
+    export const buttonVariants = {
+  verde:  { bg: "var(--color-Green-s)", color: "white" },
+  rosa:   { bg: "#ec4899", color: "white" },
+  marron: { bg: "#92400e", color: "white" },
+  negro:  { bg: "#111111", color: "white" },
 }
-
-
-
-
-`
