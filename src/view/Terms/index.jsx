@@ -1,4 +1,4 @@
-import {ContainerTerms,Title,Paragraph,ListOrdered,ListUnordered,Item,Subparagraph} from './terms.style'
+import {ContainerTerms,Title,Paragraph,ListOrdered,Subparagraph} from './terms.style'
 import DetailInfo from '../../components/Detail';
 import { useState,useEffect } from 'react';
 
@@ -25,8 +25,8 @@ const Terms = () =>{
             </Paragraph>
         <ListOrdered>
             <DetailInfo 
-            entry={terms}
-            isLoading={isLoading}
+                entry={terms}
+                isLoading={isLoading}
             ></DetailInfo>
         </ListOrdered>
         </ContainerTerms>

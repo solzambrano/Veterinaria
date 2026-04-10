@@ -7,7 +7,7 @@ const DetailInfo = ({entry, isLoading}) => {
     return(
     <>
     {isLoading ?  (
-        <Loader></Loader>
+        <Loader/>
     )
     :(
         entry?.map((item, index) => {

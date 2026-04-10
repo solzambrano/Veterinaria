@@ -18,10 +18,9 @@ const Products = () => {
       <Lista>Ropa</Lista>
       <Lista>Camas</Lista>
       <Lista>Limpieza</Lista>
-
     </ContainerList>
     {isLoading ?
-         (<Loader></Loader>)
+         (<Loader/>)
          :
          (
          <ContainerProducts>
