@@ -14,7 +14,7 @@ width:920px;
 
 `
 export const Paragraph =styled.p `
-color:green;
+color:var--(color-Green-secondary);
 width:200px;
 a{
     text-decoration:none;
@@ -33,7 +33,7 @@ width:20px;
 margin:20px 15px;
 `
 export const  Reserved =styled.div`
-color:green;
+color:var--(color-Green-secondary);;
 margin:auto
 `
 export const  Link =styled.a`

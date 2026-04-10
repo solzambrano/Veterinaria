@@ -3,13 +3,15 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles=createGlobalStyle`
 :root{
-    --color-Green-secondary:#328741;
-    --color-Black:#00000;
-    --color-Ligth: #f6f8f6;
     --color-Green-s: #19e65e;
+    --color-Green-secondary:#328741;
+    --color-Green-muted:#065106;
+    --color-Black:#000000;
+    --color-Ligth: #f6f8f6;
     --color-Terra: #f4f3f4;
     --color-Gray: #707a6d;
     --color-Green-fondo:#e6f4e6;
+    --color-White:#FFFFFF;
     --font:'Lexend'
 }
      body {

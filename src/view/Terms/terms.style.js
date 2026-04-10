@@ -13,7 +13,7 @@ font-weight:800;
 `
 
 export const Paragraph = styled(Text)`
-font-size:16px;
+font-size:1rem;
 font-weight:550;
 `
 
@@ -36,12 +36,12 @@ border: 1px solid #eadbdb;
     border: none;
   padding: 5px;
   margin: 5px 0px;
-  color: gray;
+  color:var(--color-Gray);
     }
 
 `
 export const Subparagraph =styled(Text)`
-color:gray;
+color:var(--color-Gray);
 
 `
 export const Detail= styled.details`

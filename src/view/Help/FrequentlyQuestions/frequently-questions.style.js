@@ -26,7 +26,7 @@ text-transform:capitalize;
 `
 
 export const Subparagraph=styled.p`
-color:gray;
+color:var(--color-Gray);
 font-size:15px;
 `
 export const Icons =styled.img`

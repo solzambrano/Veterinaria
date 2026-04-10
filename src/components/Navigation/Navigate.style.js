@@ -6,7 +6,7 @@ export const NavList =styled.nav`
   padding:0px 15px;
   a{
     text-decoration:none;
-    color:black;
+    color:var--(color-Black);
     display:ruby
   }
    a:hover {
@@ -40,7 +40,7 @@ export const NavOptions =styled.ul`
   justify-content:space-around;
   a{
   text-decoration:none;
-  color:black;
+  color:var--(color-Black);
   }
 
 
@@ -52,7 +52,7 @@ export const Logo = styled.img `
     margin-right:15px
 `; 
 export const Lista =styled.li `
-color:black;
+color:var--(color-Black);
 :visited{
 color:var(--color-Green-s)}
 

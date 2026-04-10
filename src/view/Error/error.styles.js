@@ -22,7 +22,7 @@ font-size:18px;
 export const ParagraphRedirect =styled.span`
 font-weight:600;
 a{
-color:green;
+color:var(--color-Green-s);
 text-decoration:none;
 }
 `

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Subparagraph =styled.p`
-color:gray;
+color:var(--color-Gray)
 `
 
 export const Unorder = styled.ul`
@@ -18,7 +18,7 @@ border: 1px solid #eadbdb;
     border: none;
     padding: 5px;
     margin: 5px 0px;
-    color: gray;
+    color: var--(color-Gray);
     }
 
 `
@@ -43,7 +43,6 @@ justify-content: space-between;
 font-size:18px;
 :hover {
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-color:pink;
 }
 
 
