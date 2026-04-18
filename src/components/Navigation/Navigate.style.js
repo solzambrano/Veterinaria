@@ -6,7 +6,7 @@ export const NavList =styled.nav`
   padding:0px 15px;
   a{
     text-decoration:none;
-    color:var--(color-Black);
+    color:var(--color-Black);
     display:ruby
   }
    a:hover {
@@ -27,9 +27,9 @@ export const NavContainerLogo =styled.div`
  
   
 `;
-export const NavHeader =styled.h1`
+export const NavHeader =styled.h2`
   display :flex;
-  font-size:20px;
+  font-family:var(--font)
   
 `;
 
@@ -37,10 +37,11 @@ export const NavOptions =styled.ul`
   list-style-type:none;
   display:flex;
   width:50%;
+  font-size:20px;
   justify-content:space-around;
   a{
   text-decoration:none;
-  color:var--(color-Black);
+  color:var(--color-Black);
   }
 
 
@@ -52,7 +53,7 @@ export const Logo = styled.img `
     margin-right:15px
 `; 
 export const Lista =styled.li `
-color:var--(color-Black);
+color:var(--color-Black);
 :visited{
 color:var(--color-Green-s)}
 

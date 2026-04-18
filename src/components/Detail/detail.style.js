@@ -18,7 +18,7 @@ border: 1px solid #eadbdb;
     border: none;
     padding: 5px;
     margin: 5px 0px;
-    color: var--(color-Gray);
+    color: var(--color-Gray);
     }
 
 `

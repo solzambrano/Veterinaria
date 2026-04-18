@@ -51,5 +51,5 @@ export const TituloImagenSlider =styled(StyledText)`
   margin:5px 10px;
  }`;
  export const ImagenSlider =styled.img`
- border-radius:45px;
+ clip-path: circle(50%);
  `

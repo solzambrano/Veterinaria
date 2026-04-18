@@ -14,7 +14,7 @@ export const GlobalStyles=createGlobalStyle`
     --color-White:#FFFFFF;
     --font:'Lexend'
 }
-     body {
+     p {
         font-family: 'Lexend', sans-serif;
     }
 
