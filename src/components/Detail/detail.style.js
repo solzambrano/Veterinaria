@@ -40,7 +40,7 @@ cursor:pointer;
 list-style:none;
 display: flex;
 justify-content: space-between;
-font-size:18px;
+font-size:20px;
 :hover {
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

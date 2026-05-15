@@ -35,7 +35,7 @@ font-weight:500;
 `
 export const Paragraph = styled(Text)`
 color:var(--color-Gray);
-font-size:1.1em;
+font-size:20px;
 `
 export const Subtitle = styled(Text)`
 font-size:1.2em;

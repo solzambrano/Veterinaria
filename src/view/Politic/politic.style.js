@@ -30,6 +30,7 @@ list-style-type:disc;
 `
 export const Items =styled.li`
 line-height: 20px;
+font-size:19px;
 `
 export const ContainerPrincipal = styled.div`
 display:grid;
