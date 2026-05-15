@@ -11,11 +11,11 @@ const Layout = () => {
 
     return(
         <Container>
-        <Navigation></Navigation>
+        <Navigation/>
         <Content>
             <Outlet/>
         </Content>
-        <Footer></Footer>
+        <Footer/>
         </Container>
        
     )

@@ -1,6 +1,6 @@
 import DetailInfo from "../../../components/Detail"
-import {Container,Paragraph,Subparagraph,Icons,
-  ContainerMoreQuestion,SectionTitle} from "./frequently-questions.styles"
+import {Container,Paragraph,Subparagraph,Icons,ContainerContact,
+  ContainerMoreQuestion,SectionTitle,TitleContact,TextContact,Button} from "./frequently-questions.style"
 import { useState,useEffect } from "react"
 import More from '../../../assets/icons/more.svg'
 const FrequentlyQuestions = ({category}) => {

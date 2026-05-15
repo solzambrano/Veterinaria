@@ -18,7 +18,7 @@ const Footer = () => {
                <Link href="https://www.instagram.com/">  <Icons src={Instagram} alt='icono instagram'></Icons></Link>
             </ContainerIcons>
             <ContainerParagraph>
-            <Reserved> @ Veterinaria Coquetos, todos los derechos reservados</Reserved>
+            <Reserved> @ Veterinaria Coquetos, todos los derechos reservados 2025</Reserved>
             </ContainerParagraph>
         </ContainerFooter>
     )

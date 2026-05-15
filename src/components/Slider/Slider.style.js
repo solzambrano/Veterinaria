@@ -34,7 +34,7 @@ export const SpanTitle =styled.p`
   position:relative;
   z-index:1;
   bottom:250px;
-	color: #065106;
+	color: var(--color-Green-muted)
   font-weight:600;
   font-size: 18px;
   margin: 0px 10px;
@@ -45,7 +45,7 @@ export const TituloImagenSlider =styled.h1`
   z-index:1;
   bottom:250px;
   margin-bottom:10px;
-  color:#328741;
+  color:var(--color-Green-secondary);
   font-weight:900;
   margin:15px 10px;
  }

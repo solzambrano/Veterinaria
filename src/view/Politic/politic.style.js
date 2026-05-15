@@ -30,19 +30,20 @@ list-style-type:disc;
 `
 export const Items =styled.li`
 line-height: 20px;
+font-size:19px;
 `
 export const ContainerPrincipal = styled.div`
 display:grid;
 grid-template-columns:repeat(2,1fr);
 width:80%;
 margin:auto;
+margin-top:45px;
 `
 export const ContainerImage =styled.div`
 margin:auto;
 width:75%
 `
 export const ContainerBodyText = styled.div`
-flex-direction:column;
 margin-top:15%
 `
 

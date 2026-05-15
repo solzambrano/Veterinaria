@@ -1,5 +1,5 @@
 import {useForm} from 'react-hook-form'
-import { Form,Label,Input,TextArea,ButtonSend } from './formContact.styles';
+import { Form,Label,Input,TextArea,ButtonSend } from './formContact.style';
 import { useRef } from 'react';
 const FormContact = ({IsContact,IsLogin=false}) => {
     const {register,handleSubmit,formState:{errors}}=useForm()

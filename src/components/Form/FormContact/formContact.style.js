@@ -20,7 +20,7 @@ box-shadow:2px 2px 5px rgb(161, 161, 158)
 border-radius:5px;
 width:200px;
 height:25px;
-color:gray;
+color:var(--color-Gray);
 font-size:1em;
 `
 

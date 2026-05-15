@@ -23,14 +23,14 @@ export const Imagen = styled.img `
 export const ContainerDescription= styled.div`
 width:235px;
 margin:0 auto;
-height: ${props => props.isServices ? 'auto' : '120px'};
+height:auto;
 `;
 
 export const Title =styled.h3` 
-color:black;
+color:var(--color-Black);
 margin:0px 10px ;
 `
 export const Paragraph= styled.p `
-color:green;
+color:var(--color-Green-secondary);
 padding:0px 10px
 `

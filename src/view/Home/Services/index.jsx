@@ -6,11 +6,11 @@ const Services = () =>{
         <>
         <TitleServices>Conoce nuestros servicios</TitleServices>
         <ContainerServices>    
-        {serviceDetail?.map(services=>{
-        return <Card key={services.title} 
-        item={services} 
-        isServices={true}></Card>
-        })}
+            {serviceDetail?.map(services=>{
+                return <Card key={services.title} 
+                item={services} 
+                isServices={true}></Card>
+            })}
         </ContainerServices>
         </>
     )
