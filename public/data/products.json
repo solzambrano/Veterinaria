@@ -4,119 +4,136 @@
     "title": "Cepillo para Perros",
     "price": 1200,
     "description": "Cepillo suave ideal para eliminar el pelo muerto de tu mascota.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_716262-MLU74345614108_022024-O.webp"
-  },
+    "image": "https://http2.mlstatic.com/D_NQ_NP_716262-MLU74345614108_022024-O.webp",
+    "slug":"Limpieza"
+},
   {
     "id": 2,
     "title": "Cama Acolchada Mediana",
     "price": 3500,
     "description": "Cama cómoda y resistente, perfecta para perros de tamaño mediano.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_960640-MLA69622326114_052023-O.webp"
-  },
+    "image": "https://http2.mlstatic.com/D_NQ_NP_960640-MLA69622326114_052023-O.webp",
+    "slug":"Camas"
+},
   {
     "id": 3,
     "title": "Juguete Mordedor",
     "price": 800,
     "description": "Juguete de goma resistente para mantener entretenido a tu perro.",
-    "image": "https://ladracadabra.com/wp-content/uploads/2023/03/juguete-mordedor.webp"
-  },
+    "image": "https://ladracadabra.com/wp-content/uploads/2023/03/juguete-mordedor.webp",
+    "slug":"Juguetes"
+},
   {
     "id": 4,
     "title": "Correa Extensible 5m",
     "price": 2200,
     "description": "Correa extensible con freno automático para mayor seguridad.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-HWgPo1u8xZeMljtggWBFR3R9NScoYGlCHw&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-HWgPo1u8xZeMljtggWBFR3R9NScoYGlCHw&s",
+    "slug":"Accesorios"
+ },
   {
     "id": 5,
     "title": "Alimento para Perros",
     "price": 1500,
     "description": "Alimento balanceado para perros de todas las edades y tamaños.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLleTsbLJgMUKXB11knv62-2EekNO0v52xJw&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLleTsbLJgMUKXB11knv62-2EekNO0v52xJw&s",
+    "slug":"Alimento"
+},
    {
     "id": 6,
     "title": "Alimento para Gatos",
     "price": 1300,
     "description": "Alimento balanceado para gatos con multiproteina.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OVVHoA9qEunI15_cu-JMO_1L78PsqivDaw&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OVVHoA9qEunI15_cu-JMO_1L78PsqivDaw&s",
+    "slug":"Alimento"
+},
   {
     "id": 7,
     "title": "Cama para Gatos",
     "price": 2800,
     "description": "Cama suave y acogedora para gatos, perfecta para descansar.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8hVB_h2ig4-y9ByKRtBoE7_TcQvt_43BivA&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8hVB_h2ig4-y9ByKRtBoE7_TcQvt_43BivA&s",
+    "slug":"Camas"
+},
   {
     "id": 8,
     "title": "Arnés para Perro",
     "price": 1800,
     "description": "Arnés ajustable y cómodo para paseos seguros.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwc_adQWm-70fnbEKuiU--z4Jb04wJpsVbgQ&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwc_adQWm-70fnbEKuiU--z4Jb04wJpsVbgQ&s",
+    "slug":"Accesorios"
+},
   {
     "id": 9,
     "title": "Juguete para Gatos",
     "price": 600,
     "description": "Pelota interactiva para gatos, ideal para mantenerlos activos.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9Y15yhN_jUoBtIEmyMXCJkLzVW2H_TuRew&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9Y15yhN_jUoBtIEmyMXCJkLzVW2H_TuRew&s",
+    "slug":"Juguetes"
+},
   {
     "id": 10,
     "title": "Cucha para Perro Grande",
     "price": 4500,
     "description": "Cucha para perros grandes y medianos, resistente y cómoda.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlrgv8r1Uho-blzObIATv0ycTULuHpHDxeA&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlrgv8r1Uho-blzObIATv0ycTULuHpHDxeA&s",
+    "slug":"Camas"
+ },
   {
     "id": 11,
     "title": "Ropa impermeable ",
     "price": 1500,
     "description": "Abrigo impermeable para perros pequeños.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohzzgS5AElZ2Xn2VJAjrV873K751__SWypg&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohzzgS5AElZ2Xn2VJAjrV873K751__SWypg&s",
+    "slug":"Ropa"
+},
   {
     "id": 12,
     "title": "Snacks para Perros",
     "price": 500,
     "description": "Bocadillos saludables para consentir a tu mascota.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLh0iinJ9H2-4yOPe0ANLjaebLA6TxR_jUA&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLh0iinJ9H2-4yOPe0ANLjaebLA6TxR_jUA&s",
+    "slug":"Alimento"
+},
   {
     "id": 13,
     "title": "Comedero Automático ",
     "price": 3200,
     "description": "Comedero automático con temporizador para una alimentación programada, para perros y gatos.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-jyf-WF_fZntfkDjJLuhDuGEkTzmLJBjbA&s"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-jyf-WF_fZntfkDjJLuhDuGEkTzmLJBjbA&s",
+    "slug":"Accesorios"
   },
   {
     "id": 14,
     "title": "Cucha para Gatos",
     "price": 1200,
     "description": "Cucha cómodo para gatos, perfecto para su descanso.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCRyzaGdeEX4YTP_8oSk8AoxM0DGuvhPyHg&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCRyzaGdeEX4YTP_8oSk8AoxM0DGuvhPyHg&s",
+    "slug":"Camas"
+},
   {
     "id": 15,
     "title": "Arnes para gatos",
     "price": 2800,
     "description": "Arnes ajustable para gatos.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVh7jweBtUY3eKqO73a_1tCP8RE9LB_N8t1g&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVh7jweBtUY3eKqO73a_1tCP8RE9LB_N8t1g&s",
+    "slug":"Accesorios"
+ },
   {
     "id": 16,
     "title": "Mordedor para Perros",
     "price": 1000,
     "description": "Mordedor de plastico para perros.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4j7lpGSPBUQJJH_f8mAoXKBKLSBoP43woA&s"
-  },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4j7lpGSPBUQJJH_f8mAoXKBKLSBoP43woA&s",
+    "slug":"Juguetes"
+},
   {
     "id": 17,
     "title": "Collar para Perros",
     "price": 500,
     "description": "Collar con accesorio de moño para perros.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYfCT5yY-i81HgpfTzz1JF8npKTLscXyInQ&s"
-  
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYfCT5yY-i81HgpfTzz1JF8npKTLscXyInQ&s",
+    "slug":"Accesorios"
   }
 ]
+ 

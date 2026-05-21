@@ -12,14 +12,17 @@ justify-content: start;
 cursor:pointer;
 `;
 export const TitleProducts =styled.h1`
-
+font-family:var(--font)
 `;
 export const Lista =styled.li `
-margin:0px 20px;
-background-color: #c9ead1;
+  margin:0px 20px;
+  background-color: var(--color-Green-light);
   border-radius: 20px;
   width: 100px;
   text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
 `
 
 
