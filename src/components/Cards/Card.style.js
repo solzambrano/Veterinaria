@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerCard =styled.div`
-  margin: 20px 12px;
+  margin: 20px 15px;
   gap:24px;
   display:flex;
   width: 250px;
