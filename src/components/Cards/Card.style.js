@@ -13,11 +13,11 @@ export const ContainerCard =styled.div`
 export const ContainerImage= styled.div`
   width: fit-content;
   height: auto;
-  margin-top: ${props => props.isServices ? '30px' : 'inherit'};
+  margin-top: ${props => props.$isServices ? '30px' : 'inherit'};
 `;
 export const Imagen = styled.img `
-    width: ${props => props.isServices ? '24px' : '200px'};
-    height: ${props => props.isServices ? '24px' : '200px'};
+    width: ${props => props.$isServices ? '24px' : '200px'};
+    height: ${props => props.$isServices ? '24px' : '200px'};
 
 `; 
 export const ContainerDescription= styled.div`

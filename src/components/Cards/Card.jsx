@@ -3,13 +3,13 @@
  const Card = ({item,isServices}) => {
     return(
         <ContainerCard>
-            <ContainerImage isServices={isServices}>
-                <Imagen src={item.image} isServices={isServices}></Imagen>
+            <ContainerImage $isServices={isServices}>
+                <Imagen src={item.image} $isServices={isServices}></Imagen>
             </ContainerImage >
             { item.price &&
                 <Title>{`$${item.price}`}</Title>
             }
-            <ContainerDescription isServices={isServices}>
+            <ContainerDescription $isServices={isServices}>
                 <Title>{item.title} </Title>
                 <Paragraph>{item.description}</Paragraph>
             </ContainerDescription>

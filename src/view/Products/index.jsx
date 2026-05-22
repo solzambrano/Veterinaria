@@ -7,31 +7,33 @@ import Card from "../../components/Cards/Card";
 
 const Products = () => {
    const {products, isLoading, error ,getProducts} = productsResults()
-    const[newProducts,setNewProducts]=useState([])
-   useEffect(() => {
+  const [filter, setFilter] = useState("Todos");
+   
+  useEffect(() => {  
     getProducts();
+    console.log('primer use',products);
   }, []);
-  useEffect(()=>{
-    setNewProducts(products)
-  },[])
-  const filterProducts = (e) =>{
-    e.target.innerText == "Todos" ?
-      setNewProducts(products)
-    : 
-      setNewProducts(products.filter(product => product.slug == e.target.innerText))
-  }
+
+  const filterProducts = 
+    filter === "Todos" 
+    ? products
+    : products.filter(product => product.slug === filter)
+
+    const handleFilter = (value) => {
+    setFilter(value);
+  };
 
  return(
     <ContainerSectionProducts>
     <TitleProducts>Tienda de productos</TitleProducts>
     <ContainerList >
-      <Lista onClick={filterProducts}>Alimento</Lista>
-      <Lista  onClick={filterProducts}>Juguetes</Lista>
-      <Lista onClick={filterProducts}>Ropa</Lista>
-      <Lista  onClick={filterProducts}>Camas</Lista>
-      <Lista  onClick={filterProducts}>Limpieza</Lista>
-      <Lista  onClick={filterProducts}>Accesorios</Lista>
-      <Lista  onClick={filterProducts}>Todos</Lista>
+      <Lista onClick={()=>handleFilter("Alimento")}>Alimento</Lista>
+      <Lista  onClick={()=>handleFilter("Juguetes")}>Juguetes</Lista>
+      <Lista onClick={()=>handleFilter("Ropa")}>Ropa</Lista>
+      <Lista  onClick={()=>handleFilter("Camas")}>Camas</Lista>
+      <Lista  onClick={()=>handleFilter("Limpieza")}>Limpieza</Lista>
+      <Lista  onClick={()=>handleFilter("Accesorios")}>Accesorios</Lista>
+      <Lista  onClick={()=>handleFilter("Todos")}>Todos</Lista>
 
     </ContainerList>
     {isLoading ?
@@ -39,7 +41,7 @@ const Products = () => {
          :
          (
          <ContainerProducts>
-            {newProducts?.map((item) => {
+            {products?.map((item) => {
               return(  <Card key={item.id} item={item}></Card>)
               })
             }
