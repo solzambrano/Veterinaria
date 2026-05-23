@@ -11,13 +11,13 @@ const Products = () => {
    
   useEffect(() => {  
     getProducts();
-    console.log('primer use',products);
   }, []);
 
   const filterProducts = 
     filter === "Todos" 
     ? products
     : products.filter(product => product.slug === filter)
+    
 
     const handleFilter = (value) => {
     setFilter(value);
@@ -41,7 +41,7 @@ const Products = () => {
          :
          (
          <ContainerProducts>
-            {products?.map((item) => {
+            {filterProducts?.map((item) => {
               return(  <Card key={item.id} item={item}></Card>)
               })
             }
