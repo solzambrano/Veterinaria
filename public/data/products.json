@@ -315,7 +315,7 @@
     "id": 40,
     "title": "Ropa polar",
     "price": 15000,
-    "description": "Ropa polar para mascotas, color maron con animal print",
+    "description": "Ropa polar para mascotas, color maron con animal print.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bS2tnSXkeGBBARX_pBPa8vLQR1VvUXBuXw&s",
     "slug":"Ropa"
   },
@@ -323,7 +323,7 @@
     "id": 41,
     "title": "Ropa polar",
     "price": 20000,
-    "description": "Enterito polar para mascotas,diseño de dinosaurios ",
+    "description": "Enterito polar para mascotas,diseño de dinosaurios. ",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXpm0jM_woYIrXRHWC4e31X6M2m39yMuzog&s",
     "slug":"Ropa"
   },
@@ -331,7 +331,7 @@
     "id": 42,
     "title": "Bolso transportador",
     "price": 40000,
-    "description": "Bolso transportador para perros pequeños ",
+    "description": "Bolso transportador para perros pequeños. ",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbxNIIeIVTVH7RMf0iZO9SdcFxWLpSnzL__g&s",
     "slug":"Accesorios"
   },
@@ -339,7 +339,7 @@
     "id": 43,
     "title": "Guantes atrapa-pelos",
     "price": 1000,
-    "description": "Guante de pelo de mascota, removedor electrostático",
+    "description": "Guante de pelo de mascota, removedor electrostático.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQgpWbjb-LaBZkoE-EG92Z_2O7d4laY8-oA&s",
     "slug":"Limpieza"
   },
@@ -347,7 +347,7 @@
     "id": 44,
     "title": "Pechera con bolsillos",
     "price": 35000,
-    "description": "Pechera estilo salvavidas ,color naranja",
+    "description": "Pechera estilo salvavidas ,color naranja,tamaño M.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBE3DxoM0toIPmZAw8Jtt4QfAXC3_YPYLAw&s",
     "slug":"Accesorios"
   },
@@ -355,7 +355,7 @@
     "id": 45,
     "title": "Moños",
     "price": 2000,
-    "description": "Variedad de moños para mascotas, paquetes de 5 moños",
+    "description": "Variedad de moños para mascotas, paquetes de 5 moños.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhgxBg-NHgMMWq84OV2HKQghrliZX98etlA&s",
     "slug":"Accesorios"
   },
@@ -363,8 +363,40 @@
     "id": 46,
     "title": "Cepillo a vapor",
     "price": 2000,
-    "description": "Cepillo a vapor para perros y gatos",
+    "description": "Cepillo a vapor para perros y gatos.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUnavCP3arqE5ipTKUmbo1KHl0wVRo2IKkeg&s",
+    "slug":"Limpieza"
+  },
+  {
+    "id": 47,
+    "title": "Cepillo de dientes",
+    "price": 3000,
+    "description": "Cepillo dental suave para gatos y perros.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fV3OtfMW-6oFemKZ77O_PbtldGTXCYoOtQ&s",
+    "slug":"Limpieza"
+  },
+    {
+    "id": 48,
+    "title": "Enterito polar",
+    "price": 18000,
+    "description": "Enterito polar con capucha en color azul.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqpin9VgGqjzPz1BUzAMvC-Rk_dmN5GF92JQ&s",
+    "slug":"Ropa"
+  },
+  {
+    "id": 49,
+    "title": "Impermeable",
+    "price": 23000,
+    "description": "Impermeable transparente para perros, tamaño S y M.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6GPGLQJIe9KK9S3S4gJW4mCrpwT_zpvJxQ&s",
+    "slug":"Ropa"
+  },
+  {
+    "id": 50,
+    "title": "Cepillo de dientes",
+    "price": 3000,
+    "description": "Cepillo para limpieza de dientes de mascotas de  360°, cuidado dental para perros y gatos.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6GPGLQJIe9KK9S3S4gJW4mCrpwT_zpvJxQ&s",
     "slug":"Limpieza"
   }
 ]
