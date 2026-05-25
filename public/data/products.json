@@ -144,7 +144,7 @@
     "slug":"Camas"
   },
   {
-     "id": 19,
+    "id": 19,
     "title": "Cucha antiestres para Perros",
     "price": 30000,
     "description": "Cucha antiestres en forma de patita con garras para perros.",
@@ -152,7 +152,7 @@
     "slug":"Camas"
   },
   {
- "id": 20,
+    "id": 20,
     "title": "Cucha antiestres para Perros",
     "price": 30000,
     "description": "Cucha antiestres en forma de mano para perros.",
@@ -160,68 +160,211 @@
     "slug":"Camas"
   },
     {
- "id": 21,
+    "id": 21,
     "title": "Cucha para Gatos",
     "price": 20000,
     "description": "Cucha para gatos en forma de cabeza de gato.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTds8b9p8X_-4CWgPOe02GYCfl48HeLbwKSrw&s",
     "slug":"Camas"
   },
-      {
- "id": 22,
+  {
+    "id": 22,
     "title": "Cucha para Gatos",
     "price": 25000,
     "description": "Cucha para mascota pequeña estilo cueva.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI4EFzOWE-v1GNDMteZh3pVIOA5Hfzfcu4MA&s",
     "slug":"Camas"
   },
-        {
- "id": 23,
+  {
+    "id": 23,
     "title": "Cucha para Gatos",
     "price": 25000,
     "description": "Cucha para gatos en forma de oruga.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTqB-U3yyKaizwewL-ZS_-6ygdzpt9bPEZw&s",
     "slug":"Camas"
   },
-          {
- "id": 24,
+  {
+    "id": 24,
     "title": "Alimento para perros",
     "price": 45000,
     "description": "Alimento premium para perros alto contenido en proteinas, proteje el pelaje de tu mascota.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISsP-kVZ6W351GW1MDefQOH1Veb-cCHgkyA&s",
     "slug":"Alimento"
   },
-            {
- "id": 25,
+  {
+    "id": 25,
     "title": "Alimento para perros",
     "price": 48000,
     "description": "Alimento premium para perros, alto contenido en proteina.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3oa4Q92GMTBq812BBs9ytsq-pzcq7GsKL7A&s",
     "slug":"Alimento"
   },
-            {
- "id": 26,
+  {
+    "id": 26,
     "title": "Alimento humedo para cachorros",
     "price": 25000,
     "description": "Alimento humedo de alta calidad para cachorros o perros de raza pequeña.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIjjbC3BBj40NK6_ONTPU0goplTct0tIC9gQ&s",
     "slug":"Alimento"
   },
-            {
- "id": 27,
+  {
+    "id": 27,
     "title": "Alimento para gatito",
     "price": 35000,
     "description": "Alimento para gatitos, premium de buena calidad alto contenido en proteina.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_9VAM9oXnciKRpWDVyKN9qVuVyiiS--HpNA&s",
     "slug":"Alimento"
-  }
-,
-          {
- "id": 28,
+  },
+  {
+    "id": 28,
     "title": "Alimento para gatos",
-    "price": 55000,
+    "price": 35000,
     "description": "Alimento para gatos, cuida el pelaje y proteje sus musculos, ideal para gatos senior.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK8Q2jofnWevinvqyXdgykUqB_QKobLRR3w&s",
     "slug":"Alimento"
+  },
+  {
+    "id": 29,
+    "title": "Alimento humedo para perros",
+    "price": 25000,
+    "description": "Alimento humedo para perros adultos.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFoVGLMMfmZBJkUSKjPgPQfGSAZs4SJitDQ&s",
+    "slug":"Alimento"
+  },
+  {
+    "id": 30,
+    "title": "Alimento humedo para perros",
+    "price": 55000,
+    "description": "Alimento humedo para perros adultos, sabor carne, super premium.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLClgEwK3VstI4gDf_7m0l64tmxHVknItv-A&s",
+    "slug":"Alimento"
+  },
+  {
+    "id": 31,
+    "title": "Alimento premium para cachorros",
+    "price": 55000,
+    "description": "Alimento con alto contenido en proteinas, mejora el pelaje y la digestión de tu cachorro.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdr42hntApjK0MXs1tlpYak6q1vjpcO9jVwg&s",
+    "slug":"Alimento"
+  },
+  {
+    "id": 32,
+    "title": "Alimento premium para cachorros",
+    "price": 48000,
+    "description": "Alimento con alto contenido en proteinas, mejora el pelaje y la digestión de tu cachorro.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjByW93K-29IyyzDzjVIFIV0x5xcwr-cRjA&s",
+    "slug":"Alimento"
+  },
+  {
+    "id": 33,
+    "title": "Alimento para gatos",
+    "price": 48000,
+    "description": "Alimento old prince urinary para gatos. Ayuda a diluir la orina y mantener el equilibrio de minerales todos los días.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIquuFWpLg0wujcjMPqcFLvq0_yJ7-EkQjMA&s",
+    "slug":"Alimento"
+  },
+  {
+    "id": 34,
+    "title": "Peluche monito",
+    "price": 10000,
+    "description": "Mordedor de cuerda con forma de mono, lavable, sin costuras.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TR_jSPR45I9Jw301tMj8S78fTyAFYF6AOw&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 35,
+    "title": "Juguete inteligente",
+    "price": 50000,
+    "description": "Juguete inteligente para comer mas despacio, estilo rompecabezas, antideslizante para perros y gatos.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-KujRMsSWmYWpL_TmxV8NspMVXLwUS6mxw&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 36,
+    "title": "Juguete mordedor para perros",
+    "price": 8000,
+    "description": "Juguete mordedor para tirar hecho de cuerdas.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeqTqUwhf5UShccpHy32_-ZuGHapcdLVoihw&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 37,
+    "title": "Varita para gatos",
+    "price": 7000,
+    "description": "Varita para gatos con pompón ,ojos saltones y cascabeles.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4JXKere7WsQnct6JzYgJb5WVMlB-Jr8SkOQ&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 38,
+    "title": "Cama interactiva para gatos",
+    "price": 7000,
+    "description": "Camita con juguetes colgantes y vellón.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk51nY4u4FldpGTkXCWTtDdS6mblELDfRfbA&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 39,
+    "title": "Juguete interactivo para gatos",
+    "price": 35000,
+    "description": "Pájaro que canta y aletea.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_nkmHifL32wJko4fcRtBkISDquZt2XNJuA&s",
+    "slug":"Juguetes"
+  },
+  {
+    "id": 40,
+    "title": "Ropa polar",
+    "price": 15000,
+    "description": "Ropa polar para mascotas, color maron con animal print",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bS2tnSXkeGBBARX_pBPa8vLQR1VvUXBuXw&s",
+    "slug":"Ropa"
+  },
+  {
+    "id": 41,
+    "title": "Ropa polar",
+    "price": 20000,
+    "description": "Enterito polar para mascotas,diseño de dinosaurios ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXpm0jM_woYIrXRHWC4e31X6M2m39yMuzog&s",
+    "slug":"Ropa"
+  },
+    {
+    "id": 42,
+    "title": "Bolso transportador",
+    "price": 40000,
+    "description": "Bolso transportador para perros pequeños ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbxNIIeIVTVH7RMf0iZO9SdcFxWLpSnzL__g&s",
+    "slug":"Accesorios"
+  },
+  {
+    "id": 43,
+    "title": "Guantes atrapa-pelos",
+    "price": 1000,
+    "description": "Guante de pelo de mascota, removedor electrostático",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQgpWbjb-LaBZkoE-EG92Z_2O7d4laY8-oA&s",
+    "slug":"Limpieza"
+  },
+  {
+    "id": 44,
+    "title": "Pechera con bolsillos",
+    "price": 35000,
+    "description": "Pechera estilo salvavidas ,color naranja",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBE3DxoM0toIPmZAw8Jtt4QfAXC3_YPYLAw&s",
+    "slug":"Accesorios"
+  },
+  {
+    "id": 45,
+    "title": "Moños",
+    "price": 2000,
+    "description": "Variedad de moños para mascotas, paquetes de 5 moños",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhgxBg-NHgMMWq84OV2HKQghrliZX98etlA&s",
+    "slug":"Accesorios"
+  },
+    {
+    "id": 46,
+    "title": "Cepillo a vapor",
+    "price": 2000,
+    "description": "Cepillo a vapor para perros y gatos",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUnavCP3arqE5ipTKUmbo1KHl0wVRo2IKkeg&s",
+    "slug":"Limpieza"
   }
 ]
