@@ -17,3 +17,9 @@ Create acount
 See services
 Schedulle Apointtment
 See medical records about your pets
+
+Tools used
+Zustand
+React Hook Form
+React router
+Styled-Components

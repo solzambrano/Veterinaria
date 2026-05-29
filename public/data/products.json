@@ -398,5 +398,29 @@
     "description": "Cepillo para limpieza de dientes de mascotas de  360°, cuidado dental para perros y gatos.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6GPGLQJIe9KK9S3S4gJW4mCrpwT_zpvJxQ&s",
     "slug":"Limpieza"
+  },
+  {
+    "id": 51,
+    "title": "Disfraz de Halloween",
+    "price": 8000,
+    "description": "Disfraz de bruja/o color negro y naranja tamaño M.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKt59Et0kBL4s2BWkKmhhtDImTFnQKnaWkQ&s",
+    "slug":"Ropa"
+  },
+  {
+    "id": 52,
+    "title": "Disfraz de Halloween",
+    "price": 10000,
+    "description": "Disfraz de calabaza naranja con protector en la cabeza tamaño M.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WgR3Hurr6NwQG9EI0jm6w7cdq9BvZ7l31KiP9x-mqw&s",
+    "slug":"Ropa"
+  },
+    {
+    "id": 53,
+    "title": "Espuma en seco para perros",
+    "price": 10000,
+    "description": "Espuma shampo baño en seco para perros, todos los tamaños.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfzsDddeBsXJQziwADW8A82fgLN2d2YhgDQ&s",
+    "slug":"Limpieza"
   }
 ]
