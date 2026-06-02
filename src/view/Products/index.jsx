@@ -1,23 +1,9 @@
 import { useEffect, useState } from "react";
-import Loader from "../../components/Spinner/index.jsx";
-import { ContainerProducts,Lista, 
+import {Lista, 
   ContainerSectionProducts, TitleProducts, ContainerList} from './Products.style';
-import productsResults from "../../state/prodcuts-result-js.js";
-import Card from "../../components/Cards/Card";
-
+import { ListProducts } from "./ListProducts.jsx";
 const Products = () => {
-   const {products, isLoading, error ,getProducts} = productsResults()
   const [filter, setFilter] = useState("Todos");
-   
-  useEffect(() => {  
-    getProducts();
-  }, []);
-
-  const filterProducts = 
-    filter === "Todos" 
-    ? products
-    : products.filter(product => product.slug === filter)
-    
 
     const handleFilter = (value) => {
     setFilter(value);
@@ -34,20 +20,9 @@ const Products = () => {
       <Lista  onClick={()=>handleFilter("Limpieza")}>Limpieza</Lista>
       <Lista  onClick={()=>handleFilter("Accesorios")}>Accesorios</Lista>
       <Lista  onClick={()=>handleFilter("Todos")}>Todos</Lista>
-
     </ContainerList>
-    {isLoading ?
-         (<Loader/>)
-         :
-         (
-         <ContainerProducts>
-            {filterProducts?.map((item) => {
-              return(  <Card key={item.id} item={item}></Card>)
-              })
-            }
-          </ContainerProducts>
-        )
-    }
+   <ListProducts filter={filter}/>
+  
     </ContainerSectionProducts>
  )   
 }
