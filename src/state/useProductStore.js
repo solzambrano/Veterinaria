@@ -1,19 +1,23 @@
 import {create} from 'zustand';
-const productsResults = create ((set)=>({
+const useProductsStore = create ((set,get)=>({
     products:[],
     isLoading:true,
-    error:{},
+    error:null,
     currentPage:1,
     itemsPerPage:8,
+    totalPages:1,
 
     getProducts : async () =>{
+        const { itemsPerPage } = get()
          setTimeout(async () => {
         try{
-            set(()=>({ isLoading:true}))
+            set({ isLoading:true})
             const response = await fetch('/data/products.json')
             const products= await response.json();
-            set(()=>({products}))
-            set(()=>({ isLoading:false}))    
+            set({ products, 
+                isLoading:false,
+                totalPages: Math.ceil(products.length / itemsPerPage)
+            })    
         }
         catch(error){
             set(()=>({error}))
@@ -26,12 +30,8 @@ const productsResults = create ((set)=>({
         const end = start + itemsPerPage
         return products.slice(start, end)
 },
-    getTotalPages:()=>{
-        const { products, itemsPerPage } = get()
-        return Math.ceil(products.length / itemsPerPage)
-    },
     goToPage: (page) => {
-        const totalPages = get().getTotalPages()
+        const { totalPages } = get()
         if (page < 1 || page > totalPages) {
             return    
         }
@@ -39,8 +39,8 @@ const productsResults = create ((set)=>({
     },
 
     nextPage: () => {
-        const { currentPage, getTotalPages } = get()
-        if (currentPage < getTotalPages()) {
+        const { totalPages,currentPage } = get()
+        if (currentPage < totalPages) {
             set({ currentPage: currentPage + 1 })
         }
     },
@@ -50,10 +50,8 @@ const productsResults = create ((set)=>({
         set({ currentPage: currentPage - 1 })
     }
   },
-    setPage :(page)=> {
-        set({currentPage:page})
-    }
-
+    setPage :(page)=> set({currentPage:page})
+    
 }))
 
-export default productsResults
+export default useProductsStore
