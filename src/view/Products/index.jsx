@@ -2,10 +2,14 @@ import { useEffect, useState } from "react";
 import {Lista, 
   ContainerSectionProducts, TitleProducts, ContainerList} from './Products.style';
 import { ListProducts } from "./ListProducts.jsx";
+import Paginator from '../../components/Paginator'
+import productsStore from "../../state/useProductStore.js";
+
 const Products = () => {
   const [filter, setFilter] = useState("Todos");
-
+const { goToPage } = productsStore()
     const handleFilter = (value) => {
+      goToPage(1)
     setFilter(value);
   };
 
@@ -22,7 +26,7 @@ const Products = () => {
       <Lista  onClick={()=>handleFilter("Todos")}>Todos</Lista>
     </ContainerList>
    <ListProducts filter={filter}/>
-  
+  <Paginator></Paginator>
     </ContainerSectionProducts>
  )   
 }

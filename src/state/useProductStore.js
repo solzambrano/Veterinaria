@@ -4,7 +4,7 @@ const useProductsStore = create ((set,get)=>({
     isLoading:true,
     error:null,
     currentPage:1,
-    itemsPerPage:8,
+    itemsPerPage:10,
     totalPages:1,
 
     getProducts : async () =>{
@@ -24,12 +24,7 @@ const useProductsStore = create ((set,get)=>({
         }
          }, 3000);
     },
-    getCurrentItems: () => {
-        const { products, currentPage, itemsPerPage } = get()
-        const start = (currentPage - 1) * itemsPerPage
-        const end = start + itemsPerPage
-        return products.slice(start, end)
-},
+setTotalPages: (total) => set({ totalPages: total }),
     goToPage: (page) => {
         const { totalPages } = get()
         if (page < 1 || page > totalPages) {
