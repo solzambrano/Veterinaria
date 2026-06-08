@@ -15,18 +15,20 @@ const Paginator = () => {
     return(
         <Container>
             <ContainerPaginator>
-                <List> 
-            {pages.map((page) => (
-                <Button
+                <Button onClick={prevPage} disabled={currentPage === 1}>Prev</Button>
+            <List> 
+                {pages.map((page) => (
+                    <Button
                         key={page}
                         onClick={() => goToPage(page)}
                         disabled={page === currentPage}
-                        >
-                    {page}
-                </Button>
-            ))}
+                         $isActive={page === currentPage}
+                        >{page}
+                    </Button>
+                ))}
             </List>
-            </ContainerPaginator>
+                <Button onClick={nextPage} disabled={currentPage === totalPages}>Next</Button>
+        </ContainerPaginator>
         </Container>
     )
 }
