@@ -9,20 +9,21 @@ export const ListProducts = ({filter}) =>{
       useEffect(() => {  
         getProducts();
       }, []);
+
       useEffect(() => {
         setTotalPages(totalPages) 
         goToPage(1)    
       }, [filter]) 
+
       const filterProducts = 
       filter === "Todos" 
       ? products
       : products.filter(product => product.slug === filter)
 
       const totalPages = Math.ceil(filterProducts.length / itemsPerPage)
-   
-    const start = (currentPage - 1) * itemsPerPage
-const end = start + itemsPerPage
-const currentItems = filterProducts.slice(start, end)
+      const start = (currentPage - 1) * itemsPerPage
+      const end = start + itemsPerPage
+      const currentItems = filterProducts.slice(start, end)
 
     return (
         <>

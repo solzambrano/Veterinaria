@@ -20,9 +20,11 @@ list-style-type: none;
 export const Button =styled.button`
 margin:20px;
 border-radius:50px;
+border-color:transparent;
 width:40px;
 height:40px;
 background-color:transparent;
+font-weight:600;
    &:disabled {
         opacity: 0.5;
         cursor: not-allowed;

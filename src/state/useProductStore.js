@@ -24,27 +24,21 @@ const useProductsStore = create ((set,get)=>({
         }
          }, 3000);
     },
-setTotalPages: (total) => set({ totalPages: total }),
+    setTotalPages: (total) => set({ totalPages: total }),
     goToPage: (page) => {
-        const { totalPages } = get()
-        if (page < 1 || page > totalPages) {
-            return    
-        }
+    const { totalPages } = get()
+        if (page < 1 || page > totalPages) return    
         set({ currentPage: page })
     },
 
     nextPage: () => {
-        const { totalPages,currentPage } = get()
-        if (currentPage < totalPages) {
-            set({ currentPage: currentPage + 1 })
-        }
+    const { totalPages,currentPage } = get()
+        if (currentPage < totalPages) set({ currentPage: currentPage + 1 })
     },
     prevPage: () => {
     const { currentPage } = get()
-    if (currentPage > 1) {
-        set({ currentPage: currentPage - 1 })
-    }
-  },
+        if (currentPage > 1)  set({ currentPage: currentPage - 1 })
+    },
     setPage :(page)=> set({currentPage:page})
     
 }))
