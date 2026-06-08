@@ -4,16 +4,16 @@ import { FreeMode, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import commentsResult from '../../state/comments-result.js';
+import commentStore from '../../state/useCommentStore';
 import { TituloImagenSlider,SpanTitle,SwiperStyled,ImagenSlider } from "./freeMode.style";
 
 const SliderFreeMode = () =>{
-    
-    const {comments, isLoading,error, getComments} = commentsResult()
+    const {comments, isLoading,error, getComments} = commentStore()
 
     useEffect(() => {
         getComments();
       }, []);
+
     return(
         <SwiperStyled>
         <Swiper

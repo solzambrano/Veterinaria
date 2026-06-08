@@ -9,6 +9,11 @@ export const ContainerCard =styled.div`
   align-items:center;
   box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
   border-radius:15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale(1.07);
+  }
 `;
 export const ContainerImage= styled.div`
   width: fit-content;

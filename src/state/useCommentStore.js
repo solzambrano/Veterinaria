@@ -1,6 +1,6 @@
 import {create} from 'zustand';
 
-const commentsResult = create ((set)=>({
+const useCommentStore = create ((set)=>({
     comments:[],
     isLoading:true,
     error:{},
@@ -18,4 +18,4 @@ const commentsResult = create ((set)=>({
     }
 }))
 
-export default commentsResult;
+export default useCommentStore;
