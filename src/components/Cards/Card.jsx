@@ -1,12 +1,16 @@
- import {ContainerCard,ContainerImage,Imagen,
+ import {ContainerCard,ContainerImage,Imagen,Arrow,
     ContainerDescription,Title,Paragraph,ContainerInfo,ParagraphMas} from './Card.style'
 import arrow from '../../assets/icons/arrow-right.svg'
 
  const Card = ({item,isServices}) => {
     return(
         <ContainerCard>
-            <ContainerImage $isServices={isServices}>
-                <Imagen src={item.image} $isServices={isServices}></Imagen>
+            <ContainerImage $isServices={isServices} 
+             $color={item.color}
+             $hover={item.hover}>
+                <Imagen src={item.image} 
+                $isServices={isServices}
+               />
             </ContainerImage >
             { item.price &&
                 <Title>{`$${item.price}`}</Title>
@@ -17,8 +21,8 @@ import arrow from '../../assets/icons/arrow-right.svg'
             </ContainerDescription>
                  <ContainerInfo>
                     <ParagraphMas>Saber más</ParagraphMas>
-                    <Imagen src={arrow} $isServices={isServices}></Imagen>
-                    </ContainerInfo>
+                    <Arrow src={arrow} $isServices={isServices}></Arrow>
+                </ContainerInfo>
                         
         </ContainerCard>
 

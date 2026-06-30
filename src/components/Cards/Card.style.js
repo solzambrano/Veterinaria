@@ -17,9 +17,17 @@ export const ContainerCard =styled.div`
   }
 `;
 export const ContainerImage= styled.div`
-  width: fit-content;
-  height: auto;
   margin-top: ${props => props.$isServices ? '30px' : 'inherit'};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background-color:${props => props.$color};
+  &:hover{
+  background-color:${props => props.$hover};
+  }
 `;
 export const Imagen = styled.img `
     width: ${props => props.$isServices ? '24px' : '200px'};
@@ -27,7 +35,7 @@ export const Imagen = styled.img `
 
 `; 
 export const ContainerDescription= styled.div`
-width:210px;
+width:235px;
 max-width:500px;
 display:flex;
 flex-direction:column;
@@ -50,10 +58,20 @@ export const ParagraphMas= styled(text)`
 color:var(--color-Green-s);
 
 `
+export const Arrow =styled.img `
+transition: transform 0.3s ease;
+width:24px;
+height:24px
+
+
+`
 export const ContainerInfo = styled.a`
 display :flex;
 align-items:center;
 font-weight:700;
 position :absolute;
 bottom:0;
+&:hover  ${Arrow} {
+  transform: translateX(6px);
+}
 ` 
