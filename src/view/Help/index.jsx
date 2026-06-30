@@ -3,7 +3,7 @@ import { Paragraph,ContainerHelp,
     ParagraphGreen,ContainerContact,TitleContact,TextContact } from "./help,style"
 import Seeker from '../../components/Seeker';
 import FrequentlyQuestions from "./FrequentlyQuestions";
-import CardCategory from "../../components/Cards/CardCategory";
+import CardCategory from "./CardCategory";
 import { useState } from "react";
 import Button from "../../components/Buttons";
 const Help = () => {
