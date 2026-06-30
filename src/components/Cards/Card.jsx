@@ -1,5 +1,7 @@
  import {ContainerCard,ContainerImage,Imagen,
-    ContainerDescription,Title,Paragraph} from './Card.style'
+    ContainerDescription,Title,Paragraph,ContainerInfo,ParagraphMas} from './Card.style'
+import arrow from '../../assets/icons/arrow-right.svg'
+
  const Card = ({item,isServices}) => {
     return(
         <ContainerCard>
@@ -13,6 +15,11 @@
                 <Title>{item.title} </Title>
                 <Paragraph>{item.description}</Paragraph>
             </ContainerDescription>
+                 <ContainerInfo>
+                    <ParagraphMas>Saber más</ParagraphMas>
+                    <Imagen src={arrow} $isServices={isServices}></Imagen>
+                    </ContainerInfo>
+                        
         </ContainerCard>
 
     )

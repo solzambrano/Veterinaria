@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerCard =styled.div`
-  margin: 20px 15px;
+  margin: 20px 5px;
   gap:24px;
   display:flex;
   width: 250px;
@@ -10,6 +10,7 @@ export const ContainerCard =styled.div`
   box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
   border-radius:15px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position:relative;
 
   &:hover {
     transform: scale(1.07);
@@ -26,16 +27,33 @@ export const Imagen = styled.img `
 
 `; 
 export const ContainerDescription= styled.div`
-width:235px;
-margin:0 auto;
-height:auto;
+width:210px;
+max-width:500px;
+display:flex;
+flex-direction:column;
+gap:2px;
+padding-bottom:50px
 `;
 
 export const Title =styled.h3` 
 color:var(--color-Black);
 margin:0px 10px ;
 `
-export const Paragraph= styled.p `
-color:var(--color-Green-secondary);
+const text =styled.p`
 padding:0px 10px
 `
+export const Paragraph= styled(text) `
+color:var(--color-Green-secondary);
+
+`
+export const ParagraphMas= styled(text)`
+color:var(--color-Green-s);
+
+`
+export const ContainerInfo = styled.a`
+display :flex;
+align-items:center;
+font-weight:700;
+position :absolute;
+bottom:0;
+` 

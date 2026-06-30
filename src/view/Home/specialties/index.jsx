@@ -1,7 +1,7 @@
 import Card from "../../../components/Cards/Card"
 import serviceDetail from "../../../../public/data/service-detail"
-import { ContainerServices, TitleServices } from "./services.style";
-const Services = () =>{
+import { ContainerServices, TitleServices } from "./specialities.style";
+const Specialities = () =>{
     return(
         <>
         <TitleServices>Conoce nuestros servicios</TitleServices>
@@ -11,8 +11,9 @@ const Services = () =>{
                 item={services} 
                 isServices={true}></Card>
             })}
+   
         </ContainerServices>
         </>
     )
 }
-export default Services
+export default Specialities
