@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledText= styled.p`
 color:var(--color-Green);
+font-family:var(--font);
 `
 export const Title= styled(StyledText)`
 font-size:2em;
@@ -14,10 +15,12 @@ font-weight:600;
 `
 export const SpanEmail =styled.span `
 color:var(--color-Green);
+font-family:var(--font)
 `
 export const Paragraph = styled.p`
 color:  ${props => props.date? 'gray': ''};
 font-size:1.1em;
+font-family:var(--font);
 `
 export const ListaTitulos = styled.ol`
 margin-left:10%;

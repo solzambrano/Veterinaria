@@ -1,6 +1,7 @@
 import veterinary from '../../src/assets/icons/veterinary-care.svg';
 import user from '../../src/assets/icons/user.svg';
 import emergency from '../../src/assets/icons/emergency.svg';
+import hearth from '../../src/assets/icons/heart.svg';
 import stethoscope from '../../src/assets/icons/stethoscope.svg';
 import hairdryer from '../../src/assets/icons/hairdry.svg';
 
@@ -14,7 +15,7 @@ const Categories =[
       {
         id:2,
         slug:'urgencias',
-        image:emergency,
+        image:hearth,
         title:'Servicio de Emergencia'
     },
       {

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Subparagraph =styled.p`
-color:var(--color-Gray)
+color:var(--color-Gray);
+font-family:var(--font);
 `
 
 export const Unorder = styled.ul`
@@ -41,8 +42,8 @@ list-style:none;
 display: flex;
 justify-content: space-between;
 font-size:20px;
-:hover {
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+&:hover {
+color:var(--color-Green-s);
 }
 
 

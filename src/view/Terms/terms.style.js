@@ -10,6 +10,7 @@ margin:25px;
 `
 export const Title = styled.h1`
 font-weight:800;
+font-family:var(--font);
 `
 
 export const Paragraph = styled(Text)`

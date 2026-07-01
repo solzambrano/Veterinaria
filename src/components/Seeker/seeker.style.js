@@ -28,6 +28,7 @@ background-color: var(--color-Green-s);
 export const InputSeeker =styled.input`
 width:85%;
 border:none;
-background-color:transparent
+background-color:transparent;
+font-family:var(--font)
 
 `
