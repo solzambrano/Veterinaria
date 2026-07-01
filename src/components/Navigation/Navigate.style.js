@@ -23,7 +23,10 @@ export const NavContainerLogo =styled.div`
   display :flex;
  align-items: center;
  flex-direction:row;
+&:hover {
+    color: var(--color-Green-s);;
 
+  }
  
   
 `;

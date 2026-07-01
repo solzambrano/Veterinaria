@@ -11,6 +11,7 @@ import Politic from '../view/Politic';
 import Contact from '../view/Contact';
 import Terms from '../view/Terms';
 import Help from '../view/Help';
+import Services from '../view/Services';
 
 const Routes = () => {
 
@@ -45,6 +46,10 @@ const Routes = () => {
                 {
                     path:'help-support',
                     element:<Help/>
+                },
+                 {
+                    path:'services',
+                    element:<Services/>
                 }
             ]
         },

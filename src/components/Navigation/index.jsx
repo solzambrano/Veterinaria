@@ -1,6 +1,6 @@
 import {NavList,NavHeader,Lista, NavOptions,Logo,NavContainerLogo} from './Navigate.style';
 import { NavLink } from 'react-router-dom';
-import VeterinaryIcon from '../../assets/icons/veterinaria.svg'
+import VeterinaryIcon from '../../assets/icons/veterinary-care.svg'
 
 const Navigation = () => {
 return(
@@ -13,8 +13,8 @@ return(
             </NavLink>
         </NavContainerLogo>
         <NavOptions>
-           Servicios
-            Citas
+           <NavLink to='services'> Servicios</NavLink>
+            <NavLink>Citas</NavLink>
            <NavLink to='products' >Tienda </NavLink>
             Sobre nosotros
             <NavLink to='contact-us'>Contactanos </NavLink>
