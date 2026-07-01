@@ -7,7 +7,7 @@ return(
     <ContainerPrincipal>
         <ContainerBodyText>
             <Title> Política de Privacidad</Title>
-            <Paragraph date={true}>Última actualizacion: 15 de Octubre de 2025</Paragraph>
+            <Paragraph date >Última actualizacion: 15 de Octubre de 2025</Paragraph>
             <Paragraph>En Veterinaria Coquetos, estamos comprometidos a proteger la privacidad de nuestros clientes y sus mascotas.Esta política de privacidad explica como recopilamos
                 ,usamos, y protegemos tu información personal, cuando visita nuestro sitio web y utiliza nuestros servicios.
             </Paragraph>

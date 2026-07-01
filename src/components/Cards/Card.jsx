@@ -19,11 +19,12 @@ import arrow from '../../assets/icons/arrow-right.svg'
                 <Title>{item.title} </Title>
                 <Paragraph>{item.description}</Paragraph>
             </ContainerDescription>
+            {isServices &&
                  <ContainerInfo>
                     <ParagraphMas>Saber más</ParagraphMas>
                     <Arrow src={arrow} $isServices={isServices}></Arrow>
                 </ContainerInfo>
-                        
+            }
         </ContainerCard>
 
     )

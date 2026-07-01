@@ -9,7 +9,7 @@ const Specialities = () =>{
             {serviceDetail?.map(services=>{
                 return <Card key={services.title} 
                 item={services} 
-                isServices={true}></Card>
+                isServices></Card>
             })}
    
         </ContainerServices>

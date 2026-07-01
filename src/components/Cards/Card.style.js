@@ -22,8 +22,8 @@ export const ContainerImage= styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 50px;
-  height: 50px;
+  width: ${props => props.$isServices ? '50px' : undefined};
+  height: ${props => props.$isServices ? '50px' : undefined};;
   background-color:${props => props.$color};
   &:hover{
   background-color:${props => props.$hover};
