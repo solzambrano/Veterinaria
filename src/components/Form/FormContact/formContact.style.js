@@ -5,20 +5,21 @@ position: relative;
 height:60%
 `
 export const Label = styled.label `
-margin: 20px;
-width:40%;
 display:inline-block;
-width: ${props => props.IsComment ? '70%' : '40%'};
-font-family:var(--font)
-
-
+font-family:var(--font);
+box-sizing:border-box;
+margin-right:40px;
+width:100%
+`
+export const ContainerLabel = styled.div`
+display:flex;
+padding-bottom: 25px;
 `
 export const Input =styled.input `
-margin-left:10px;
 border:none;
 box-shadow:2px 2px 5px rgb(161, 161, 158)
 border-radius:5px;
-width:200px;
+width:100%;
 height:25px;
 color:var(--color-Gray);
 font-size:1em;
@@ -27,24 +28,26 @@ font-size:1em;
 export const TextArea = styled.textarea`
 display:flex;
 align-items:center;
-width: 100%;
-margin: 10px 45px;
+width: 90%;
+margin:0px;
 height:200px;
 border:none;
 resize:none;
 border-radius:5px;
 font-size:15px;
+font-family:var(--font);
+color:var(--color-Gray);
 `
 
 export const ButtonSend =styled.button `
-position:absolute;
-bottom : 0 ;
-left:18%;
 background-color:var(--color-Green-s);
 width:50%;
-height:30px;
+height:50px;
 border:none;
 border-radius:5px;
 font-size: 15px;
 font-weight: 600;
+margin: auto;
+  display: block;
+  margin-top: 25px;
 `

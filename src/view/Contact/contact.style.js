@@ -50,6 +50,7 @@ font-weight:500;
 export const Paragraph = styled(Text)`
 color:var(--color-Gray);
 font-size:20px;
+margin-top:5px
 `
 export const Subparagraph = styled(Text)`
 font-size:1.2em;
