@@ -3,11 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div `
 display:grid;
 grid-template-columns: repeat(2 , 1fr);
-height:720px
-
+width:80%;
+margin:auto;
+padding-top:50px
 `
 export const ContainerContactUs = styled.div `
-grid-column:1
+grid-column:1;
+`
+export const ContainerTitle =styled.div`
+display:flex;
+gap:0.75rem;
+flex-direction:column;
+margin:0px;
 `
 export const ContainerData = styled.div `
 height:35%;
@@ -26,8 +33,15 @@ export const Icons =styled.img`
 width:30px;
 `
 export const Title = styled.h1 `
+font-weight:900;
+font-family:var(--font);
+font-size:3rem;
+letter-spacing:-0.01em;
+margin:0px
+`
+export const Subtitle =styled.h3`
+font-family:var(--font);
 font-weight:700;
-font-family:var(--font)
 `
 export const Text = styled.p `
 font-family:var(--font)
@@ -37,7 +51,7 @@ export const Paragraph = styled(Text)`
 color:var(--color-Gray);
 font-size:20px;
 `
-export const Subtitle = styled(Text)`
+export const Subparagraph = styled(Text)`
 font-size:1.2em;
 font-weight:600;
 padding:0px 25px

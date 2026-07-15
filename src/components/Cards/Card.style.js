@@ -19,8 +19,6 @@ export const ContainerCard =styled.div`
 export const ContainerImage= styled.div`
   margin-top: ${props => props.$isServices ? '30px' : 'inherit'};
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
   width: ${props => props.$isServices ? '50px' : undefined};
   height: ${props => props.$isServices ? '50px' : undefined};;
