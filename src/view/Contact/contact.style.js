@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div `
+export const Container = styled.main `
 display:grid;
 grid-template-columns: repeat(2 , 1fr);
 width:80%;
 margin:auto;
 padding-top:50px
 `
-export const ContainerContactUs = styled.div `
+export const ContainerContactUs = styled.section `
 grid-column:1;
 `
 export const ContainerTitle =styled.div`
@@ -16,18 +16,18 @@ gap:0.75rem;
 flex-direction:column;
 margin:0px;
 `
-export const ContainerShowInformation = styled.div `
+export const ContainerShowInformation = styled.section `
 grid-column:2;
 padding-left:25px;
 box-shadow: 2px 2px 5px rgb(161, 161, 158);
 background-color:var(--color-white);
 height:fit-content;
 `
-export const ContainerInfoContact = styled.div `
+export const ContainerInfoContact = styled.article `
 display:flex;
 gap:1em;
 `
-export const ContainerDataContact =styled.div`
+export const ContainerDataContact =styled.article`
 display:inline-block;
 width:90%
 `
