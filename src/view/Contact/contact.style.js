@@ -16,18 +16,20 @@ gap:0.75rem;
 flex-direction:column;
 margin:0px;
 `
-export const ContainerData = styled.div `
-height:35%;
-box-shadow: 2px 2px 5px rgb(161, 161, 158);
-padding:20px 25px;
-background-color:var(--color-white);
-`
 export const ContainerShowInformation = styled.div `
-grid-column:2
+grid-column:2;
+padding-left:25px;
+box-shadow: 2px 2px 5px rgb(161, 161, 158);
+background-color:var(--color-white);
+height:fit-content;
 `
 export const ContainerInfoContact = styled.div `
 display:flex;
-align-items:center;
+gap:1em;
+`
+export const ContainerDataContact =styled.div`
+display:inline-block;
+width:90%
 `
 export const Icons =styled.img`
 width:30px;
@@ -42,6 +44,9 @@ margin:0px
 export const Subtitle =styled.h3`
 font-family:var(--font);
 font-weight:700;
+font-size: 1.5rem;
+  line-height: 2rem;
+}
 `
 export const Text = styled.p `
 font-family:var(--font)
@@ -55,6 +60,6 @@ margin-top:5px
 export const Subparagraph = styled(Text)`
 font-size:1.2em;
 font-weight:600;
-padding:0px 25px
+margin:0px
 
 `

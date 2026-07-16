@@ -17,7 +17,6 @@ padding-bottom: 25px;
 `
 export const Input =styled.input `
 border:none;
-box-shadow:2px 2px 5px rgb(161, 161, 158)
 border-radius:5px;
 width:100%;
 height:25px;
