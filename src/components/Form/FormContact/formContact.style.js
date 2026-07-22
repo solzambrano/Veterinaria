@@ -19,9 +19,10 @@ export const Input =styled.input `
 border:none;
 border-radius:5px;
 width:100%;
-height:25px;
+padding:15px;
 color:var(--color-Gray);
 font-size:1em;
+margin-top:10px
 `
 
 export const TextArea = styled.textarea`
@@ -29,13 +30,16 @@ display:flex;
 align-items:center;
 width: 90%;
 margin:0px;
-height:200px;
+height:150px;
 border:none;
 resize:none;
 border-radius:5px;
-font-size:15px;
+font-size:16px;
 font-family:var(--font);
 color:var(--color-Gray);
+line-height:1.5;
+padding:15px;
+min-height:9rem;
 `
 
 export const ButtonSend =styled.button `

@@ -1,6 +1,7 @@
-import { Paragraph,Container,ContainerContactUs 
-    ,ContainerInfoContact,ContainerTitle,ContainerDataContact,ContainerShowInformation,Subtitle,Title,Subparagraph,Icons
- } from "./contact.style"
+import { Paragraph,ContainerContact,ContainerContactUs ,ContainerInfoContact,
+    ContainerTitle,ContainerData,ContainerDataContact,ContainerInformation,
+    Subtitle,Title,Subparagraph,Icons} from "./contact.style"
+import LocationMaps from "./Locationmap"
 import Clock from '../../assets/icons/clock.svg'
 import Phone from '../../assets/icons/phone.svg'
 import Mail from '../../assets/icons/mail.svg'
@@ -10,7 +11,7 @@ import { useRef } from "react"
 const Contact = () => {
     const IsContact =useRef(true)
 return(
-    <Container>
+    <ContainerContact>
         <ContainerContactUs>
             <ContainerTitle>
                 <Title>¿Cómo podemos ayudarte?</Title>
@@ -20,20 +21,21 @@ return(
             </ContainerTitle>
             <FormContact IsContact={IsContact}/>
         </ContainerContactUs>
-        <ContainerShowInformation>
-            <Subtitle>Información de contacto</Subtitle>
+        <ContainerInformation>
+            <ContainerData>
+                     <Subtitle>Información de contacto</Subtitle>
             <ContainerInfoContact>
                 <Icons src={Location}/>
                 <ContainerDataContact>
                     <Subparagraph>Dirección:</Subparagraph>
-                    <Paragraph>Av. La merced 1025, San Salvador de Jujuy-Jujuy-Argentina</Paragraph>
+                    <Paragraph>Av. Hipolito Yrigoyen, San Salvador de Jujuy-Jujuy-Argentina</Paragraph>
                 </ContainerDataContact>
             </ContainerInfoContact>
             <ContainerInfoContact>
                 <Icons src={Phone}/>
                 <ContainerDataContact>
                     <Subparagraph>Teléfono: </Subparagraph>
-                    <Paragraph>+54 388 345678</Paragraph>
+                    <Paragraph>+54 388 8888888</Paragraph>
                 </ContainerDataContact>
             </ContainerInfoContact>
             <ContainerInfoContact>
@@ -48,14 +50,16 @@ return(
                 <ContainerDataContact>
                     <Subparagraph>Horario de Atención: </Subparagraph>
                     <Paragraph>
-                        Lunes a Viernes de 8:00 - 20:00
-                        Sabados de 08:00 - 14:00
+                        Lunes a Viernes de 8:00 - 20:00 --
+                        Sabados de 08:00 - 14:00 --
                         Urgencias: Atención las 24 horas
                     </Paragraph>
                 </ContainerDataContact>
             </ContainerInfoContact>
-        </ContainerShowInformation>
-    </Container>
+            </ContainerData>
+        <LocationMaps/>       
+        </ContainerInformation>
+    </ContainerContact>
 )
 }
 export default Contact
