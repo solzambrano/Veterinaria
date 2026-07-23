@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const TitleServices =styled.h2`
-line-height:28px;
+line-height:2.5rem;
+font-size:2.5rem
 `
 export const ContainerServices = styled.div `
     display:flex;

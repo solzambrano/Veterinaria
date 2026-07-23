@@ -9,7 +9,7 @@ export const Information= styled.div`
 width:60%
 `
 export const ContainerImage =styled.div`
-
+width:30%;
 position:relative;
 margin:auto;
 `
@@ -45,6 +45,7 @@ export const Imagen= styled.img`
 	height: 400px;
 	border-radius: 50px;
 box-shadow: 0 8px 24px rgba(27, 79, 32, 0.46);
+width: 100%;
 `
 export const ImagenMascota = styled.img`
 position: absolute;

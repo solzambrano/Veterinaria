@@ -29,5 +29,7 @@ export const InputSeeker =styled.input`
 width:85%;
 border:none;
 background-color:transparent;
-
+font-size:1.125rem;
+line-height:1.75rem;
+color: var(--color-Gray);
 `

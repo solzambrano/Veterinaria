@@ -13,6 +13,7 @@ border: 1px solid #eadbdb;
   border-left: none;
   border-right: none;
   margin: 25px 0px;
+  list-style:none;
   padding: 30px 10px;
     ul & {
     border: none;
