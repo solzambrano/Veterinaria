@@ -34,7 +34,6 @@ export const StyledText = styled.p`
 position:relative;
 z-index:1;
 color:var(--color-Green);
-font-family:var(--font)
 
 `
 export const SpanTitle =styled(StyledText)`

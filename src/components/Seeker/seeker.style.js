@@ -29,6 +29,5 @@ export const InputSeeker =styled.input`
 width:85%;
 border:none;
 background-color:transparent;
-font-family:var(--font)
 
 `

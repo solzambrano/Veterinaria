@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Subparagraph =styled.p`
 color:var(--color-Gray);
-font-family:var(--font);
 `
 
 export const Unorder = styled.ul`

@@ -8,7 +8,7 @@ padding-left:0px;
 cursor:pointer;
 `;
 export const TitleProducts =styled.h1`
-font-family:var(--font);
+
 padding-left: 15px;
 `;
 export const Lista =styled.li `

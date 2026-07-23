@@ -25,6 +25,5 @@ width:20px;
 `
 export const TitleCategory = styled.h3`
 pointer-events: none;
-font-family:var(--font);
 
 `

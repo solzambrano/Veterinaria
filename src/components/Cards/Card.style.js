@@ -44,11 +44,9 @@ padding-bottom:50px
 export const Title =styled.h3` 
 color:var(--color-Black);
 margin:0px 10px ;
-font-family:var(--font)
 `
 const Text =styled.p`
 padding:0px 10px;
-font-family:var(--font)
 `
 export const Paragraph= styled(Text) `
 color:var(--color-Green-secondary);

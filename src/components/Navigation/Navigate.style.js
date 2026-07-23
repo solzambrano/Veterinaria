@@ -32,7 +32,6 @@ export const NavContainerLogo =styled.div`
 `;
 export const NavHeader =styled.h2`
   display :flex;
-  font-family:var(--font)
   
 `;
 

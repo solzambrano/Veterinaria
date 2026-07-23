@@ -20,17 +20,17 @@ export const Paragraph =styled.p`
 font-size:30px;
 font-weight:700;
 margin:0px;
-font-family:var(--font);
+
 `
 export const SectionTitle =styled.h2`
 text-transform:capitalize;
-font-family:var(--font);
+
 `
 
 export const Subparagraph=styled.p`
 color:var(--color-Gray);
 font-size:15px;
-font-family:var(--font);
+
 `
 export const Icons =styled.img`
 width:30px;
@@ -49,12 +49,10 @@ padding-left:15px;
 export const TitleContact = styled.h2`
  grid-column: 1 / span 1;
   grid-row: 1 / span 1;
-  font-family:var(--font);
 `
 export const TextContact = styled.span`
  grid-column: 1 / span 1;
 grid-row: 2 / span 2;
-font-family:var(--font);
 `
 export const Button =styled.button`
  grid-column: 2 / span 1;

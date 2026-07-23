@@ -7,17 +7,16 @@ export const GlobalStyles=createGlobalStyle`
     --color-Green-secondary:#328741;
     --color-Green-muted:#065106;
     --color-Green-light:#6dec6d;
+    --color-Green-fondo:#e6f4e6;
     --color-Green-paginator: #4c835d;
     --color-Black:#000000;
     --color-Ligth: #f6f8f6;
     --color-Terra: #f4f3f4;
     --color-Gray: #707a6d;
-    --color-Green-fondo:#e6f4e6;
     --color-White:#FFFFFF;
-    --font:'Lexend'
 }
-     p {
-        font-family: 'Lexend', sans-serif;
+  body {
+    font-family: 'Lexend', sans-serif;
     }
 
  `

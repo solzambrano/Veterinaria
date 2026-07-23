@@ -38,7 +38,7 @@ export const SpanTitle =styled.p`
   font-weight:600;
   font-size: 18px;
   margin: 0px 10px;
-  font-family:var(--font);
+
  }
 `;
 export const TituloImagenSlider =styled.h1`
@@ -49,6 +49,5 @@ export const TituloImagenSlider =styled.h1`
   color:var(--color-Green-secondary);
   font-weight:900;
   margin:15px 10px;
-  font-family:var(--font);
  }
 `;

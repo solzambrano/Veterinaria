@@ -16,7 +16,6 @@ width:920px;
 export const Paragraph =styled.p `
 color:var(--color-Green-secondary);
 width:200px;
-font-family:var(--font);
 a{
     text-decoration:none;
     color:inherit;

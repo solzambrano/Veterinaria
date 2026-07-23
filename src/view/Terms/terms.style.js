@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Text =styled.p`
-font-family:var(--font)
+
 `
 export const ContainerTerms = styled.div `
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,7 @@ margin:25px;
 `
 export const Title = styled.h1`
 font-weight:800;
-font-family:var(--font);
+
 `
 
 export const Paragraph = styled(Text)`

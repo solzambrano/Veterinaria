@@ -41,13 +41,13 @@ width:30px;
 `
 export const Title = styled.h1 `
 font-weight:900;
-font-family:var(--font);
+
 font-size:3rem;
 letter-spacing:-0.01em;
 margin:0px
 `
 export const Subtitle =styled.h3`
-font-family:var(--font);
+
 font-weight:700;
 font-size: 1.5rem;
 line-height: 2rem;
@@ -56,7 +56,7 @@ padding-bottom: 20px;
 }
 `
 export const Text = styled.p `
-font-family:var(--font)
+
 font-weight:500;
 `
 export const Paragraph = styled(Text)`

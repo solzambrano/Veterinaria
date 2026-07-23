@@ -6,7 +6,6 @@ height:60%
 `
 export const Label = styled.label `
 display:inline-block;
-font-family:var(--font);
 box-sizing:border-box;
 margin-right:40px;
 width:100%
@@ -35,7 +34,6 @@ border:none;
 resize:none;
 border-radius:5px;
 font-size:16px;
-font-family:var(--font);
 color:var(--color-Gray);
 line-height:1.5;
 padding:15px;
