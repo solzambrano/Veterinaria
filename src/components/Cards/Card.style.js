@@ -30,6 +30,7 @@ export const ContainerImage= styled.div`
 export const Imagen = styled.img `
     width: ${props => props.$isServices ? '24px' : '200px'};
     height: ${props => props.$isServices ? '24px' : '200px'};
+    margin:auto;
 
 `; 
 export const ContainerDescription= styled.div`
