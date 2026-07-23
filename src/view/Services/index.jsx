@@ -1,8 +1,9 @@
-import { ContainerService,Information,ContainerImage,Imagen,ContainerList,List,Icon,SpanGreen,Title,Paragraph,Span } from './services.style'
+import { ContainerService,Information,ImagenMascota,ContainerImage,Imagen,ContainerList,List,Icon,SpanGreen,Title,Paragraph,Span } from './services.style'
 import pet from '../../assets/icons/veterinaria.svg'
 import quality from '../../assets/icons/quality.svg'
 import Specialities from "../Home/specialties"
 import atencion from '../../assets/images/atencion.png'
+import mascota from '../../assets/images/gatito.png'
 
 const Services = () => {
     return(
@@ -26,6 +27,7 @@ const Services = () => {
             </Information>
             <ContainerImage>
                 <Imagen src={atencion} alt="doctores_atendiendo_mascota" />
+                <ImagenMascota src={mascota} alt="imagen_de_gato" />
             </ContainerImage>
         </ContainerService>
         <Specialities/>
