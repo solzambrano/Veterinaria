@@ -12,6 +12,7 @@ import Contact from '../view/Contact';
 import Terms from '../view/Terms';
 import Help from '../view/Help';
 import Services from '../view/Services';
+import Urgency from '../view/Services/Urgency';
 
 const Routes = () => {
 
@@ -32,15 +33,15 @@ const Routes = () => {
                     element:<Products/>,
                 },
                 {
-                    path:'/politica-de-privacidad',
+                    path:'politica-de-privacidad',
                     element:<Politic/>
                 },
                 {
-                    path:'/contact-us',
+                    path:'contact-us',
                     element:<Contact/>
                 },
                 {
-                    path:'/terms-services',
+                    path:'terms-services',
                     element: <Terms/>
                 },
                 {
@@ -49,7 +50,13 @@ const Routes = () => {
                 },
                  {
                     path:'services',
-                    element:<Services/>
+                    element:<Services/>,
+                    children:[
+                        {
+                            path:'urgency',
+                            element:<Urgency/>
+                        }
+                    ]
                 }
             ]
         },

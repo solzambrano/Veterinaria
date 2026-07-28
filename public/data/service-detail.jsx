@@ -8,6 +8,7 @@ import scalpel from '../../src/assets/icons/scalpel.svg'
 const serviceDetail = [
     {
         image:emergency,
+        slug:'emergency',
         title: 'Urgencias 24h',
         description:'Contamos con un profesional las 24 hs, atención inmediata cuando cada segundo cuenta.',
         color:'#f0a47494',
@@ -15,6 +16,7 @@ const serviceDetail = [
     },
     {
         image:health,
+        slug:'atention',
         title:'Consulta general',
         description:'Cuidado preventivo y revisiones de rutina para asegurar el bienestar diario de tu mejor amigo.',
         color:'#abf096a8',
@@ -22,6 +24,7 @@ const serviceDetail = [
     },
     {
         image:grooming,
+        slug:'grooming',
         title:'Grooming',
         description:'Higiene y estética para que luzcan y se sientan bien, con productos hipoalergénicos.',
         color:'#b498f0a3',
@@ -29,6 +32,7 @@ const serviceDetail = [
     },
     {
         image:vaccine,
+        slug:'vacunation',
         title:'Vacunacion',
         description:'Protege a tu mascota contra las enfermedades más comunes con nuestros protocolos actualizados.',
         color:'#34e78b70',
@@ -36,6 +40,7 @@ const serviceDetail = [
     },
     {
         image:microscopy,
+        slug:'laboratory',
         title:'Laboratorio Clinico',
         description: 'Pruebas rápidas y precisas para un diagnóstico certero sin esperas innecesarias.',
         color:'#cf7e9963',
@@ -43,6 +48,7 @@ const serviceDetail = [
     },
       {
         image:scalpel,
+        slug:'cirugy',
         title:'Cirugias',
         description: 'Procedimientos quirúrgicos avanzados con anestesia segura y monitorizacion constante, controles y estudios antes y después del procedimiento ',
         color:'#3366cc42',

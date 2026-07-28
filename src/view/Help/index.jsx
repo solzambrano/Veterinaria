@@ -19,7 +19,7 @@ const Help = () => {
         <Seeker/>
         <ContainerHelpCategory>
             <CategorySectionHelp>
-                <SubtitleCategory>Explorar por categoría</SubtitleCategory>
+                <SubtitleCategory>Explorar por Categoría</SubtitleCategory>
                 <CardCategory onSelectedCategory={selectedQuestion}></CardCategory>
             </CategorySectionHelp>
                 <FrequentlyQuestions category={category}></FrequentlyQuestions>

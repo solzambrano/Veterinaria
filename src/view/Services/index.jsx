@@ -1,7 +1,7 @@
 import { ContainerService,Information,ImagenMascota,ContainerImage,Imagen,ContainerList,List,Icon,SpanGreen,Title,Paragraph,Span } from './services.style'
+import Specialities from "../Home/specialties"
 import pet from '../../assets/icons/veterinaria.svg'
 import quality from '../../assets/icons/quality.svg'
-import Specialities from "../Home/specialties"
 import atencion from '../../assets/images/atencion.png'
 import mascota from '../../assets/images/gatito.png'
 
