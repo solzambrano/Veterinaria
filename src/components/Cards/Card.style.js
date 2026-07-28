@@ -20,6 +20,7 @@ export const ContainerImage= styled.div`
   margin-top: ${props => props.$isServices ? '30px' : 'inherit'};
   display: flex;
   border-radius: 10px;
+  align-content:center;
   width: ${props => props.$isServices ? '50px' : undefined};
   height: ${props => props.$isServices ? '50px' : undefined};;
   background-color:${props => props.$color};

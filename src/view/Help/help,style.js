@@ -23,8 +23,6 @@ font-size:18px;
 color:var(--color-Gray);
 letter-spacing:2px;
 margin-bottom:30px;
-
-
 `
 export const ContainerHelpCategory =styled.div`
 width:100%;
@@ -36,7 +34,8 @@ margin-top:40px;
 `
 export const SubtitleCategory =styled.h2`
 padding-left:50px;
-
+font-weight:700;
+font-size:1.5rem;
 `
 export const ContainerContact =styled.div`
 background-color:var(--color-Green-fondo);
