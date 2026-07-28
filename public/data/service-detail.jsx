@@ -8,7 +8,7 @@ import scalpel from '../../src/assets/icons/scalpel.svg'
 const serviceDetail = [
     {
         image:emergency,
-        slug:'emergency',
+        slug:'urgency',
         title: 'Urgencias 24h',
         description:'Contamos con un profesional las 24 hs, atención inmediata cuando cada segundo cuenta.',
         color:'#f0a47494',
