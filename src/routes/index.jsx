@@ -51,13 +51,11 @@ const Routes = () => {
                  {
                     path:'services',
                     element:<Services/>,
-                    children:[
-                        {
-                            path:'urgency',
+                 },
+                {
+                            path:'services/urgency',
                             element:<Urgency/>
-                        }
-                    ]
-                }
+                },
             ]
         },
         {
