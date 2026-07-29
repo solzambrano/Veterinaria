@@ -13,11 +13,7 @@ import Terms from '../view/Terms';
 import Help from '../view/Help';
 import Services from '../view/Services';
 import Urgency from '../view/Services/Urgency';
-import Grooming from '../view/Services/Grooming';
-import ClinicalLaboratory from '../view/Services/ClinicalLaboratory';
-import GeneralConsultation from '../view/Services/GeneralConsultation';
-import Vacunation from '../view/Services/Vacunation';
-import Cirugy from '../view/Services/Cirugy';
+import ServiceDetail from '../view/Services/ServiceDetail';
 
 
 
@@ -61,24 +57,8 @@ const Routes = () => {
                     element:<Services/>,
                  },
                 {
-                    path:'services/urgency',
-                    element:<Urgency/>
-                },
-                 {
-                    path:'services/clinical_laboratory',
-                    element:<ClinicalLaboratory/>
-                },
-                 {
-                    path:'services/general_consultation',
-                    element:<GeneralConsultation/>
-                },
-                 {
-                    path:'services/grooming',
-                    element:<Grooming/>
-                },
-                 {
-                    path:'services/cirugy',
-                    element:<Cirugy/>
+                    path:'services/:slug',
+                    element:<ServiceDetail/>
                 },
             ]
         },
