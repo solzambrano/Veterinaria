@@ -1,7 +1,7 @@
 
 import Slider from '../../components/Slider/Slider';
 import SliderFreeMode from '../../components/Slider/SliderFreeMode';
-import Specialities from './specialties';
+import Specialities from '../Services/specialties';
 
 const Home = () => {    
     return (

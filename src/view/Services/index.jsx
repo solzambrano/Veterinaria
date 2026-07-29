@@ -1,11 +1,16 @@
 import { ContainerService,Information,ImagenMascota,ContainerImage,Imagen,ContainerList,List,Icon,SpanGreen,Title,Paragraph,Span } from './services.style'
-import Specialities from "../Home/specialties"
+import Specialities from "./specialties"
 import pet from '../../assets/icons/veterinaria.svg'
 import quality from '../../assets/icons/quality.svg'
 import atencion from '../../assets/images/atencion.png'
 import mascota from '../../assets/images/gatito.png'
 
-const Services = () => {
+const 
+
+
+
+
+Services = () => {
     return(
         <>
         <ContainerService>
