@@ -1,5 +1,5 @@
 import { ContainerError,ParagraphAviso,ParagraphNotification,Image,ParagraphRedirect } from "./error.styles";
-import {NavLink} from "react-router";
+import {Link} from "react-router";
 
 const Error = () =>{
     return(
@@ -9,7 +9,8 @@ const Error = () =>{
       <ParagraphNotification>Lo sentimos parece que nuestro amigo Coqueto se comio la pagina, pero no te preocupes
         todavia puedes volver a la pagina principal y seguir buscando lo que necesitas 
         para tu peludo amigo.
-        <ParagraphRedirect> <NavLink href='/'>INICIO</NavLink> </ParagraphRedirect></ParagraphNotification>
+        <ParagraphRedirect> <Link to='/'>INICIO</Link> </ParagraphRedirect>
+      </ParagraphNotification>
       </ContainerError>
     )
 }

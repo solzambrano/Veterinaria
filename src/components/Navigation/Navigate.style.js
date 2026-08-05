@@ -7,7 +7,8 @@ export const NavList =styled.nav`
   a{
     text-decoration:none;
     color:var(--color-Black);
-    display:ruby
+    display:flex;
+    align-items:center;
   }
    a:hover {
     color: var(--color-Green-s);

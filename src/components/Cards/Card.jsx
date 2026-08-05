@@ -1,9 +1,11 @@
  import {ContainerCard,ContainerImage,Imagen,Arrow,
     ContainerDescription,Title,Paragraph,ContainerInfo,ParagraphMas} from './Card.style'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
     import arrow from '../../assets/icons/arrow-right.svg'
 
  const Card = ({item,isServices}) => {
+    console.log(item.slug);
+    
     return(
         <ContainerCard>
             <ContainerImage $isServices={isServices} 
@@ -22,8 +24,8 @@ import { NavLink } from 'react-router-dom'
             </ContainerDescription>
             {isServices &&
                  <ContainerInfo>
-                    <NavLink> <ParagraphMas>Saber más</ParagraphMas> </NavLink>
-                    <Arrow src={arrow} $isServices={isServices}></Arrow>
+                    <Link to={`/services/${item.slug}`}> <ParagraphMas>Saber más</ParagraphMas> </Link>
+                    <Arrow src={arrow} $isServices={isServices}/>
                 </ContainerInfo>
             }
         </ContainerCard>

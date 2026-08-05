@@ -56,7 +56,7 @@ color:var(--color-Green-secondary);
 `
 export const ParagraphMas= styled(Text)`
 color:var(--color-Green-s);
-
+text-decoration:none;
 `
 export const Arrow =styled.img `
 transition: transform 0.3s ease;
@@ -65,7 +65,7 @@ height:24px
 
 
 `
-export const ContainerInfo = styled.a`
+export const ContainerInfo = styled.div`
 display :flex;
 align-items:center;
 font-weight:700;

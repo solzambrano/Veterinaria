@@ -13,12 +13,12 @@ return(
             </NavLink>
         </NavContainerLogo>
         <NavOptions>
-           <NavLink to='services'> Servicios</NavLink>
+           <NavLink to='/services'> Servicios</NavLink>
             <NavLink>Citas</NavLink>
-           <NavLink to='products' >Tienda </NavLink>
+           <NavLink to='/products' >Tienda </NavLink>
             Sobre nosotros
-            <NavLink to='contact-us'>Contactanos </NavLink>
-            <NavLink to ='help-support'> Ayuda</NavLink>
+            <NavLink to='/contact-us'>Contactanos </NavLink>
+            <NavLink to ='/help-support'> Ayuda</NavLink>
             <NavLink to="/login">Login</NavLink>
         </NavOptions>
     </NavList>

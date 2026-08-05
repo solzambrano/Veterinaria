@@ -3,7 +3,7 @@
 const Grooming = () =>{
 return(
     <>
-    HOLAAAAA URGENCIA
+    HOLAAAAA grooming
     </>
 )
 
