@@ -38,10 +38,10 @@ width:90%
 `
 export const Icons =styled.img`
 width:30px;
+filter:invert(79%) sepia(63%) saturate(2380%) hue-rotate(81deg) brightness(94%) contrast(88%);
 `
 export const Title = styled.h1 `
 font-weight:900;
-
 font-size:3rem;
 letter-spacing:-0.01em;
 margin:0px
