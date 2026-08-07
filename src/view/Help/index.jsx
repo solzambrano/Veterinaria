@@ -6,6 +6,7 @@ import FrequentlyQuestions from "./FrequentlyQuestions";
 import CardCategory from "./CardCategory";
 import { useState } from "react";
 import Button from "../../components/Buttons";
+import Phone from '../../assets/icons/phone.svg';
 const Help = () => {
     const [category, setCategory] = useState('atencion');
        const selectedQuestion = (slug) => {
@@ -20,14 +21,16 @@ const Help = () => {
         <ContainerHelpCategory>
             <CategorySectionHelp>
                 <SubtitleCategory>Explorar por Categoría</SubtitleCategory>
-                <CardCategory onSelectedCategory={selectedQuestion}></CardCategory>
+                <CardCategory onSelectedCategory={selectedQuestion}/>
             </CategorySectionHelp>
                 <FrequentlyQuestions category={category}></FrequentlyQuestions>
         </ContainerHelpCategory>
               <ContainerContact>
         <TitleContact>No encuentras lo que buscas?</TitleContact>
         <TextContact>Nuestro equipo esta disponible para ayudarte con cualquier duda especifica sobre la salud de tu mascota</TextContact>
-        <Button text={'Contáctanos'} variant ={'verde'}></Button>
+        <Button text={'Contáctanos'} 
+        variant ={'verde'}
+        icon={Phone}/>
       </ContainerContact>
         </ContainerHelp>
     )

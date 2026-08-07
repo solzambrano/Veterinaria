@@ -1,7 +1,8 @@
-import {ButtonStyle} from './button.style'
-const Button = ({text, variant}) => {
+import {ButtonStyle,Icon} from './button.style'
+const Button = ({text, variant,icon}) => {
 return(
     <ButtonStyle variant= {variant}>
+        <Icon src={icon} alt="telefono" />
         {text}
     </ButtonStyle>
 )
