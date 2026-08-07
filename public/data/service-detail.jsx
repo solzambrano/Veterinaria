@@ -4,6 +4,9 @@ import emergency from '../../src/assets/icons/emergency.svg';
 import microscopy from '../../src/assets/icons/microscopy.svg';
 import health from '../../src/assets/icons/health.svg';
 import scalpel from '../../src/assets/icons/scalpel.svg';
+import Phone from '../../src/assets/icons/phone.svg';
+import Calendar from '../../src/assets/icons/calendar.svg';
+import Serum from '../../src/assets/icons/medical-drip.svg';
 import BodyUrgency from '../../src/view/Services/ServiceDetail/Bodies/Urgency'
 import BodyCirugy from '../../src/view/Services/ServiceDetail/Bodies/Cirugy'
 import BodyLaboratory from '../../src/view/Services/ServiceDetail/Bodies/ClinicalLaboratory'
@@ -11,11 +14,11 @@ import BodyConsultation from '../../src/view/Services/ServiceDetail/Bodies/Gener
 import BodyGrooming from '../../src/view/Services/ServiceDetail/Bodies/Grooming'
 import BodyVaccination from '../../src/view/Services/ServiceDetail/Bodies/Vaccination'
 import HeaderUrgency from '../../src/assets/images/UrgencyHeader.jpg'
-import HeaderGrooming from '../../src/assets/images/GroomingHeader.jpg'
+import HeaderGrooming from '../../src/assets/images/GroomingHeader.png'
 import HeaderConsultation from '../../src/assets/images/ConsultationHeader.jpg'
-import HeaderCirugy from '../../src/assets/imagesCirugyHeader.jpg'
-import HeaderVaccination from '../../src/assets/imagesVaccinationHeader.jpg'
-import HeaderLaboratory from '../../src/assets/imagesLaboratoryHeader.jpg'
+import HeaderCirugy from '../../src/assets/images/CirugyHeader.jpg'
+import HeaderVaccination from '../../src/assets/images/VaccinationHeader.png'
+import HeaderLaboratory from '../../src/assets/images/LaboratoryHeader.png'
 
 
 const serviceDetail = [
@@ -26,8 +29,23 @@ const serviceDetail = [
         description:'Contamos con un profesional las 24 hs, atención inmediata cuando cada segundo cuenta.',
         color:'#f0a47494',
         hover:'#f0630bba',
+        header:{
+            title:"Urgencias y Cuidados Críticos 24/7",
+            subtitle:"Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
+            spanSuperior:"Disponible 24/7 sin cita previa",
+            icon:Phone,
+            color:'red',
+            phoneNumber:"+54399999999",
+            text:"Pulse para llamar emergencias inmediatas",
+            sectionImage:{
+                imageUrgency:HeaderUrgency,
+                titleImage:"Respuesta Zero%",
+                IconImage:Serum,
+                background:'pink',
+                subtitleImage:"Protocolo de estabilizacion en menos de 2 minutos"
+            }
+        },
         body:BodyUrgency,
-        imageUrgency:HeaderUrgency
     },
     {
         image:health,

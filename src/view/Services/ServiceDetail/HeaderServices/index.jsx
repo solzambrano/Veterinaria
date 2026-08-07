@@ -1,23 +1,26 @@
-
-
-const HeaderServices = () => {
+import Button from "../../../../components/Buttons";
+const HeaderServices = ({serviceData}) => {
+    const{title,icon,background,subtitle,image}=serviceData.sectionImage;
+    console.log(serviceData.spanSuperior);
+    
 return(
     <header>
         <article>
-            <span>CUIDADO PREVENTIVO</span>
-            <h1></h1>
-            <p></p>
+            <span>{serviceData.spanSuperior}</span>
+            <h1>{serviceData.title}</h1>
+            <p>{serviceData.subtitle}</p>
             <div>
-                boton agenda cita
-                boton lista de doctores
+                <Button text={serviceData.phoneNumber} variant ={serviceData.color} icon={serviceData.icon}/>
+               <Button text={serviceData.text} variant ={" "} icon={""}/>
             </div>
 
         </article>
         <article>
-            <div><img src="" alt="" /></div>
+            <div><img src={image} alt="" /></div>
             <div>
-                <p></p>
-            <p></p>
+                <p>{title}</p>
+                <img src={icon} alt="" />
+            <p>{subtitle}</p>
             </div>
 
         </article>
@@ -25,3 +28,4 @@ return(
 )
 
 }
+export default HeaderServices
