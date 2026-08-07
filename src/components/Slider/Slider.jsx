@@ -7,8 +7,7 @@ import 'swiper/css/autoplay'
 import {Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 import images from '../../../public/data/slider-data'
 
-
-
+// loopAdditionalSlides={2} agregar si se ve una demora en el slide del carrusel
 const Slider = () =>{
 return(
     <SwiperStyled>
@@ -17,6 +16,7 @@ return(
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
+        loop={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -25,7 +25,7 @@ return(
           slideShadows: true,
         }} 
         autoplay={{
-          delay:4000
+          delay:6000
         }}
         pagination={false}
         modules={[Autoplay,EffectCoverflow, Pagination]}

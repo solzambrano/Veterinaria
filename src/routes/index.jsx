@@ -12,7 +12,6 @@ import Contact from '../view/Contact';
 import Terms from '../view/Terms';
 import Help from '../view/Help';
 import Services from '../view/Services';
-import Urgency from '../view/Services/Urgency';
 import ServiceDetail from '../view/Services/ServiceDetail';
 
 
