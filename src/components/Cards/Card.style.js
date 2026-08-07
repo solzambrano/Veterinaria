@@ -71,6 +71,9 @@ align-items:center;
 font-weight:700;
 position :absolute;
 bottom:0;
+> :first-child {
+    text-decoration:none;
+  }
 &:hover  ${Arrow} {
   transform: translateX(6px);
 }
