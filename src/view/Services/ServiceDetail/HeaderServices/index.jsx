@@ -1,20 +1,22 @@
 import Button from "../../../../components/Buttons";
+import { Header,ArticleText,SpanAvailable } from "./header.style";
 const HeaderServices = ({serviceData}) => {
     const{title,icon,background,subtitle,image}=serviceData.sectionImage;
-    console.log(serviceData.spanSuperior);
+    console.log(title,serviceData.sectionImage);
     
 return(
-    <header>
-        <article>
-            <span>{serviceData.spanSuperior}</span>
+    <Header>
+        <ArticleText>
+            <Button text={serviceData.span} variant={"pink"} icon={serviceData.iconEmergency}></Button>
+            <SpanAvailable>{serviceData.span}</SpanAvailable>
             <h1>{serviceData.title}</h1>
             <p>{serviceData.subtitle}</p>
             <div>
-                <Button text={serviceData.phoneNumber} variant ={serviceData.color} icon={serviceData.icon}/>
+                <Button text={serviceData.phoneNumber} variant ={"red"} icon={serviceData.iconPhone}/>
                <Button text={serviceData.text} variant ={" "} icon={""}/>
             </div>
 
-        </article>
+        </ArticleText>
         <article>
             <div><img src={image} alt="" /></div>
             <div>
@@ -24,7 +26,7 @@ return(
             </div>
 
         </article>
-    </header>
+    </Header>
 )
 
 }

@@ -6,8 +6,8 @@ import Header from './HeaderServices'
 const ServiceDetail = () =>{
 const { slug } = useParams();
 const service =serviceDetail.find(service=>service.slug === slug)
-    console.log('service',slug)
-return(<>
+return(
+<>
 
 <Header serviceData={service.header}/>
 </>)

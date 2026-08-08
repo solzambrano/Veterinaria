@@ -29,7 +29,7 @@ const Help = () => {
         <TitleContact>No encuentras lo que buscas?</TitleContact>
         <TextContact>Nuestro equipo esta disponible para ayudarte con cualquier duda especifica sobre la salud de tu mascota</TextContact>
         <Button text={'Contáctanos'} 
-        variant ={'verde'}
+        variant ={'green'}
         icon={Phone}/>
       </ContainerContact>
         </ContainerHelp>

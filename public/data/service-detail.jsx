@@ -7,6 +7,7 @@ import scalpel from '../../src/assets/icons/scalpel.svg';
 import Phone from '../../src/assets/icons/phone.svg';
 import Calendar from '../../src/assets/icons/calendar.svg';
 import Serum from '../../src/assets/icons/medical-drip.svg';
+import Emergency from '../../src/assets/icons/emergency-home.svg'
 import BodyUrgency from '../../src/view/Services/ServiceDetail/Bodies/Urgency'
 import BodyCirugy from '../../src/view/Services/ServiceDetail/Bodies/Cirugy'
 import BodyLaboratory from '../../src/view/Services/ServiceDetail/Bodies/ClinicalLaboratory'
@@ -32,17 +33,16 @@ const serviceDetail = [
         header:{
             title:"Urgencias y Cuidados Críticos 24/7",
             subtitle:"Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
-            spanSuperior:"Disponible 24/7 sin cita previa",
-            icon:Phone,
-            color:'red',
+            span:"Disponible 24/7 sin cita previa",
+            iconPhone:Phone,
+            iconEmergency:Emergency,
             phoneNumber:"+54399999999",
             text:"Pulse para llamar emergencias inmediatas",
             sectionImage:{
-                imageUrgency:HeaderUrgency,
-                titleImage:"Respuesta Zero%",
-                IconImage:Serum,
-                background:'pink',
-                subtitleImage:"Protocolo de estabilizacion en menos de 2 minutos"
+                image:HeaderUrgency,
+                title:"Respuesta Zero%",
+                icon:Serum,
+                subtitle:"Protocolo de estabilizacion en menos de 2 minutos"
             }
         },
         body:BodyUrgency,

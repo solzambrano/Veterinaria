@@ -21,9 +21,24 @@ export const GlobalStyles=createGlobalStyle`
 
  `
 
-    export const buttonVariants = {
-  verde:  { bg: "var(--color-Green-s)", color: "white" },
-  rosa:   { bg: "#ec4899", color: "white" },
-  marron: { bg: "#92400e", color: "white" },
-  negro:  { bg: "#111111", color: "white" },
+export const buttonVariants = {
+  green:  { bg: "var(--color-Green-s)", color: "var(--color-White)" },
+  pink:   { bg: "#ec4899",  color: "var(--color-White)" },
+  brown: { bg: "#92400e", color: "var(--color-White)" },
+  black:  { bg: "#111111",  color: "var(--color-White)" },
+  red: {bg:"#f21919" ,color: "var(--color-White)"}
 }
+export const buttonSizes = {
+  small: {
+    padding: "6px 12px",
+    fontSize: "14px",
+  },
+  medium: {
+    padding: "10px 18px",
+    fontSize: "16px",
+  },
+  large: {
+    padding: "14px 24px",
+    fontSize: "18px",
+  },
+};
