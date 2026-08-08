@@ -7,12 +7,12 @@ const HeaderServices = ({serviceData}) => {
 return(
     <Header>
         <ArticleText>
-            <Button text={serviceData.span} variant={"pink"} icon={serviceData.iconEmergency}></Button>
+            <Button text={serviceData.span} variant="pink" icon={serviceData.iconEmergency}></Button>
             <SpanAvailable>{serviceData.span}</SpanAvailable>
             <h1>{serviceData.title}</h1>
             <p>{serviceData.subtitle}</p>
             <div>
-                <Button text={serviceData.phoneNumber} variant ={"red"} icon={serviceData.iconPhone}/>
+                <Button text={serviceData.phoneNumber} variant ="red" icon={serviceData.iconPhone}/>
                <Button text={serviceData.text} variant ={" "} icon={""}/>
             </div>
 
