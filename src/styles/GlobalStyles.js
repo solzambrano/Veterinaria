@@ -1,7 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
-
-export const GlobalStyles=createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
 :root{
     --color-Green-s: #19e65e;
     --color-Green-secondary:#328741;
@@ -19,15 +18,16 @@ export const GlobalStyles=createGlobalStyle`
     font-family: 'Lexend', sans-serif;
     }
 
- `
+ `;
 
 export const buttonVariants = {
-  green:  { bg: "var(--color-Green-s)", color: "var(--color-White)" },
-  pink:   { bg: "#ec4899",  color: "var(--color-White)" },
+  green: { bg: "var(--color-Green-s)", color: "var(--color-White)" },
+  pink: { bg: "#ec4899", color: "var(--color-White)" },
+  pink_l: { bg: "#fee2e2", color: "#991b1b" },
   brown: { bg: "#92400e", color: "var(--color-White)" },
-  black:  { bg: "#111111",  color: "var(--color-White)" },
-  red: {bg:"#f21919" ,color: "var(--color-White)"}
-}
+  black: { bg: "#111111", color: "var(--color-White)" },
+  red: { bg: "#f21919", color: "var(--color-White)" },
+};
 export const buttonSizes = {
   small: {
     padding: "6px 12px",
