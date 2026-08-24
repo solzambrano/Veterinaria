@@ -58,13 +58,7 @@ src/
 Para ejecutar el proyecto localmente, primero hay que clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-```
-
-Ingresar a la carpeta del proyecto:
-
-```bash
-cd <NOMBRE_DEL_PROYECTO>
+git clone <>
 ```
 
 Instalar las dependencias:
@@ -97,8 +91,7 @@ Para los estilos se utiliza **Styled Components**, permitiendo definir los estil
 
 El proyecto está pensado para continuar creciendo. Algunas funcionalidades que podrían incorporarse en futuras etapas son:
 
-- 🛍️ Carrito de compras.
-- 💳 Sistema de compra y pagos.
+- 🛍️ Carrito de reserva de productos .
 - 👤 Registro e inicio de sesión de usuarios.
 - 📦 Gestión de pedidos.
 - 📅 Sistema de reserva de turnos.

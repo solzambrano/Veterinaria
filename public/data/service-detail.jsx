@@ -41,6 +41,8 @@ const serviceDetail = [
       span: "DISPONIBLE 24/7 SIN CITA PREVIA",
       iconPhone: Phone,
       iconEmergency: Emergency,
+      filterIcon:
+        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       phoneNumber: "+54399999999",
       text: "Pulse para llamar emergencias inmediatas",
       sectionImage: {
