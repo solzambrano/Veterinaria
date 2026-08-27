@@ -71,7 +71,7 @@ const serviceDetail = [
       firstText: "Agenda una consulta preventiva",
       secondText: "Ver especialistas",
       sectionImage: {
-        image: HeaderUrgency,
+        image: HeaderConsultation,
         title: "Salud 100%",
         icon: Serum,
         subtitle: "Monitoreo constante para la tranquilidad de tu familia",
