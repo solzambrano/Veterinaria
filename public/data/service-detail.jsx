@@ -1,11 +1,10 @@
 import vaccine from "../../src/assets/icons/vaccine.svg";
 import grooming from "../../src/assets/icons/grooming.svg";
-import emergency from "../../src/assets/icons/emergency.svg";
+// import emergency from "../../src/assets/icons/emergency.svg";
 import microscopy from "../../src/assets/icons/microscopy.svg";
 import health from "../../src/assets/icons/health.svg";
 import scalpel from "../../src/assets/icons/scalpel.svg";
 import Phone from "../../src/assets/icons/phone.svg";
-import Calendar from "../../src/assets/icons/calendar.svg";
 import Serum from "../../src/assets/icons/medical-drip.svg";
 import Emergency from "../../src/assets/icons/emergency-home.svg";
 import BodyUrgency from "../../src/view/Services/ServiceDetail/Bodies/Urgency";
@@ -31,6 +30,8 @@ const serviceDetail = [
     color: "#f0a47494",
     hover: "#f0630bba",
     header: {
+      iconEmergency: Emergency,
+      span: "DISPONIBLE 24/7 SIN CITA PREVIA",
       title: [
         { text: "Urgencias y", color: "normal" },
         { text: " Cuidados Críticos", color: "green" },
@@ -38,13 +39,11 @@ const serviceDetail = [
       ],
       subtitle:
         "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
-      span: "DISPONIBLE 24/7 SIN CITA PREVIA",
+      firstText: "+54399999999",
       iconPhone: Phone,
-      iconEmergency: Emergency,
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      phoneNumber: "+54399999999",
-      text: "Pulse para llamar emergencias inmediatas",
+      secondTextext: "Pulse para llamar emergencias inmediatas",
       sectionImage: {
         image: HeaderUrgency,
         title: "Respuesta Zero%",
@@ -62,6 +61,22 @@ const serviceDetail = [
       "Cuidado preventivo y revisiones de rutina para asegurar el bienestar diario de tu mejor amigo.",
     color: "#abf096a8",
     hover: "#6ce946c9",
+    header: {
+      span: "CUIDADO PREVENTIVO",
+      title: [{ text: "Consulta General", color: "normal" }],
+      subtitle:
+        "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
+      filterIcon:
+        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      firstText: "Agenda una consulta preventiva",
+      secondText: "Ver especialistas",
+      sectionImage: {
+        image: HeaderUrgency,
+        title: "Salud 100%",
+        icon: Serum,
+        subtitle: "Monitoreo constante para la tranquilidad de tu familia",
+      },
+    },
     body: BodyConsultation,
     imageConsultation: HeaderConsultation,
   },
