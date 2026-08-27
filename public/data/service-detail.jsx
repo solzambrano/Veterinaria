@@ -4,6 +4,7 @@ import grooming from "../../src/assets/icons/grooming.svg";
 import microscopy from "../../src/assets/icons/microscopy.svg";
 import health from "../../src/assets/icons/health.svg";
 import scalpel from "../../src/assets/icons/scalpel.svg";
+import calendar from "../../src/assets/icons/calendar.svg";
 import Phone from "../../src/assets/icons/phone.svg";
 import Serum from "../../src/assets/icons/medical-drip.svg";
 import Emergency from "../../src/assets/icons/emergency-home.svg";
@@ -43,7 +44,7 @@ const serviceDetail = [
       iconPhone: Phone,
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      secondTextext: "Pulse para llamar emergencias inmediatas",
+      secondText: "Pulse para llamar emergencias inmediatas",
       sectionImage: {
         image: HeaderUrgency,
         title: "Respuesta Zero%",
@@ -88,8 +89,21 @@ const serviceDetail = [
       "Higiene y estética para que luzcan y se sientan bien, con productos hipoalergénicos.",
     color: "#b498f0a3",
     hover: "#723ee1a3",
+    header: {
+      span: "CUIDADO HOLÍSTICO",
+      title: [{ text: "Peluqeria y Bienestar", color: "normal" }],
+      subtitle:
+        "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
+      firstText: "Reservar Cita",
+      iconPhone: calendar,
+      filterIcon:
+        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      secondText: "Ver Galería",
+      sectionImage: {
+        image: HeaderGrooming,
+      },
+    },
     body: BodyGrooming,
-    imageGrooming: HeaderGrooming,
   },
   {
     image: vaccine,
@@ -121,8 +135,24 @@ const serviceDetail = [
       "Procedimientos quirúrgicos avanzados con anestesia segura y monitorizacion constante, controles y estudios antes y después del procedimiento ",
     color: "#3366cc42",
     hover: "#2c72ff6e",
+    header: {
+      iconEmergency: Emergency,
+      span: "Servicios Especializados",
+      title: [{ text: "Cirugía y Quirófano", color: "normal" }],
+      subtitle:
+        "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
+      firstText: "Agenda una cita",
+      filterIcon:
+        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      secondText: "Ver especialistas",
+      sectionImage: {
+        image: HeaderCirugy,
+        title: "Especialistas certificados",
+        icon: Serum,
+        subtitle: "Protocolos de primera calidad",
+      },
+    },
     body: BodyCirugy,
-    imageCirugy: HeaderCirugy,
   },
 ];
 export default serviceDetail;
