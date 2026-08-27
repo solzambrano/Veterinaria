@@ -113,8 +113,24 @@ const serviceDetail = [
       "Protege a tu mascota contra las enfermedades más comunes con nuestros protocolos actualizados.",
     color: "#34e78b70",
     hover: "#08f67cd4",
+    header: {
+      span: "CUIDADO PREVENTIVO",
+      title: [
+        { text: "Vacunación y", color: "normal" },
+        { text: " Prevención", color: "green" },
+      ],
+      subtitle:
+        "Proteja a sus compañeros de vida de enfermedades infecciosas graves.En Veterinaria Coquetos, combinamos protocolos cientificos avanzados con un trato cálido y libre de estrés",
+      firstText: "Programar Vacuna",
+      secondText: "Ver Calendario",
+      sectionImage: {
+        image: HeaderVaccination,
+        title: "Respuesta Zero%",
+        icon: Serum,
+        subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
+      },
+    },
     body: BodyVaccination,
-    imageVaccination: HeaderVaccination,
   },
   {
     image: microscopy,
