@@ -140,8 +140,28 @@ const serviceDetail = [
       "Pruebas rápidas y precisas para un diagnóstico certero sin esperas innecesarias.",
     color: "#cf7e9963",
     hover: "#ec3f7882",
+    header: {
+      iconEmergency: "",
+      span: "Servicios Especializados",
+      title: [
+        { text: "Laboratorio Clínico ", color: "normal" },
+        { text: " y Diagnóstico", color: "green" },
+      ],
+      subtitle:
+        "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
+      firstText: "Agendar Analisis",
+      iconPhone: Phone,
+      filterIcon:
+        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      secondText: "Pulse para llamar emergencias inmediatas",
+      sectionImage: {
+        image: HeaderLaboratory,
+        title: "Respuesta Zero%",
+        icon: Serum,
+        subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
+      },
+    },
     body: BodyLaboratory,
-    imageLaboratory: HeaderLaboratory,
   },
   {
     image: scalpel,
