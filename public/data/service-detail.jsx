@@ -1,12 +1,14 @@
 import vaccine from "../../src/assets/icons/vaccine.svg";
 import grooming from "../../src/assets/icons/grooming.svg";
-// import emergency from "../../src/assets/icons/emergency.svg";
 import microscopy from "../../src/assets/icons/microscopy.svg";
 import health from "../../src/assets/icons/health.svg";
 import scalpel from "../../src/assets/icons/scalpel.svg";
-import calendar from "../../src/assets/icons/calendar.svg";
 import Phone from "../../src/assets/icons/phone.svg";
+import Calendar from "../../src/assets/icons/calendar.svg";
+import Verify from "../../src/assets/icons/verify-filled.svg";
+import Check from "../../src/assets/icons/shield-check.svg";
 import Serum from "../../src/assets/icons/medical-drip.svg";
+import Arrow from "../../src/assets/icons/arrow-right.svg";
 import Emergency from "../../src/assets/icons/emergency-home.svg";
 import BodyUrgency from "../../src/view/Services/ServiceDetail/Bodies/Urgency";
 import BodyCirugy from "../../src/view/Services/ServiceDetail/Bodies/Cirugy";
@@ -87,7 +89,7 @@ const serviceDetail = [
       sectionImage: {
         image: HeaderConsultation,
         title: "Salud 100%",
-        icon: Serum,
+        icon: Check,
         subtitle: "Monitoreo constante para la tranquilidad de tu familia",
       },
     },
@@ -111,7 +113,7 @@ const serviceDetail = [
         "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
       primaryLink: {
         text: "Reservar Cita",
-        icon: calendar,
+        icon: Calendar,
         filterIcon:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       },
@@ -148,12 +150,7 @@ const serviceDetail = [
       secondaryLink: {
         text: "Ver Calendario",
       },
-      sectionImage: {
-        image: HeaderVaccination,
-        title: "Respuesta Zero%",
-        icon: Serum,
-        subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
-      },
+      image: HeaderVaccination,
     },
     body: BodyVaccination,
   },
@@ -178,19 +175,14 @@ const serviceDetail = [
         "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
       primaryLink: {
         text: "Agendar Analisis",
-        icon: Phone,
+        icon: Arrow,
       },
       secondaryLink: {
         text: "Pulse para llamar emergencias inmediatas",
       },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      sectionImage: {
-        image: HeaderLaboratory,
-        title: "Respuesta Zero%",
-        icon: Serum,
-        subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
-      },
+      image: HeaderLaboratory,
     },
     body: BodyLaboratory,
   },
@@ -221,7 +213,7 @@ const serviceDetail = [
       sectionImage: {
         image: HeaderCirugy,
         title: "Especialistas certificados",
-        icon: Serum,
+        icon: Verify,
         subtitle: "Protocolos de primera calidad",
       },
     },
