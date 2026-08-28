@@ -31,20 +31,27 @@ const serviceDetail = [
     color: "#f0a47494",
     hover: "#f0630bba",
     header: {
-      iconEmergency: Emergency,
-      span: "DISPONIBLE 24/7 SIN CITA PREVIA",
+      infoSup: {
+        icon: Emergency,
+        filter: "",
+        span: "DISPONIBLE 24/7 SIN CITA PREVIA",
+      },
       title: [
         { text: "Urgencias y", color: "normal" },
         { text: " Cuidados Críticos", color: "green" },
         { text: " 24/7", color: "normal" },
       ],
-      subtitle:
+      description:
         "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
-      firstText: "+54399999999",
-      iconPhone: Phone,
-      filterIcon:
-        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      secondText: "Pulse para llamar emergencias inmediatas",
+      primaryLink: {
+        text: "+54399999999",
+        icon: Phone,
+      },
+      secondaryLink: {
+        text: "Pulse para llamar emergencias inmediatas",
+        filterIcon:
+          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      },
       sectionImage: {
         image: HeaderUrgency,
         title: "Respuesta Zero%",
@@ -63,14 +70,20 @@ const serviceDetail = [
     color: "#abf096a8",
     hover: "#6ce946c9",
     header: {
-      span: "CUIDADO PREVENTIVO",
+      infoSup: {
+        span: "CUIDADO PREVENTIVO",
+      },
       title: [{ text: "Consulta General", color: "normal" }],
-      subtitle:
+      description:
         "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
-      filterIcon:
-        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      firstText: "Agenda una consulta preventiva",
-      secondText: "Ver especialistas",
+      primaryLink: {
+        text: "Agenda una consulta preventiva",
+        filterIcon:
+          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      },
+      secondaryLink: {
+        text: "Ver especialistas",
+      },
       sectionImage: {
         image: HeaderConsultation,
         title: "Salud 100%",
@@ -90,15 +103,21 @@ const serviceDetail = [
     color: "#b498f0a3",
     hover: "#723ee1a3",
     header: {
-      span: "CUIDADO HOLÍSTICO",
+      infoSup: {
+        span: "CUIDADO HOLÍSTICO",
+      },
       title: [{ text: "Peluqeria y Bienestar", color: "normal" }],
-      subtitle:
+      description:
         "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
-      firstText: "Reservar Cita",
-      iconPhone: calendar,
-      filterIcon:
-        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      secondText: "Ver Galería",
+      primaryLink: {
+        text: "Reservar Cita",
+        icon: calendar,
+        filterIcon:
+          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
+      },
+      secondaryLink: {
+        text: "Ver Galería",
+      },
       sectionImage: {
         image: HeaderGrooming,
       },
@@ -114,15 +133,21 @@ const serviceDetail = [
     color: "#34e78b70",
     hover: "#08f67cd4",
     header: {
-      span: "CUIDADO PREVENTIVO",
+      infoSup: {
+        span: "CUIDADO PREVENTIVO",
+      },
       title: [
         { text: "Vacunación y", color: "normal" },
         { text: " Prevención", color: "green" },
       ],
-      subtitle:
+      description:
         "Proteja a sus compañeros de vida de enfermedades infecciosas graves.En Veterinaria Coquetos, combinamos protocolos cientificos avanzados con un trato cálido y libre de estrés",
-      firstText: "Programar Vacuna",
-      secondText: "Ver Calendario",
+      primaryLink: {
+        text: "Programar Vacuna",
+      },
+      secondaryLink: {
+        text: "Ver Calendario",
+      },
       sectionImage: {
         image: HeaderVaccination,
         title: "Respuesta Zero%",
@@ -141,19 +166,25 @@ const serviceDetail = [
     color: "#cf7e9963",
     hover: "#ec3f7882",
     header: {
-      iconEmergency: "",
-      span: "Servicios Especializados",
+      infoSup: {
+        icon: "",
+        span: "Servicios Especializados",
+      },
       title: [
         { text: "Laboratorio Clínico ", color: "normal" },
         { text: " y Diagnóstico", color: "green" },
       ],
-      subtitle:
+      description:
         "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
-      firstText: "Agendar Analisis",
-      iconPhone: Phone,
+      primaryLink: {
+        text: "Agendar Analisis",
+        icon: Phone,
+      },
+      secondaryLink: {
+        text: "Pulse para llamar emergencias inmediatas",
+      },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      secondText: "Pulse para llamar emergencias inmediatas",
       sectionImage: {
         image: HeaderLaboratory,
         title: "Respuesta Zero%",
@@ -172,15 +203,21 @@ const serviceDetail = [
     color: "#3366cc42",
     hover: "#2c72ff6e",
     header: {
-      iconEmergency: Emergency,
-      span: "Servicios Especializados",
+      infoSup: {
+        icon: Emergency,
+        span: "Servicios Especializados",
+      },
       title: [{ text: "Cirugía y Quirófano", color: "normal" }],
-      subtitle:
+      description:
         "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
-      firstText: "Agenda una cita",
+      primaryLink: {
+        text: "Agenda una cita",
+      },
+      secondaryLink: {
+        text: "Ver especialistas",
+      },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      secondText: "Ver especialistas",
       sectionImage: {
         image: HeaderCirugy,
         title: "Especialistas certificados",
