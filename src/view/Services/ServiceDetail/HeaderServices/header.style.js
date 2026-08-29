@@ -46,8 +46,8 @@ export const SpanTitle = styled.span`
   color: ${({ $color }) =>
     $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
 `;
-export const LinkLeft = styled.a``;
-export const LinkRight = styled.a``;
+export const LinkLeft = styled.div``;
+export const LinkRight = styled.div``;
 export const ImageContainer = styled.div``;
 export const Image = styled.img``;
 export const Paragraph = styled.p``;

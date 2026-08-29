@@ -26,7 +26,7 @@ const HeaderServices = ({ serviceData }) => {
   const { iconSpan, span, filter: FilterInfo } = serviceData.infoSup;
   const { titleHeader, description, textSecondaryLink } = serviceData;
   const { text, iconPrimary, filter: FilterPrimary } = serviceData.primaryLink;
-  console.log(title, serviceData);
+  console.log(title, FilterInfo);
 
   return (
     <Header>
@@ -44,7 +44,7 @@ const HeaderServices = ({ serviceData }) => {
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
         <LinkRight>
-          {iconPrimary && <Icon src={iconPrimary} />}
+          {iconPrimary && <Icon src={iconPrimary} $filter={FilterPrimary} />}
           {text}
         </LinkRight>
         <LinkLeft>{textSecondaryLink}</LinkLeft>

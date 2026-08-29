@@ -12,7 +12,8 @@ import Speed from "../../src/assets/icons/speed.svg";
 import HealthServices from "../../src/assets/icons/health-services.svg";
 import Flask from "../../src/assets/icons/erlenmeyer-flask.svg";
 import Arrow from "../../src/assets/icons/arrow-right.svg";
-import Emergency from "../../src/assets/icons/emergency-home.svg";
+import Emergency from "../../src/assets/icons/emergency.svg";
+import EmergencyHome from "../../src/assets/icons/emergency-home.svg";
 import BodyUrgency from "../../src/view/Services/ServiceDetail/Bodies/Urgency";
 import BodyCirugy from "../../src/view/Services/ServiceDetail/Bodies/Cirugy";
 import BodyLaboratory from "../../src/view/Services/ServiceDetail/Bodies/ClinicalLaboratory";
@@ -37,7 +38,7 @@ const serviceDetail = [
     hover: "#f0630bba",
     header: {
       infoSup: {
-        iconSpan: Emergency,
+        iconSpan: EmergencyHome,
         filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         span: "DISPONIBLE 24/7 SIN CITA PREVIA",
