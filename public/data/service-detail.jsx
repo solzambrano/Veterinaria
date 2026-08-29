@@ -1,13 +1,15 @@
-import vaccine from "../../src/assets/icons/vaccine.svg";
-import grooming from "../../src/assets/icons/grooming.svg";
-import microscopy from "../../src/assets/icons/microscopy.svg";
-import health from "../../src/assets/icons/health.svg";
-import scalpel from "../../src/assets/icons/scalpel.svg";
+import Vaccine from "../../src/assets/icons/vaccine.svg";
+import Grooming from "../../src/assets/icons/grooming.svg";
+import Microscopy from "../../src/assets/icons/microscopy.svg";
+import Health from "../../src/assets/icons/health.svg";
+import Scalpel from "../../src/assets/icons/scalpel.svg";
 import Phone from "../../src/assets/icons/phone.svg";
 import Calendar from "../../src/assets/icons/calendar.svg";
 import Verify from "../../src/assets/icons/verify-filled.svg";
 import Check from "../../src/assets/icons/shield-check.svg";
 import Serum from "../../src/assets/icons/medical-drip.svg";
+import HealthServices from "../../src/assets/icons/health-services.svg";
+import Flask from "../../src/assets/icons/erlenmeyer-flask.svg";
 import Arrow from "../../src/assets/icons/arrow-right.svg";
 import Emergency from "../../src/assets/icons/emergency-home.svg";
 import BodyUrgency from "../../src/view/Services/ServiceDetail/Bodies/Urgency";
@@ -25,7 +27,7 @@ import HeaderLaboratory from "../../src/assets/images/LaboratoryHeader.png";
 
 const serviceDetail = [
   {
-    image: emergency,
+    image: Emergency,
     slug: "urgency",
     title: "Urgencias 24h",
     description:
@@ -34,11 +36,12 @@ const serviceDetail = [
     hover: "#f0630bba",
     header: {
       infoSup: {
-        icon: Emergency,
-        filter: "",
+        iconSpan: Emergency,
+        filter:
+          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         span: "DISPONIBLE 24/7 SIN CITA PREVIA",
       },
-      title: [
+      titleHeader: [
         { text: "Urgencias y", color: "normal" },
         { text: " Cuidados Críticos", color: "green" },
         { text: " 24/7", color: "normal" },
@@ -47,13 +50,13 @@ const serviceDetail = [
         "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
       primaryLink: {
         text: "+54399999999",
-        icon: Phone,
+        iconPrimary: Phone,
+        filter:
+          "invert(100%) sepia(0%) saturate(7500%) hue-rotate(31deg) brightness(124%) contrast(119%);",
       },
-      secondaryLink: {
-        text: "Pulse para llamar emergencias inmediatas",
-        filterIcon:
-          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      },
+
+      textSecondaryLink: "Pulse para llamar emergencias inmediatas",
+
       sectionImage: {
         image: HeaderUrgency,
         title: "Respuesta Zero%",
@@ -64,7 +67,7 @@ const serviceDetail = [
     body: BodyUrgency,
   },
   {
-    image: health,
+    image: Health,
     slug: "atention",
     title: "Consulta general",
     description:
@@ -75,29 +78,27 @@ const serviceDetail = [
       infoSup: {
         span: "CUIDADO PREVENTIVO",
       },
-      title: [{ text: "Consulta General", color: "normal" }],
+      titleHeader: [{ text: "Consulta General", color: "normal" }],
       description:
         "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
       primaryLink: {
         text: "Agenda una consulta preventiva",
-        filterIcon:
-          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       },
-      secondaryLink: {
-        text: "Ver especialistas",
-      },
+
+      textSecondaryLink: "Ver especialistas",
+
       sectionImage: {
         image: HeaderConsultation,
         title: "Salud 100%",
+        filter: "",
         icon: Check,
         subtitle: "Monitoreo constante para la tranquilidad de tu familia",
       },
     },
     body: BodyConsultation,
-    imageConsultation: HeaderConsultation,
   },
   {
-    image: grooming,
+    image: Grooming,
     slug: "grooming",
     title: "Grooming",
     description:
@@ -108,18 +109,17 @@ const serviceDetail = [
       infoSup: {
         span: "CUIDADO HOLÍSTICO",
       },
-      title: [{ text: "Peluqeria y Bienestar", color: "normal" }],
+      titleHeader: [{ text: "Peluqeria y Bienestar", color: "normal" }],
       description:
         "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
       primaryLink: {
         text: "Reservar Cita",
-        icon: Calendar,
-        filterIcon:
+        iconPrimary: Calendar,
+        filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       },
-      secondaryLink: {
-        text: "Ver Galería",
-      },
+
+      textSecondaryLink: "Ver Galería",
       sectionImage: {
         image: HeaderGrooming,
       },
@@ -127,7 +127,7 @@ const serviceDetail = [
     body: BodyGrooming,
   },
   {
-    image: vaccine,
+    image: Vaccine,
     slug: "vacunation",
     title: "Vacunacion",
     description:
@@ -138,7 +138,7 @@ const serviceDetail = [
       infoSup: {
         span: "CUIDADO PREVENTIVO",
       },
-      title: [
+      titleHeader: [
         { text: "Vacunación y", color: "normal" },
         { text: " Prevención", color: "green" },
       ],
@@ -147,15 +147,17 @@ const serviceDetail = [
       primaryLink: {
         text: "Programar Vacuna",
       },
-      secondaryLink: {
-        text: "Ver Calendario",
+
+      textSecondaryLink: "Ver Calendario",
+
+      sectionImage: {
+        image: HeaderVaccination,
       },
-      image: HeaderVaccination,
     },
     body: BodyVaccination,
   },
   {
-    image: microscopy,
+    image: Microscopy,
     slug: "laboratory",
     title: "Laboratorio Clinico",
     description:
@@ -164,10 +166,12 @@ const serviceDetail = [
     hover: "#ec3f7882",
     header: {
       infoSup: {
-        icon: "",
+        iconSpan: Flask,
+        filter:
+          "invert(76%) sepia(18%) saturate(7330%) hue-rotate(85deg) brightness(104%) contrast(88%)",
         span: "Servicios Especializados",
       },
-      title: [
+      titleHeader: [
         { text: "Laboratorio Clínico ", color: "normal" },
         { text: " y Diagnóstico", color: "green" },
       ],
@@ -175,19 +179,16 @@ const serviceDetail = [
         "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
       primaryLink: {
         text: "Agendar Analisis",
-        icon: Arrow,
+        iconPrimary: Arrow,
       },
-      secondaryLink: {
-        text: "Pulse para llamar emergencias inmediatas",
+      sectionImage: {
+        image: HeaderLaboratory,
       },
-      filterIcon:
-        "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-      image: HeaderLaboratory,
     },
     body: BodyLaboratory,
   },
   {
-    image: scalpel,
+    image: Scalpel,
     slug: "cirugy",
     title: "Cirugias",
     description:
@@ -196,24 +197,23 @@ const serviceDetail = [
     hover: "#2c72ff6e",
     header: {
       infoSup: {
-        icon: Emergency,
-        span: "Servicios Especializados",
+        icon: HealthServices,
+        iconSpan: "Servicios Especializados",
       },
-      title: [{ text: "Cirugía y Quirófano", color: "normal" }],
+      titleHeader: [{ text: "Cirugía y Quirófano", color: "normal" }],
       description:
         "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
       primaryLink: {
         text: "Agenda una cita",
       },
-      secondaryLink: {
-        text: "Ver especialistas",
-      },
+      textSecondaryLink: "Ver especialistas",
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       sectionImage: {
         image: HeaderCirugy,
         title: "Especialistas certificados",
         icon: Verify,
+        filter: "",
         subtitle: "Protocolos de primera calidad",
       },
     },
