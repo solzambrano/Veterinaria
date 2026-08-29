@@ -8,6 +8,7 @@ import Calendar from "../../src/assets/icons/calendar.svg";
 import Verify from "../../src/assets/icons/verify-filled.svg";
 import Check from "../../src/assets/icons/shield-check.svg";
 import Serum from "../../src/assets/icons/medical-drip.svg";
+import Speed from "../../src/assets/icons/speed.svg";
 import HealthServices from "../../src/assets/icons/health-services.svg";
 import Flask from "../../src/assets/icons/erlenmeyer-flask.svg";
 import Arrow from "../../src/assets/icons/arrow-right.svg";
@@ -20,7 +21,7 @@ import BodyGrooming from "../../src/view/Services/ServiceDetail/Bodies/Grooming"
 import BodyVaccination from "../../src/view/Services/ServiceDetail/Bodies/Vaccination";
 import HeaderUrgency from "../../src/assets/images/UrgencyHeader.jpg";
 import HeaderGrooming from "../../src/assets/images/GroomingHeader.png";
-import HeaderConsultation from "../../src/assets/images/ConsultationHeader.jpg";
+import HeaderConsultation from "../../src/assets/images/ConsultationHeader.png";
 import HeaderCirugy from "../../src/assets/images/CirugyHeader.jpg";
 import HeaderVaccination from "../../src/assets/images/VaccinationHeader.png";
 import HeaderLaboratory from "../../src/assets/images/LaboratoryHeader.png";
@@ -52,15 +53,17 @@ const serviceDetail = [
         text: "+54399999999",
         iconPrimary: Phone,
         filter:
-          "invert(100%) sepia(0%) saturate(7500%) hue-rotate(31deg) brightness(124%) contrast(119%);",
+          "invert(93%) sepia(7%) saturate(0%) hue-rotate(158deg) brightness(105%) contrast(109%)",
       },
 
       textSecondaryLink: "Pulse para llamar emergencias inmediatas",
 
       sectionImage: {
         image: HeaderUrgency,
-        title: "Respuesta Zero%",
-        icon: Serum,
+        title: "Respuesta Zero",
+        icon: Speed,
+        filter:
+          "invert(30%) sepia(71%) saturate(6943%) hue-rotate(352deg) brightness(90%) contrast(129%)",
         subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
       },
     },

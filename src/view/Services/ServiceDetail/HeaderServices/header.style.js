@@ -19,11 +19,12 @@ export const Header = styled.header`
   margin: auto;
   margin-top: 35px;
 `;
-export const IconAvailable = styled.img`
-  filter: ${({ $filter }) => $filter};
+export const Icon = styled.img`
+  filter: ${({ $filter }) => $filter || "none"};
   vertical-align: center;
   margin-right: 5px;
 `;
+export const ParagraphDescription = styled.p``;
 export const SectionInfo = styled.section``;
 export const Available = styled.span`
   border-radius: 15px;
@@ -45,3 +46,10 @@ export const SpanTitle = styled.span`
   color: ${({ $color }) =>
     $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
 `;
+export const LinkLeft = styled.a``;
+export const LinkRight = styled.a``;
+export const ImageContainer = styled.div``;
+export const Image = styled.img``;
+export const Paragraph = styled.p``;
+export const Subtitle = styled.h2``;
+export const ExtraInfo = styled.div``;
