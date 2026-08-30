@@ -42,6 +42,7 @@ const serviceDetail = [
         filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         span: "DISPONIBLE 24/7 SIN CITA PREVIA",
+        theme: "Brown",
       },
       titleHeader: [
         { text: "Urgencias y", color: "normal" },
@@ -81,6 +82,7 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO PREVENTIVO",
+        theme: "Green",
       },
       titleHeader: [{ text: "Consulta General", color: "normal" }],
       description:
@@ -112,6 +114,7 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO HOLÍSTICO",
+        theme: "Green",
       },
       titleHeader: [{ text: "Peluqeria y Bienestar", color: "normal" }],
       description:
@@ -141,6 +144,7 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO PREVENTIVO",
+        theme: "Green",
       },
       titleHeader: [
         { text: "Vacunación y", color: "normal" },
@@ -174,6 +178,7 @@ const serviceDetail = [
         filter:
           "invert(76%) sepia(18%) saturate(7330%) hue-rotate(85deg) brightness(104%) contrast(88%)",
         span: "Servicios Especializados",
+        theme: "Gray",
       },
       titleHeader: [
         { text: "Laboratorio Clínico ", color: "normal" },
@@ -203,6 +208,7 @@ const serviceDetail = [
       infoSup: {
         icon: HealthServices,
         iconSpan: "Servicios Especializados",
+        theme: "Gray",
       },
       titleHeader: [{ text: "Cirugía y Quirófano", color: "normal" }],
       description:
