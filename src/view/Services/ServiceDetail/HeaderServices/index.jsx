@@ -14,6 +14,7 @@ import {
   LinkLeft,
   ImageContainer,
   Paragraph,
+  ContainerLinks,
 } from "./header.style";
 const HeaderServices = ({ serviceData }) => {
   const {
@@ -43,11 +44,13 @@ const HeaderServices = ({ serviceData }) => {
           ))}
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
-        <LinkRight>
-          {iconPrimary && <Icon src={iconPrimary} $filter={FilterPrimary} />}
-          {text}
-        </LinkRight>
-        <LinkLeft>{textSecondaryLink}</LinkLeft>
+        <ContainerLinks>
+          <LinkRight>
+            {iconPrimary && <Icon src={iconPrimary} $filter={FilterPrimary} />}
+            {text}
+          </LinkRight>
+          <LinkLeft>{textSecondaryLink}</LinkLeft>
+        </ContainerLinks>
       </SectionInfo>
       <SectionImage>
         <ImageContainer>

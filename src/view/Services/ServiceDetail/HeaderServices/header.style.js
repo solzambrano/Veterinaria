@@ -23,6 +23,10 @@ export const Icon = styled.img`
   filter: ${({ $filter }) => $filter || "none"};
   vertical-align: center;
   margin-right: 5px;
+  width: 20px;
+`;
+export const ContainerLinks = styled.div`
+  display: flex;
 `;
 export const ParagraphDescription = styled.p``;
 export const SectionInfo = styled.section``;
