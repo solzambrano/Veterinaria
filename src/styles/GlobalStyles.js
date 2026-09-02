@@ -22,7 +22,7 @@ export const GlobalStyles = createGlobalStyle`
 }
   body {
     font-family: 'Lexend', sans-serif;
-    }
+}
 
  `;
 

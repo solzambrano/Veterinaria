@@ -22,7 +22,7 @@ export const Icon = styled.img`
   filter: ${({ $filter }) => $filter || "none"};
   vertical-align: center;
   margin-right: 5px;
-  width: 20px;
+  width: 25px;
   transition: ${({ $variant }) =>
     sectionVariants[$variant]?.transition ?? "none"};
 
@@ -38,8 +38,9 @@ export const Icon = styled.img`
 `;
 export const ContainerLinks = styled.div`
   display: flex;
-  margi-top: 2rem;
+  margin-top: 2rem;
   gap: 1rem;
+  align-items: center;
 `;
 export const ParagraphDescription = styled.p`
   font-size: 1.25rem;
@@ -70,13 +71,20 @@ export const Title = styled.h1`
   font-weight: 900;
   margin-top: 2rem;
 `;
-export const SectionImage = styled.section``;
+export const SectionImage = styled.section`
+  position: relative;
+`;
 export const SpanTitle = styled.span`
   color: ${({ $color }) =>
     $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
 `;
 export const LinkLeft = styled(Link)`
   text-decoration: none;
+  color: ${({ $variant }) => sectionVariants[$variant].color};
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 175px;
 `;
 export const LinkRight = styled(Link)`
   font-weight: 700;
@@ -86,7 +94,6 @@ export const LinkRight = styled(Link)`
   color: ${({ $variant }) => sectionVariants[$variant].color};
   background-color: ${({ $variant }) => sectionVariants[$variant].background};
   border-radius: ${({ $variant }) => sectionVariants[$variant].border_r};
-
   display: flex;
   gap: 0.75rem;
 `;
@@ -99,6 +106,31 @@ export const Image = styled.img`
   height: 100%;
   object-fit: cover;
 `;
-export const Paragraph = styled.p``;
-export const Subtitle = styled.h2``;
-export const ExtraInfo = styled.div``;
+export const Paragraph = styled.p`
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
+`;
+export const Subtitle = styled.h2`
+  font-size: 1rem;
+`;
+export const ExtraInfo = styled.div`
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  max-width: 240px;
+  position: absolute;
+  background-color: ${({ $variant }) =>
+    sectionVariants[$variant]?.background ?? "none"};
+  box-shadow: ${({ $variant }) => sectionVariants[$variant]?.shadow ?? "none"};
+  border-color: ${({ $variant }) =>
+    sectionVariants[$variant]?.border ?? "none"};
+  bottom: -1.75rem;
+  left: -1.75rem;
+  box-sizing: border-box;
+`;
+
+export const Heading = styled.div`
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+`;

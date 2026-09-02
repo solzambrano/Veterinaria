@@ -71,7 +71,9 @@ const serviceDetail = [
         icon: Speed,
         filter:
           "invert(30%) sepia(71%) saturate(6943%) hue-rotate(352deg) brightness(90%) contrast(129%)",
-        subtitle: "Protocolo de estabilizacion en menos de 2 minutos",
+        subtitle:
+          "Evaluación inmediata al llegar.Protocolo de estabilizacion en menos de 2 minutos",
+        theme: "default",
       },
     },
     body: BodyUrgency,

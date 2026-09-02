@@ -1,6 +1,7 @@
 import {
   Header,
   SectionInfo,
+  Heading,
   Title,
   Available,
   SectionImage,
@@ -25,6 +26,7 @@ const HeaderServices = ({ serviceData }) => {
     image,
     width,
     height,
+    theme: themeImage,
   } = serviceData.sectionImage;
   const { iconSpan, span, theme, filter: FilterInfo } = serviceData.infoSup;
   const { titleHeader, description } = serviceData;
@@ -35,9 +37,6 @@ const HeaderServices = ({ serviceData }) => {
     theme: themePrimary,
   } = serviceData.primaryLink;
   const { textSecondary, theme: themeSecondary } = serviceData.secondaryLink;
-
-  console.log(theme, themePrimary);
-
   return (
     <Header>
       <SectionInfo>
@@ -78,9 +77,11 @@ const HeaderServices = ({ serviceData }) => {
             alt="operacion mascota"
           />
         </ImageContainer>
-        <ExtraInfo>
-          <Subtitle>{title}</Subtitle>
-          <Icon $filter={FilterImage} src={icon} alt="" />
+        <ExtraInfo $variant={themeImage}>
+          <Heading>
+            <Icon $filter={FilterImage} src={icon} alt="" />
+            <Subtitle>{title}</Subtitle>
+          </Heading>
           <Paragraph>{subtitle}</Paragraph>
         </ExtraInfo>
       </SectionImage>
