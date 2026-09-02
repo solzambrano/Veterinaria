@@ -20,7 +20,7 @@ import BodyLaboratory from "../../src/view/Services/ServiceDetail/Bodies/Clinica
 import BodyConsultation from "../../src/view/Services/ServiceDetail/Bodies/GeneralConsultation";
 import BodyGrooming from "../../src/view/Services/ServiceDetail/Bodies/Grooming";
 import BodyVaccination from "../../src/view/Services/ServiceDetail/Bodies/Vaccination";
-import HeaderUrgency from "../../src/assets/images/UrgencyHeader.jpg";
+import HeaderUrgency from "../../src/assets/images/UrgencyHeader.png";
 import HeaderGrooming from "../../src/assets/images/GroomingHeader.png";
 import HeaderConsultation from "../../src/assets/images/ConsultationHeader.png";
 import HeaderCirugy from "../../src/assets/images/CirugyHeader.jpg";
@@ -65,6 +65,8 @@ const serviceDetail = [
 
       sectionImage: {
         image: HeaderUrgency,
+        width: 1764,
+        height: 891,
         title: "Respuesta Zero",
         icon: Speed,
         filter:
@@ -101,6 +103,8 @@ const serviceDetail = [
 
       sectionImage: {
         image: HeaderConsultation,
+        width: 1537,
+        height: 1023,
         title: "Salud 100%",
         filter: "",
         icon: Check,
@@ -138,6 +142,8 @@ const serviceDetail = [
       },
       sectionImage: {
         image: HeaderGrooming,
+        width: 1514,
+        height: 1039,
       },
     },
     body: BodyGrooming,
@@ -172,6 +178,8 @@ const serviceDetail = [
 
       sectionImage: {
         image: HeaderVaccination,
+        width: 1537,
+        height: 1023,
       },
     },
     body: BodyVaccination,
@@ -190,7 +198,7 @@ const serviceDetail = [
         filter:
           "invert(76%) sepia(18%) saturate(7330%) hue-rotate(85deg) brightness(104%) contrast(88%)",
         span: "Servicios Especializados",
-        theme: "gray",
+        theme: "pastel",
       },
       titleHeader: [
         { text: "Laboratorio Clínico ", color: "normal" },
@@ -205,6 +213,8 @@ const serviceDetail = [
       },
       sectionImage: {
         image: HeaderLaboratory,
+        width: 1477,
+        height: 1065,
       },
     },
     body: BodyLaboratory,
@@ -238,6 +248,8 @@ const serviceDetail = [
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
       sectionImage: {
         image: HeaderCirugy,
+        width: 1376,
+        height: 768,
         title: "Especialistas certificados",
         icon: Verify,
         filter: "",

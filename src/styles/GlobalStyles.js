@@ -7,12 +7,18 @@ export const GlobalStyles = createGlobalStyle`
     --color-Green-muted:#065106;
     --color-Green-light:#6dec6d;
     --color-Green-fondo:#e6f4e6;
+    --color-Green-bright:#19E65E;
     --color-Green-paginator: #4c835d;
+    --color-pastel-Green: #ECF7E7;
     --color-Black:#000000;
     --color-Ligth: #f6f8f6;
     --color-Terra: #f4f3f4;
     --color-Gray: #707a6d;
+    --color-Gray-l:#e5e7eb;
     --color-White:#FFFFFF;
+    --color-Red-d:#991B1B;
+    --color-Red-l:#FEE2E2;
+    --color-Red-primary:#DC2626;
 }
   body {
     font-family: 'Lexend', sans-serif;

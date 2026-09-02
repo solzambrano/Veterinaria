@@ -13,6 +13,7 @@ import {
   LinkRight,
   LinkLeft,
   ImageContainer,
+  Image,
   Paragraph,
   ContainerLinks,
 } from "./header.style";
@@ -23,16 +24,18 @@ const HeaderServices = ({ serviceData }) => {
     filter: FilterImage,
     subtitle,
     image,
+    width,
+    height,
   } = serviceData.sectionImage;
-  const { iconSpan, span, filter: FilterInfo } = serviceData.infoSup;
+  const { iconSpan, span, theme, filter: FilterInfo } = serviceData.infoSup;
   const { titleHeader, description, textSecondaryLink } = serviceData;
   const { text, iconPrimary, filter: FilterPrimary } = serviceData.primaryLink;
-  console.log(title, FilterInfo);
+  console.log(theme);
 
   return (
     <Header>
       <SectionInfo>
-        <Available>
+        <Available $variant={theme}>
           {iconSpan && <Icon $filter={FilterInfo} src={iconSpan} />}
           {span}
         </Available>
@@ -54,7 +57,12 @@ const HeaderServices = ({ serviceData }) => {
       </SectionInfo>
       <SectionImage>
         <ImageContainer>
-          <img src={image} alt="operacion mascota" />
+          <Image
+            width={width}
+            height={height}
+            src={image}
+            alt="operacion mascota"
+          />
         </ImageContainer>
         <ExtraInfo>
           <Subtitle>{title}</Subtitle>

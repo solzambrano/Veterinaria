@@ -4,8 +4,8 @@ export const sectionVariants = {
     color: "var(--color-Green-s)",
   },
 
-  gray: {
-    background: "var(--color-gray)",
+  pastel: {
+    background: "var(--color-pastel-Green)",
     color: "var(--color-Black)",
   },
 
@@ -16,6 +16,7 @@ export const sectionVariants = {
   urgent: {
     background: "var(--color-Red-primary",
     color: "var(--color-White)",
+    border: "1px solid pink",
   },
   info: {
     background: "var(--color-Green-s)",
