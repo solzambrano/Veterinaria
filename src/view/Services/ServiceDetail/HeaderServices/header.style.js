@@ -24,15 +24,21 @@ export const Icon = styled.img`
 `;
 export const ContainerLinks = styled.div`
   display: flex;
+  margi-top: 2rem;
+  gap: 1rem;
 `;
-export const ParagraphDescription = styled.p``;
+export const ParagraphDescription = styled.p`
+  font-size: 1.25rem;
+  line-height: 1.625;
+  margin-top: 2rem;
+`;
 export const SectionInfo = styled.section``;
 export const Available = styled.span`
   border-radius: 15px;
   color: ${({ $variant }) => sectionVariants[$variant].color};
   background-color: ${({ $variant }) => sectionVariants[$variant].background};
   border: ${({ $variant }) => sectionVariants[$variant].border ?? "none"};
-  padding: 5px 20px;
+  padding: 0.5rem 1rem;
   ${({ $variant }) =>
     sectionVariants[$variant].animation &&
     css`
@@ -41,10 +47,14 @@ export const Available = styled.span`
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
+  line-height: 1.25rem;
 `;
 export const Title = styled.h1`
   font-size: 4.5rem;
+  line-height: 1.1;
   margin: 0px;
+  font-weight: 900;
+  margin-top: 2rem;
 `;
 export const SectionImage = styled.section``;
 export const SpanTitle = styled.span`
@@ -54,8 +64,8 @@ export const SpanTitle = styled.span`
 export const LinkLeft = styled.div``;
 export const LinkRight = styled.div``;
 export const ImageContainer = styled.div`
-  width: 50rem;
-  height: 35rem;
+  width: 45rem;
+  height: 30rem;
 `;
 export const Image = styled.img`
   width: 100%;

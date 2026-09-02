@@ -28,8 +28,15 @@ const HeaderServices = ({ serviceData }) => {
     height,
   } = serviceData.sectionImage;
   const { iconSpan, span, theme, filter: FilterInfo } = serviceData.infoSup;
-  const { titleHeader, description, textSecondaryLink } = serviceData;
-  const { text, iconPrimary, filter: FilterPrimary } = serviceData.primaryLink;
+  const { titleHeader, description } = serviceData;
+  const {
+    textPrimary,
+    iconPrimary,
+    filter: FilterPrimary,
+    theme: themePrimary,
+  } = serviceData.primaryLink;
+  const { textSecondary, theme: themeSecondary } = serviceData.secondaryLink;
+
   console.log(theme);
 
   return (
@@ -48,11 +55,13 @@ const HeaderServices = ({ serviceData }) => {
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
         <ContainerLinks>
-          <LinkRight>
+          <LinkRight $variant={theme}>
             {iconPrimary && <Icon src={iconPrimary} $filter={FilterPrimary} />}
-            {text}
+            {textPrimary}
           </LinkRight>
-          <LinkLeft>{textSecondaryLink}</LinkLeft>
+          {textSecondary && (
+            <LinkLeft $variant={theme}>{textSecondary}</LinkLeft>
+          )}
         </ContainerLinks>
       </SectionInfo>
       <SectionImage>
