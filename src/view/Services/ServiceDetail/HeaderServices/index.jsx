@@ -1,4 +1,3 @@
-import Button from "../../../../components/Buttons";
 import {
   Header,
   SectionInfo,
@@ -37,7 +36,7 @@ const HeaderServices = ({ serviceData }) => {
   } = serviceData.primaryLink;
   const { textSecondary, theme: themeSecondary } = serviceData.secondaryLink;
 
-  console.log(theme);
+  console.log(theme, themePrimary);
 
   return (
     <Header>
@@ -55,12 +54,18 @@ const HeaderServices = ({ serviceData }) => {
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
         <ContainerLinks>
-          <LinkRight $variant={theme}>
-            {iconPrimary && <Icon src={iconPrimary} $filter={FilterPrimary} />}
+          <LinkRight $variant={themePrimary}>
+            {iconPrimary && (
+              <Icon
+                $variant={themePrimary}
+                src={iconPrimary}
+                $filter={FilterPrimary}
+              />
+            )}
             {textPrimary}
           </LinkRight>
           {textSecondary && (
-            <LinkLeft $variant={theme}>{textSecondary}</LinkLeft>
+            <LinkLeft $variant={themeSecondary}>{textSecondary}</LinkLeft>
           )}
         </ContainerLinks>
       </SectionInfo>

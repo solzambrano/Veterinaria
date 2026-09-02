@@ -1,6 +1,8 @@
 import styled, { css, keyframes } from "styled-components";
 import { sectionVariants } from "../Variants";
-console.log(sectionVariants);
+import { Link } from "react-router-dom";
+
+console.log(sectionVariants.urgent);
 const pulse = keyframes`
   50% {
     opacity: 0.5;
@@ -21,6 +23,18 @@ export const Icon = styled.img`
   vertical-align: center;
   margin-right: 5px;
   width: 20px;
+  transition: ${({ $variant }) =>
+    sectionVariants[$variant]?.transition ?? "none"};
+
+  transform: ${({ $variant }) =>
+    sectionVariants[$variant]?.transform ?? "none"};
+
+  &:hover {
+    transform: ${({ $variant }) =>
+      sectionVariants[$variant]?.transform_hover ??
+      sectionVariants[$variant]?.transform ??
+      "none"};
+  }
 `;
 export const ContainerLinks = styled.div`
   display: flex;
@@ -61,8 +75,21 @@ export const SpanTitle = styled.span`
   color: ${({ $color }) =>
     $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
 `;
-export const LinkLeft = styled.div``;
-export const LinkRight = styled.div``;
+export const LinkLeft = styled(Link)`
+  text-decoration: none;
+`;
+export const LinkRight = styled(Link)`
+  font-weight: 700;
+  line-height: 1.75rem;
+  padding: 1.25rem 2rem;
+  text-decoration: none;
+  color: ${({ $variant }) => sectionVariants[$variant].color};
+  background-color: ${({ $variant }) => sectionVariants[$variant].background};
+  border-radius: ${({ $variant }) => sectionVariants[$variant].border_r};
+
+  display: flex;
+  gap: 0.75rem;
+`;
 export const ImageContainer = styled.div`
   width: 45rem;
   height: 30rem;

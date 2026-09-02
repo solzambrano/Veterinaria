@@ -52,14 +52,14 @@ const serviceDetail = [
       description:
         "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
       primaryLink: {
-        text: "+54399999999",
+        textPrimary: "+54399999999",
         iconPrimary: Phone,
         filter:
           "invert(93%) sepia(7%) saturate(0%) hue-rotate(158deg) brightness(105%) contrast(109%)",
         theme: "urgent",
       },
-      secondaryLik: {
-        textSecondaryLink: "Pulse para llamar emergencias inmediatas",
+      secondaryLink: {
+        textSecondary: "Pulse para llamar emergencias inmediatas",
         theme: "default",
       },
 
@@ -93,11 +93,11 @@ const serviceDetail = [
       description:
         "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
       primaryLink: {
-        text: "Agenda una consulta preventiva",
+        textPrimary: "Agenda una consulta preventiva",
         theme: "info",
       },
       secondaryLink: {
-        textSecondaryLink: "Ver especialistas",
+        textSecondary: "Ver especialistas",
         theme: "secondary",
       },
 
@@ -130,14 +130,14 @@ const serviceDetail = [
       description:
         "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
       primaryLink: {
-        text: "Reservar Cita",
+        textPrimary: "Reservar Cita",
         iconPrimary: Calendar,
         filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         theme: "info",
       },
       secondaryLink: {
-        textSecondaryLink: "Ver Galería",
+        textSecondary: "Ver Galería",
         theme: "secondary",
       },
       sectionImage: {
@@ -168,11 +168,11 @@ const serviceDetail = [
       description:
         "Proteja a sus compañeros de vida de enfermedades infecciosas graves.En Veterinaria Coquetos, combinamos protocolos cientificos avanzados con un trato cálido y libre de estrés",
       primaryLink: {
-        text: "Programar Vacuna",
+        textPrimary: "Programar Vacuna",
         theme: "info",
       },
       secondaryLink: {
-        textSecondaryLink: "Ver Calendario",
+        textSecondary: "Ver Calendario",
         theme: "default",
       },
 
@@ -207,7 +207,7 @@ const serviceDetail = [
       description:
         "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
       primaryLink: {
-        text: "Agendar Analisis",
+        textPrimary: "Agendar Analisis",
         iconPrimary: Arrow,
         theme: "info",
       },
@@ -237,11 +237,11 @@ const serviceDetail = [
       description:
         "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
       primaryLink: {
-        text: "Agenda una cita",
+        textPrimary: "Agenda una cita",
         theme: "info",
       },
       secondaryLink: {
-        textSecondaryLink: "Ver especialistas",
+        textSecondary: "Ver especialistas",
         theme: "outline",
       },
       filterIcon:

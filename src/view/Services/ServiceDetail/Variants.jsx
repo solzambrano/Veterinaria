@@ -16,8 +16,12 @@ export const sectionVariants = {
     border: "1px solid pink",
   },
   urgent: {
-    background: "var(--color-Red-primary",
+    background: "var(--color-Red-primary)",
     color: "var(--color-White)",
+    border_r: "45px",
+    transform: "rotate(-15deg)",
+    transition: "transform 0.3s ease",
+    transform_hover: "rotate(15deg)",
   },
   info: {
     background: "var(--color-Green-s)",
