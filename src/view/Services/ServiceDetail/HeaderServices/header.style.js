@@ -1,18 +1,11 @@
-import styled, { keyframes } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 import { sectionVariants } from "../Variants";
 console.log(sectionVariants);
-
 const pulse = keyframes`
-  0%, 100% {
-    background-color: #e99ed6fa;
-    color: #d858d22f;
-  }
-
   50% {
-   opacity: 0.6;
-   color:#d858d22f;
-  }
-`;
+    opacity: 0.5;
+  `;
+
 export const Header = styled.header`
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -40,11 +33,14 @@ export const Available = styled.span`
   background-color: ${({ $variant }) => sectionVariants[$variant].background};
   border: ${({ $variant }) => sectionVariants[$variant].border ?? "none"};
   padding: 5px 20px;
-
+  ${({ $variant }) =>
+    sectionVariants[$variant].animation &&
+    css`
+      animation: ${pulse} 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    `};
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
-  // animation: ${pulse} 2.5s ease-in-out infinite;
 `;
 export const Title = styled.h1`
   font-size: 4.5rem;

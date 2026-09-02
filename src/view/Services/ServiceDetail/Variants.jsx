@@ -12,11 +12,12 @@ export const sectionVariants = {
   brown: {
     background: "var(--color-Red-l)",
     color: "var(--color-Red-d)",
+    animation: true,
+    border: "1px solid pink",
   },
   urgent: {
     background: "var(--color-Red-primary",
     color: "var(--color-White)",
-    border: "1px solid pink",
   },
   info: {
     background: "var(--color-Green-s)",
