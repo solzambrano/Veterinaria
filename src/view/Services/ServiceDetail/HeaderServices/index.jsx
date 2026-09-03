@@ -3,7 +3,8 @@ import {
   SectionInfo,
   Heading,
   Title,
-  Available,
+  Span,
+  SpanContent,
   SectionImage,
   SpanTitle,
   Icon,
@@ -19,32 +20,36 @@ import {
 } from "./header.style";
 const HeaderServices = ({ serviceData }) => {
   const {
-    title,
-    icon,
-    filter: FilterImage,
-    subtitle,
     image,
     width,
     height,
-    theme: themeImage,
+    variant: variantImage,
   } = serviceData.sectionImage;
-  const { iconSpan, span, theme, filter: FilterInfo } = serviceData.infoSup;
-  const { titleHeader, description } = serviceData;
+  const {
+    title,
+    icon,
+    filter: filterImage,
+    subtitle,
+    variant: variantAdditional,
+  } = serviceData.additional;
+  const { iconSpan, span, variant, filter: filterInfo } = serviceData.infoSup;
+  const { titleHeader, description } = serviceData.content;
   const {
     textPrimary,
     iconPrimary,
-    filter: FilterPrimary,
-    theme: themePrimary,
+    filter: filterPrimary,
+    variant: variantPrimary,
   } = serviceData.primaryLink;
-  const { textSecondary, theme: themeSecondary } = serviceData.secondaryLink;
+  const { textSecondary, variant: variantSecondary } =
+    serviceData.secondaryLink;
   return (
     <Header>
       <SectionInfo>
-        <Available $variant={theme}>
-          {iconSpan && <Icon $filter={FilterInfo} src={iconSpan} />}
-          {span}
-        </Available>
-        <Title>
+        <SpanContent $variant={variant}>
+          {iconSpan && <Icon $filter={filterInfo} src={iconSpan} />}
+          <Span $variant={variant}>{span} </Span>
+        </SpanContent>
+        <Title $variant={variant}>
           {titleHeader.map((text, index) => (
             <SpanTitle key={index} $color={text.color}>
               {text.text}
@@ -53,23 +58,23 @@ const HeaderServices = ({ serviceData }) => {
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
         <ContainerLinks>
-          <LinkRight $variant={themePrimary}>
+          <LinkRight $variant={variantPrimary}>
             {iconPrimary && (
               <Icon
-                $variant={themePrimary}
+                $variant={variantPrimary}
                 src={iconPrimary}
-                $filter={FilterPrimary}
+                $filter={filterPrimary}
               />
             )}
             {textPrimary}
           </LinkRight>
           {textSecondary && (
-            <LinkLeft $variant={themeSecondary}>{textSecondary}</LinkLeft>
+            <LinkLeft $variant={variantSecondary}>{textSecondary}</LinkLeft>
           )}
         </ContainerLinks>
       </SectionInfo>
       <SectionImage>
-        <ImageContainer>
+        <ImageContainer $variant={variantImage}>
           <Image
             width={width}
             height={height}
@@ -77,13 +82,15 @@ const HeaderServices = ({ serviceData }) => {
             alt="operacion mascota"
           />
         </ImageContainer>
-        <ExtraInfo $variant={themeImage}>
-          <Heading>
-            <Icon $filter={FilterImage} src={icon} alt="" />
-            <Subtitle>{title}</Subtitle>
-          </Heading>
-          <Paragraph>{subtitle}</Paragraph>
-        </ExtraInfo>
+        {title && (
+          <ExtraInfo $variant={variantAdditional}>
+            <Heading>
+              <Icon $filter={filterImage} src={icon} alt="" />
+              <Subtitle>{title}</Subtitle>
+            </Heading>
+            <Paragraph>{subtitle}</Paragraph>
+          </ExtraInfo>
+        )}
       </SectionImage>
     </Header>
   );

@@ -42,38 +42,42 @@ const serviceDetail = [
         filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         span: "DISPONIBLE 24/7 SIN CITA PREVIA",
-        theme: "brown",
+        variant: "urgent",
       },
-      titleHeader: [
-        { text: "Urgencias y", color: "normal" },
-        { text: " Cuidados Críticos", color: "green" },
-        { text: " 24/7", color: "normal" },
-      ],
-      description:
-        "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
+      content: {
+        titleHeader: [
+          { text: "Urgencias y", color: "normal" },
+          { text: " Cuidados Críticos", color: "green" },
+          { text: " 24/7", color: "normal" },
+        ],
+        description:
+          "Cada segundo es vital.Contamos con un equipo de especialistes de élite y tecnologia de vanguardia para intervenir en situaciones críticas de forma inmediata",
+      },
       primaryLink: {
         textPrimary: "+54399999999",
         iconPrimary: Phone,
         filter:
           "invert(93%) sepia(7%) saturate(0%) hue-rotate(158deg) brightness(105%) contrast(109%)",
-        theme: "urgent",
+        variant: "urgent",
       },
       secondaryLink: {
         textSecondary: "Pulse para llamar emergencias inmediatas",
-        theme: "default",
+        variant: "default",
       },
-
       sectionImage: {
         image: HeaderUrgency,
         width: 1764,
         height: 891,
+        variant: "urgent",
+      },
+      additional: {
         title: "Respuesta Zero",
         icon: Speed,
         filter:
           "invert(30%) sepia(71%) saturate(6943%) hue-rotate(352deg) brightness(90%) contrast(129%)",
         subtitle:
           "Evaluación inmediata al llegar.Protocolo de estabilizacion en menos de 2 minutos",
-        theme: "default",
+        variant: "default",
       },
     },
     body: BodyUrgency,
@@ -89,28 +93,35 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO PREVENTIVO",
-        theme: "green",
+        variant: "health",
       },
-      titleHeader: [{ text: "Consulta General", color: "normal" }],
-      description:
-        "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
+      content: {
+        titleHeader: [{ text: "Consulta General", color: "normal" }],
+        description:
+          "La salud de tu mascota comienza con la prevencion.Nuestras consultas de bienestar regulares son el pilar para una vida larga,activa y feliz junto a tu compañero",
+      },
       primaryLink: {
         textPrimary: "Agenda una consulta preventiva",
-        theme: "info",
+        variant: "info",
       },
       secondaryLink: {
         textSecondary: "Ver especialistas",
-        theme: "secondary",
+        variant: "secondary",
       },
 
       sectionImage: {
         image: HeaderConsultation,
         width: 1537,
         height: 1023,
+        variant: "consultation",
+      },
+      additional: {
         title: "Salud 100%",
-        filter: "",
+        filter:
+          "invert(94%) sepia(11%) saturate(6295%) hue-rotate(69deg) brightness(90%) contrast(102%)",
         icon: Check,
         subtitle: "Monitoreo constante para la tranquilidad de tu familia",
+        variant: "info",
       },
     },
     body: BodyConsultation,
@@ -126,26 +137,29 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO HOLÍSTICO",
-        theme: "green",
+        variant: "holistic",
       },
-      titleHeader: [{ text: "Peluqeria y Bienestar", color: "normal" }],
-      description:
-        "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
+      content: {
+        titleHeader: [{ text: "Peluqeria y Bienestar", color: "normal" }],
+        description:
+          "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
+      },
       primaryLink: {
         textPrimary: "Reservar Cita",
         iconPrimary: Calendar,
         filter:
           "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
-        theme: "info",
+        variant: "info",
       },
       secondaryLink: {
         textSecondary: "Ver Galería",
-        theme: "secondary",
+        variant: "secondary",
       },
       sectionImage: {
         image: HeaderGrooming,
         width: 1514,
         height: 1039,
+        variant: "grooming",
       },
     },
     body: BodyGrooming,
@@ -161,27 +175,30 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO PREVENTIVO",
-        theme: "green",
+        variant: "health",
       },
-      titleHeader: [
-        { text: "Vacunación y", color: "normal" },
-        { text: " Prevención", color: "green" },
-      ],
-      description:
-        "Proteja a sus compañeros de vida de enfermedades infecciosas graves.En Veterinaria Coquetos, combinamos protocolos cientificos avanzados con un trato cálido y libre de estrés",
+      content: {
+        titleHeader: [
+          { text: "Vacunación y", color: "normal" },
+          { text: " Prevención", color: "green" },
+        ],
+        description:
+          "Proteja a sus compañeros de vida de enfermedades infecciosas graves.En Veterinaria Coquetos, combinamos protocolos cientificos avanzados con un trato cálido y libre de estrés",
+      },
       primaryLink: {
         textPrimary: "Programar Vacuna",
-        theme: "info",
+        variant: "info",
       },
       secondaryLink: {
         textSecondary: "Ver Calendario",
-        theme: "default",
+        variant: "default",
       },
 
       sectionImage: {
         image: HeaderVaccination,
         width: 1537,
         height: 1023,
+        variant: "vaccination",
       },
     },
     body: BodyVaccination,
@@ -200,23 +217,26 @@ const serviceDetail = [
         filter:
           "invert(76%) sepia(18%) saturate(7330%) hue-rotate(85deg) brightness(104%) contrast(88%)",
         span: "Servicios Especializados",
-        theme: "pastel",
+        variant: "special",
       },
-      titleHeader: [
-        { text: "Laboratorio Clínico ", color: "normal" },
-        { text: " y Diagnóstico", color: "green" },
-      ],
-      description:
-        "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
+      content: {
+        titleHeader: [
+          { text: "Laboratorio Clínico ", color: "normal" },
+          { text: " y Diagnóstico", color: "green" },
+        ],
+        description:
+          "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
+      },
       primaryLink: {
         textPrimary: "Agendar Analisis",
         iconPrimary: Arrow,
-        theme: "info",
+        variant: "info",
       },
       sectionImage: {
         image: HeaderLaboratory,
         width: 1477,
         height: 1065,
+        variant: "lab",
       },
     },
     body: BodyLaboratory,
@@ -233,18 +253,20 @@ const serviceDetail = [
       infoSup: {
         icon: HealthServices,
         iconSpan: "Servicios Especializados",
-        theme: "gray",
+        variant: "sanity",
       },
-      titleHeader: [{ text: "Cirugía y Quirófano", color: "normal" }],
-      description:
-        "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
+      content: {
+        titleHeader: [{ text: "Cirugía y Quirófano", color: "normal" }],
+        description:
+          "Infraestructura de vangaurdia y precisión quirúrgica para garantizar la salud y el bienestar de los que más quieres",
+      },
       primaryLink: {
         textPrimary: "Agenda una cita",
-        theme: "info",
+        variant: "info",
       },
       secondaryLink: {
         textSecondary: "Ver especialistas",
-        theme: "outline",
+        variant: "outline",
       },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
@@ -252,10 +274,14 @@ const serviceDetail = [
         image: HeaderCirugy,
         width: 1376,
         height: 768,
+        variant: "cirugy",
+      },
+      additional: {
         title: "Especialistas certificados",
         icon: Verify,
         filter: "",
         subtitle: "Protocolos de primera calidad",
+        variant: "default",
       },
     },
     body: BodyCirugy,

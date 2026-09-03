@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     --color-Green-light:#6dec6d;
     --color-Green-fondo:#e6f4e6;
     --color-Green-bright:#19E65E;
+    --color-Green-dark:#116D2B;
     --color-Green-paginator: #4c835d;
     --color-pastel-Green: #ECF7E7;
     --color-Black:#000000;

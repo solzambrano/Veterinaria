@@ -1,8 +1,12 @@
 import styled, { css, keyframes } from "styled-components";
-import { sectionVariants } from "../Variants";
+import {
+  imageVariants,
+  additionalVariants,
+  buttonVariants,
+  headerVariants,
+} from "../Variants";
 import { Link } from "react-router-dom";
 
-console.log(sectionVariants.urgent);
 const pulse = keyframes`
   50% {
     opacity: 0.5;
@@ -14,9 +18,21 @@ export const Header = styled.header`
   gap: 3rem;
   align-items: center;
   max-width: 80rem;
-  margin: 0;
-  margin: auto;
-  padding: 96px;
+  margin-left: auto;
+  margin-right: auto;
+`;
+export const SpanContent = styled.div`
+  border-radius: 15px;
+  background-color: ${({ $variant }) => headerVariants[$variant].background};
+  border: ${({ $variant }) => headerVariants[$variant].border ?? "none"};
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  ${({ $variant }) =>
+    headerVariants[$variant].animation &&
+    css`
+      animation: ${pulse} 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    `};
 `;
 export const Icon = styled.img`
   filter: ${({ $filter }) => $filter || "none"};
@@ -24,17 +40,39 @@ export const Icon = styled.img`
   margin-right: 5px;
   width: 25px;
   transition: ${({ $variant }) =>
-    sectionVariants[$variant]?.transition ?? "none"};
+    buttonVariants[$variant]?.transition ?? "none"};
 
-  transform: ${({ $variant }) =>
-    sectionVariants[$variant]?.transform ?? "none"};
+  transform: ${({ $variant }) => buttonVariants[$variant]?.transform ?? "none"};
 
   &:hover {
     transform: ${({ $variant }) =>
-      sectionVariants[$variant]?.transform_hover ??
-      sectionVariants[$variant]?.transform ??
+      buttonVariants[$variant]?.transform_hover ??
+      buttonVariants[$variant]?.transform ??
       "none"};
   }
+`;
+export const Span = styled.span`
+  color: ${({ $variant }) => headerVariants[$variant]?.color};
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  line-height: 1.25rem;
+`;
+export const Title = styled.h1`
+  font-size: ${({ $variant }) => headerVariants[$variant]?.size};
+  line-height: 1.1;
+  margin: 0px;
+  font-weight: 900;
+  margin-top: 2rem;
+`;
+export const SpanTitle = styled.span`
+  color: ${({ $color }) =>
+    $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
+`;
+export const ParagraphDescription = styled.p`
+  font-size: 1.25rem;
+  line-height: 1.625;
+  margin-top: 2rem;
 `;
 export const ContainerLinks = styled.div`
   display: flex;
@@ -42,77 +80,45 @@ export const ContainerLinks = styled.div`
   gap: 1rem;
   align-items: center;
 `;
-export const ParagraphDescription = styled.p`
-  font-size: 1.25rem;
-  line-height: 1.625;
-  margin-top: 2rem;
-`;
-export const SectionInfo = styled.section``;
-export const Available = styled.span`
-  border-radius: 15px;
-  color: ${({ $variant }) => sectionVariants[$variant].color};
-  background-color: ${({ $variant }) => sectionVariants[$variant].background};
-  border: ${({ $variant }) => sectionVariants[$variant].border ?? "none"};
-  padding: 0.5rem 1rem;
-  ${({ $variant }) =>
-    sectionVariants[$variant].animation &&
-    css`
-      animation: ${pulse} 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    `};
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.05rem;
-  line-height: 1.25rem;
-`;
-export const Title = styled.h1`
-  font-size: 4.5rem;
-  line-height: 1.1;
-  margin: 0px;
-  font-weight: 900;
-  margin-top: 2rem;
-`;
-export const SectionImage = styled.section`
-  position: relative;
-`;
-export const SpanTitle = styled.span`
-  color: ${({ $color }) =>
-    $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
-`;
-export const LinkLeft = styled(Link)`
-  text-decoration: none;
-  color: ${({ $variant }) => sectionVariants[$variant].color};
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  width: 175px;
-`;
 export const LinkRight = styled(Link)`
   font-weight: 700;
   line-height: 1.75rem;
   padding: 1.25rem 2rem;
   text-decoration: none;
-  color: ${({ $variant }) => sectionVariants[$variant].color};
-  background-color: ${({ $variant }) => sectionVariants[$variant].background};
-  border-radius: ${({ $variant }) => sectionVariants[$variant].border_r};
+  color: ${({ $variant }) => buttonVariants[$variant].color};
+  background-color: ${({ $variant }) => buttonVariants[$variant].background};
+  border-radius: ${({ $variant }) => buttonVariants[$variant].border_r};
   display: flex;
   gap: 0.75rem;
 `;
+export const LinkLeft = styled(Link)`
+  text-decoration: none;
+  color: ${({ $variant }) => buttonVariants[$variant].color};
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 175px;
+`;
+export const SectionInfo = styled.section`
+  box-sizing: border-box;
+`;
+
+export const SectionImage = styled.section`
+  position: relative;
+`;
+
 export const ImageContainer = styled.div`
-  width: 45rem;
-  height: 30rem;
+  width: 38rem;
+  height: 31rem;
+  border: ${({ $variant }) => imageVariants[$variant].border};
+  border-radius: 45px;
+  box-shadow: ${({ $variant }) => imageVariants[$variant].shadow};
 `;
 export const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-`;
-export const Paragraph = styled.p`
-  margin: 0;
-  font-size: 0.75rem;
-  line-height: 1rem;
-`;
-export const Subtitle = styled.h2`
-  font-size: 1rem;
+  border-radius: 45px;
 `;
 export const ExtraInfo = styled.div`
   padding: 1.5rem;
@@ -120,17 +126,25 @@ export const ExtraInfo = styled.div`
   max-width: 240px;
   position: absolute;
   background-color: ${({ $variant }) =>
-    sectionVariants[$variant]?.background ?? "none"};
-  box-shadow: ${({ $variant }) => sectionVariants[$variant]?.shadow ?? "none"};
+    additionalVariants[$variant]?.background ?? "none"};
+  box-shadow: ${({ $variant }) =>
+    additionalVariants[$variant]?.shadow ?? "none"};
   border-color: ${({ $variant }) =>
-    sectionVariants[$variant]?.border ?? "none"};
+    additionalVariants[$variant]?.border ?? "none"};
   bottom: -1.75rem;
   left: -1.75rem;
   box-sizing: border-box;
 `;
-
 export const Heading = styled.div`
   display: flex;
   gap: 0.75rem;
   align-items: center;
+`;
+export const Subtitle = styled.h2`
+  font-size: 1rem;
+`;
+export const Paragraph = styled.p`
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
 `;
