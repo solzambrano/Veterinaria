@@ -95,12 +95,17 @@ export const LinkLeft = styled(Link)`
   text-decoration: none;
   color: ${({ $variant }) => buttonVariants[$variant].color};
   border: ${({ $variant }) => buttonVariants[$variant].border};
-  font-weight: 500;
+  font-weight: ${({ $variant }) => buttonVariants[$variant].weight};
   font-size: ${({ $variant }) => buttonVariants[$variant].size};
   line-height: ${({ $variant }) => buttonVariants[$variant].line};
+  box-shadow: ${({ $variant }) => buttonVariants[$variant].shadow};
   width: fit-content;
   max-width: 11rem;
   padding: 1rem 2rem;
+
+  &:hover {
+    background-color: ${({ $variant }) => buttonVariants[$variant].hover};
+  }
 `;
 export const SectionInfo = styled.section`
   box-sizing: border-box;
@@ -121,6 +126,7 @@ export const ImageContainer = styled.div`
   transition: ${({ $variant }) =>
     imageVariants[$variant]?.transition ?? "none"};
   transform: ${({ $variant }) => imageVariants[$variant]?.transform ?? "none"};
+
   &::before {
     content: "";
     position: absolute;

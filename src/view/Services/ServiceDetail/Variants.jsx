@@ -16,6 +16,11 @@ export const headerVariants = {
     color: "var(--color-Green-dark)",
     size: "3.75rem",
   },
+  prevention: {
+    size: "4.5rem",
+    background: "rgba(25, 230, 94, 0.1)",
+    color: "var(--color-Green-s)",
+  },
 };
 
 export const buttonVariants = {
@@ -26,6 +31,7 @@ export const buttonVariants = {
     transform: "rotate(-15deg)",
     transition: "transform 0.3s ease",
     transform_hover: "rotate(15deg)",
+    weight: 500,
   },
   info: {
     background: "var(--color-Green-s)",
@@ -51,7 +57,9 @@ export const buttonVariants = {
   },
   outline: {
     color: "var(--color-Black)",
-    border: "var(--color-Gray-l)",
+    border: " 1px solid var(--color-Gray-l)",
+    weight: 700,
+    hover: "var(--color-Gray-Light)",
     shadow: `
       0 20px 25px -5px rgb(0 0 0 / 0.1),
       0 8px 10px -6px rgb(0 0 0 / 0.1)
@@ -65,17 +73,21 @@ export const imageVariants = {
   },
   consultation: {
     transform: "rotate(5deg)",
-    transition: "transform 0.3s ease",
+    transition: "transform 1s ease",
     transform_hover: "rotate(-5deg)",
   },
   grooming: {
     background_border: "0.1px solid var(--color-Green-s)",
     background: "rgb(25 230 94 / 10%)",
     background_form: "rotate(5deg)",
-    background_transit: "transform 0.3s ease",
+    background_transit: "transform 1.2s ease",
     background_hover: "rotate(-5deg)",
   },
-  vaccination: {},
+  vaccination: {
+    transform: "rotate(2deg)",
+    transition: "transform 1s ease",
+    transform_hover: "rotate(-5deg)",
+  },
   pastel: {
     background: "var(--color-pastel-Green)",
     color: "var(--color-Black)",

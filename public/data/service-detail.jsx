@@ -173,7 +173,7 @@ const serviceDetail = [
     header: {
       infoSup: {
         span: "CUIDADO PREVENTIVO",
-        variant: "health",
+        variant: "prevention",
       },
       content: {
         titleHeader: [
@@ -189,7 +189,7 @@ const serviceDetail = [
       },
       secondaryLink: {
         textSecondary: "Ver Calendario",
-        variant: "default",
+        variant: "outline",
       },
 
       sectionImage: {
