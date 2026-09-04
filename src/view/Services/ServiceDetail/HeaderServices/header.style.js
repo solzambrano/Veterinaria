@@ -113,18 +113,37 @@ export const SectionImage = styled.section`
 export const ImageContainer = styled.div`
   width: 38rem;
   height: 31rem;
+  z-index: 100;
+  position: relative;
   border: ${({ $variant }) => imageVariants[$variant].border};
   border-radius: 45px;
   box-shadow: ${({ $variant }) => imageVariants[$variant].shadow};
   transition: ${({ $variant }) =>
     imageVariants[$variant]?.transition ?? "none"};
-
   transform: ${({ $variant }) => imageVariants[$variant]?.transform ?? "none"};
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -10px;
+    background-color: ${({ $variant }) => imageVariants[$variant].background};
+    border-radius: 1rem;
+    transition: ${({ $variant }) =>
+      imageVariants[$variant]?.transition ?? "none"};
+    transform: ${({ $variant }) =>
+      imageVariants[$variant]?.background_form ?? "none"};
+    z-index: -1;
+  }
 
+  &:hover::before {
+    transform: ${({ $variant }) =>
+      imageVariants[$variant]?.background_hover ??
+      imageVariants[$variant]?.background_for ??
+      "none"};
+  }
   &:hover {
     transform: ${({ $variant }) =>
-      buttonVariants[$variant]?.transform_hover ??
-      buttonVariants[$variant]?.transform ??
+      imageVariants[$variant]?.transform_hover ??
+      imageVariants[$variant]?.transform ??
       "none"};
   }
 `;

@@ -11,7 +11,11 @@ export const headerVariants = {
     color: "var(--color-Green-s)",
     size: "3.75rem",
   },
-  holistic: {},
+  holistic: {
+    background: "rgb(25 230 94 / 10%)",
+    color: "var(--color-Green-dark)",
+    size: "3.75rem",
+  },
 };
 
 export const buttonVariants = {
@@ -64,7 +68,13 @@ export const imageVariants = {
     transition: "transform 0.3s ease",
     transform_hover: "rotate(-5deg)",
   },
-  grooming: {},
+  grooming: {
+    background_border: "0.1px solid var(--color-Green-s)",
+    background: "rgb(25 230 94 / 10%)",
+    background_form: "rotate(5deg)",
+    background_transit: "transform 0.3s ease",
+    background_hover: "rotate(-5deg)",
+  },
   vaccination: {},
   pastel: {
     background: "var(--color-pastel-Green)",

@@ -31,7 +31,7 @@ const HeaderServices = ({ serviceData }) => {
     filter: filterImage,
     subtitle,
     variant: variantAdditional,
-  } = serviceData.additional;
+  } = serviceData?.additional ?? {};
   const { iconSpan, span, variant, filter: filterInfo } = serviceData.infoSup;
   const { titleHeader, description } = serviceData.content;
   const {

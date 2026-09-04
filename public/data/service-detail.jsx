@@ -142,13 +142,11 @@ const serviceDetail = [
       content: {
         titleHeader: [{ text: "Peluqeria y Bienestar", color: "normal" }],
         description:
-          "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compñaero se sienta tan bien como luce.",
+          "Más que un corte, una experiencia de salud.Nos enfocamos en la higiene profunda, la salud dermatológica y el manejo libre de estrés para que tu compañero se sienta tan bien como luce.",
       },
       primaryLink: {
         textPrimary: "Reservar Cita",
         iconPrimary: Calendar,
-        filter:
-          "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",
         variant: "info",
       },
       secondaryLink: {
