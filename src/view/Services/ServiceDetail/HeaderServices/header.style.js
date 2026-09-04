@@ -87,17 +87,20 @@ export const LinkRight = styled(Link)`
   text-decoration: none;
   color: ${({ $variant }) => buttonVariants[$variant].color};
   background-color: ${({ $variant }) => buttonVariants[$variant].background};
-  border-radius: ${({ $variant }) => buttonVariants[$variant].border_r};
+  border-radius: ${({ $variant }) => buttonVariants[$variant].border};
   display: flex;
   gap: 0.75rem;
 `;
 export const LinkLeft = styled(Link)`
   text-decoration: none;
   color: ${({ $variant }) => buttonVariants[$variant].color};
+  border: ${({ $variant }) => buttonVariants[$variant].border};
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  width: 175px;
+  font-size: ${({ $variant }) => buttonVariants[$variant].size};
+  line-height: ${({ $variant }) => buttonVariants[$variant].line};
+  width: fit-content;
+  max-width: 11rem;
+  padding: 1rem 2rem;
 `;
 export const SectionInfo = styled.section`
   box-sizing: border-box;
@@ -113,6 +116,17 @@ export const ImageContainer = styled.div`
   border: ${({ $variant }) => imageVariants[$variant].border};
   border-radius: 45px;
   box-shadow: ${({ $variant }) => imageVariants[$variant].shadow};
+  transition: ${({ $variant }) =>
+    imageVariants[$variant]?.transition ?? "none"};
+
+  transform: ${({ $variant }) => imageVariants[$variant]?.transform ?? "none"};
+
+  &:hover {
+    transform: ${({ $variant }) =>
+      buttonVariants[$variant]?.transform_hover ??
+      buttonVariants[$variant]?.transform ??
+      "none"};
+  }
 `;
 export const Image = styled.img`
   width: 100%;
@@ -139,6 +153,7 @@ export const Heading = styled.div`
   display: flex;
   gap: 0.75rem;
   align-items: center;
+  color: ${({ $variant }) => additionalVariants[$variant].color};
 `;
 export const Subtitle = styled.h2`
   font-size: 1rem;

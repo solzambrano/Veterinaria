@@ -84,7 +84,7 @@ const HeaderServices = ({ serviceData }) => {
         </ImageContainer>
         {title && (
           <ExtraInfo $variant={variantAdditional}>
-            <Heading>
+            <Heading $variant={variantAdditional}>
               <Icon $filter={filterImage} src={icon} alt="" />
               <Subtitle>{title}</Subtitle>
             </Heading>

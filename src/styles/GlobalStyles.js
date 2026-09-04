@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     --color-Green-dark:#116D2B;
     --color-Green-paginator: #4c835d;
     --color-pastel-Green: #ECF7E7;
+    --color-Green-Primary:rgba(25, 230, 94, 0.2);
     --color-Black:#000000;
     --color-Ligth: #f6f8f6;
     --color-Terra: #f4f3f4;
