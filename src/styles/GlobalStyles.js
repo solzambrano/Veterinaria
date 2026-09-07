@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     --color-Green-fondo:#e6f4e6;
     --color-Green-bright:#19E65E;
     --color-Green-dark:#116D2B;
+    --color-green-text: #3C4B3B;
     --color-Green-paginator: #4c835d;
     --color-pastel-Green: #ECF7E7;
     --color-Green-Primary:rgba(25, 230, 94, 0.2);

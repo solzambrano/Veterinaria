@@ -55,6 +55,7 @@ const serviceDetail = [
       },
       primaryLink: {
         textPrimary: "+54399999999",
+        iconPosition: "left",
         iconPrimary: Phone,
         filter:
           "invert(93%) sepia(7%) saturate(0%) hue-rotate(158deg) brightness(105%) contrast(109%)",
@@ -146,6 +147,7 @@ const serviceDetail = [
       },
       primaryLink: {
         textPrimary: "Reservar Cita",
+        iconPosition: "left",
         iconPrimary: Calendar,
         variant: "info",
       },
@@ -220,15 +222,16 @@ const serviceDetail = [
       content: {
         titleHeader: [
           { text: "Laboratorio Clínico ", color: "normal" },
-          { text: " y Diagnóstico", color: "green" },
+          { text: " y Diagnóstico", color: "rgb(0 110 39 / 0.8)" },
         ],
         description:
           "Proporcionamos servicios de diagnóstico de alta precisión utilizando tecnlogía de vanguardia.Nuestro objetivo es ofrecer resultados rápidos y certeros para guiar el tratamiento adecuado y asegurar el bienestar de tu mascota",
       },
       primaryLink: {
         textPrimary: "Agendar Analisis",
+        iconPosition: "right",
         iconPrimary: Arrow,
-        variant: "info",
+        variant: "analisis",
       },
       sectionImage: {
         image: HeaderLaboratory,
@@ -249,8 +252,8 @@ const serviceDetail = [
     hover: "#2c72ff6e",
     header: {
       infoSup: {
-        icon: HealthServices,
-        iconSpan: "Servicios Especializados",
+        iconSpan: Serum,
+        span: "Servicios Especializados",
         variant: "sanity",
       },
       content: {
@@ -260,11 +263,11 @@ const serviceDetail = [
       },
       primaryLink: {
         textPrimary: "Agenda una cita",
-        variant: "info",
+        variant: "default",
       },
       secondaryLink: {
         textSecondary: "Ver especialistas",
-        variant: "outline",
+        variant: "secondary",
       },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",

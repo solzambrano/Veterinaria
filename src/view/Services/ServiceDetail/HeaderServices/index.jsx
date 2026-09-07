@@ -37,11 +37,12 @@ const HeaderServices = ({ serviceData }) => {
   const {
     textPrimary,
     iconPrimary,
+    iconPosition,
     filter: filterPrimary,
     variant: variantPrimary,
   } = serviceData.primaryLink;
   const { textSecondary, variant: variantSecondary } =
-    serviceData.secondaryLink;
+    serviceData.secondaryLink ?? {};
   return (
     <Header>
       <SectionInfo>
@@ -58,8 +59,8 @@ const HeaderServices = ({ serviceData }) => {
         </Title>
         <ParagraphDescription>{description}</ParagraphDescription>
         <ContainerLinks>
-          <LinkRight $variant={variantPrimary}>
-            {iconPrimary && (
+          <LinkRight $variant={variantPrimary} $iconPosition={iconPosition}>
+            {iconPosition === "left" && iconPrimary && (
               <Icon
                 $variant={variantPrimary}
                 src={iconPrimary}
@@ -67,7 +68,15 @@ const HeaderServices = ({ serviceData }) => {
               />
             )}
             {textPrimary}
+            {iconPosition === "right" && iconPrimary && (
+              <Icon
+                $variant={variantPrimary}
+                src={iconPrimary}
+                $filter={filterPrimary}
+              />
+            )}
           </LinkRight>
+
           {textSecondary && (
             <LinkLeft $variant={variantSecondary}>{textSecondary}</LinkLeft>
           )}

@@ -21,6 +21,14 @@ export const headerVariants = {
     background: "rgba(25, 230, 94, 0.1)",
     color: "var(--color-Green-s)",
   },
+  special: {
+    background: "var(--color-pastel-Green)",
+    color: "var(--color-Green-text)",
+    size: "3.75rem",
+  },
+  sanity: {
+    background: "var(--color-pastel-Green)",
+  },
 };
 
 export const buttonVariants = {
@@ -65,6 +73,15 @@ export const buttonVariants = {
       0 8px 10px -6px rgb(0 0 0 / 0.1)
     `,
   },
+  analisis: {
+    weight: 700,
+    background: "#006E27",
+    color: "var(--color-White)",
+    position: "relative",
+    hover: "var(--color-Green-s)",
+    gap: "0.5rem",
+    border: "45px",
+  },
 };
 export const imageVariants = {
   urgent: {
@@ -88,9 +105,12 @@ export const imageVariants = {
     transition: "transform 1s ease",
     transform_hover: "rotate(-5deg)",
   },
-  pastel: {
-    background: "var(--color-pastel-Green)",
-    color: "var(--color-Black)",
+  lab: {
+    background: "rgb(25 230 94 / 10%)",
+    background_form: "rotate(5deg)",
+  },
+  cirugy: {
+    border: "4px solid var(--color-White)",
   },
 };
 export const additionalVariants = {

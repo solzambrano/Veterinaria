@@ -39,10 +39,8 @@ export const Icon = styled.img`
   vertical-align: center;
   margin-right: 5px;
   width: 25px;
-  transition: ${({ $variant }) =>
-    buttonVariants[$variant]?.transition ?? "none"};
-
-  transform: ${({ $variant }) => buttonVariants[$variant]?.transform ?? "none"};
+  transition: ${({ $variant }) => buttonVariants[$variant]?.transition};
+  transform: ${({ $variant }) => buttonVariants[$variant]?.transform};
 
   &:hover {
     transform: ${({ $variant }) =>
@@ -85,11 +83,15 @@ export const LinkRight = styled(Link)`
   line-height: 1.75rem;
   padding: 1.25rem 2rem;
   text-decoration: none;
+  position: relative;
   color: ${({ $variant }) => buttonVariants[$variant].color};
   background-color: ${({ $variant }) => buttonVariants[$variant].background};
   border-radius: ${({ $variant }) => buttonVariants[$variant].border};
   display: flex;
-  gap: 0.75rem;
+  gap: ${({ $variant }) => buttonVariants[$variant].gap ?? "0.75rem"};
+  &:hover {
+    background: ${({ $variant }) => buttonVariants[$variant].hover};
+  }
 `;
 export const LinkLeft = styled(Link)`
   text-decoration: none;
@@ -118,9 +120,7 @@ export const SectionImage = styled.section`
 export const ImageContainer = styled.div`
   width: 38rem;
   height: 31rem;
-  z-index: 100;
-  position: relative;
-  border: ${({ $variant }) => imageVariants[$variant].border};
+  border: ${({ $variant }) => imageVariants[$variant].border ?? "none"};
   border-radius: 45px;
   box-shadow: ${({ $variant }) => imageVariants[$variant].shadow};
   transition: ${({ $variant }) =>
@@ -137,13 +137,12 @@ export const ImageContainer = styled.div`
       imageVariants[$variant]?.transition ?? "none"};
     transform: ${({ $variant }) =>
       imageVariants[$variant]?.background_form ?? "none"};
-    z-index: -1;
   }
 
   &:hover::before {
     transform: ${({ $variant }) =>
       imageVariants[$variant]?.background_hover ??
-      imageVariants[$variant]?.background_for ??
+      imageVariants[$variant]?.background_form ??
       "none"};
   }
   &:hover {
@@ -158,6 +157,7 @@ export const Image = styled.img`
   height: 100%;
   object-fit: cover;
   border-radius: 45px;
+  position: relative;
 `;
 export const ExtraInfo = styled.div`
   padding: 1.5rem;
