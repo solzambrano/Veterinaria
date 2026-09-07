@@ -86,8 +86,10 @@ export const LinkRight = styled(Link)`
   position: relative;
   color: ${({ $variant }) => buttonVariants[$variant].color};
   background-color: ${({ $variant }) => buttonVariants[$variant].background};
-  border-radius: ${({ $variant }) => buttonVariants[$variant].border};
+  border-radius: ${({ $variant }) => buttonVariants[$variant].borderRadius};
+  border: ${({ $variant }) => buttonVariants[$variant].border};
   display: flex;
+  box-shadow: ${({ $variant }) => buttonVariants[$variant].shadow};
   gap: ${({ $variant }) => buttonVariants[$variant].gap ?? "0.75rem"};
   &:hover {
     background: ${({ $variant }) => buttonVariants[$variant].hover};

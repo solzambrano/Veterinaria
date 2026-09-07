@@ -267,7 +267,7 @@ const serviceDetail = [
       },
       secondaryLink: {
         textSecondary: "Ver especialistas",
-        variant: "secondary",
+        variant: "secondaryGray",
       },
       filterIcon:
         "invert(16%) sepia(78%) saturate(2748%) hue-rotate(347deg) brightness(85%) contrast(94%)",

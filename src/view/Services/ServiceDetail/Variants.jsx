@@ -28,6 +28,7 @@ export const headerVariants = {
   },
   sanity: {
     background: "var(--color-pastel-Green)",
+    size: "3.75rem",
   },
 };
 
@@ -35,7 +36,7 @@ export const buttonVariants = {
   urgent: {
     background: "var(--color-Red-primary)",
     color: "var(--color-White)",
-    border: "45px",
+    borderRadius: "45px",
     transform: "rotate(-15deg)",
     transition: "transform 0.3s ease",
     transform_hover: "rotate(15deg)",
@@ -44,13 +45,14 @@ export const buttonVariants = {
   info: {
     background: "var(--color-Green-s)",
     color: "var(--color-Black)",
-    border: "0.75rem",
+    borderRadius: "0.75rem",
   },
   default: {
     color: "var(--color-Black)",
     background: "var(--color-White)",
-    border: "#E5E7EB",
+    border: "1px solid #E5E7EB",
     weight: 500,
+    borderRadius: "0.75rem",
     size: "0.875rem",
     line: "1.25rem",
     shadow:
@@ -73,6 +75,17 @@ export const buttonVariants = {
       0 8px 10px -6px rgb(0 0 0 / 0.1)
     `,
   },
+  secondaryGray: {
+    background: "var(--color-White)",
+    color: "var(--color-Black)",
+    border: "1px solid var(--color-Gray-l)",
+    weight: 700,
+    shadow: `
+      0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1)
+    `,
+    borderRadius: "0.75rem",
+  },
   analisis: {
     weight: 700,
     background: "#006E27",
@@ -80,7 +93,7 @@ export const buttonVariants = {
     position: "relative",
     hover: "var(--color-Green-s)",
     gap: "0.5rem",
-    border: "45px",
+    borderRadius: "45px",
   },
 };
 export const imageVariants = {
@@ -110,7 +123,7 @@ export const imageVariants = {
     background_form: "rotate(5deg)",
   },
   cirugy: {
-    border: "4px solid var(--color-White)",
+    border: "6px solid var(--color-White)",
   },
 };
 export const additionalVariants = {
