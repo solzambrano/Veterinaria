@@ -1,32 +1,30 @@
 import styled from "styled-components";
 
-export const Subparagraph =styled.p`
-color:var(--color-Gray);
-`
+export const Subparagraph = styled.p`
+  color: var(--gray-500);
+`;
 
 export const Unorder = styled.ul`
-list-style-type: square
-
-`
+  list-style-type: square;
+`;
 export const Item = styled.li`
-border: 1px solid #eadbdb;
+  border: 1px solid var(--beige-100);
   border-left: none;
   border-right: none;
   margin: 25px 0px;
-  list-style:none;
+  list-style: none;
   padding: 30px 10px;
-    ul & {
+  ul & {
     border: none;
     padding: 5px;
     margin: 5px 0px;
-    color: var(--color-Gray);
-    }
-
-`
-export const Image =styled.img`
-width:20px;
-`
-export const Detail= styled.details`
+    color: var(--gray-500);
+  }
+`;
+export const Image = styled.img`
+  width: 20px;
+`;
+export const Detail = styled.details`
   img {
     transition: transform 0.3s ease;
     transform: rotate(180deg);
@@ -35,16 +33,14 @@ export const Detail= styled.details`
   &[open] img {
     transform: rotate(360deg);
   }
-`
+`;
 export const Sumary = styled.summary`
-cursor:pointer;
-list-style:none;
-display: flex;
-justify-content: space-between;
-font-size:20px;
-&:hover {
-color:var(--color-Green-s);
-}
-
-
-`
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  &:hover {
+    color: var(--color-primary);
+  }
+`;

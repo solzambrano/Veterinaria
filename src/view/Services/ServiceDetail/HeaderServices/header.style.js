@@ -65,7 +65,7 @@ export const Title = styled.h1`
 `;
 export const SpanTitle = styled.span`
   color: ${({ $color }) =>
-    $color === "normal" ? "var(--color-Black)" : "var(--color-Green-s)"};
+    $color === "normal" ? "var( --color-text)" : "var( --color-primary)"};
 `;
 export const ParagraphDescription = styled.p`
   font-size: 1.25rem;
