@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { buttonVariants } from "../../styles/GlobalStyles";
+import { buttonVariants } from "./variantButton";
 
 export const ButtonStyle = styled.button`
   grid-column: 2 / span 1;

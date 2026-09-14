@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { iconVariant } from "./Variant";
 export const ContainerCard = styled.div`
   margin: 20px 5px;
   gap: 24px;
@@ -25,9 +25,9 @@ export const ContainerImage = styled.div`
   align-content: center;
   width: ${(props) => (props.$isServices ? "50px" : undefined)};
   height: ${(props) => (props.$isServices ? "50px" : undefined)};
-  background-color: ${(props) => props.$color};
+  background-color: ${({ $variant }) => iconVariant[$variant]?.background};
   &:hover {
-    background-color: ${(props) => props.$hover};
+    background-color: ${({ $variant }) => iconVariant[$variant]?.hover};
   }
 `;
 export const Imagen = styled.img`
