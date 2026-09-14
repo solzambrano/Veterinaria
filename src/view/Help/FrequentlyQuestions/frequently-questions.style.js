@@ -15,7 +15,7 @@ export const ContainerMoreQuestion = styled.div`
   padding: 25px;
 `;
 export const Paragraph = styled.p`
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0px;
 `;
@@ -25,11 +25,11 @@ export const SectionTitle = styled.h2`
 
 export const Subparagraph = styled.p`
   color: var(--gray-500);
-  font-size: 15px;
+  font-size: 1.1rem;
 `;
 export const Icons = styled.img`
   width: 30px;
-  padding-right: 15px;
+  padding-right: 1rem;
 `;
 export const ContainerContact = styled.div`
   background-color: var(--color-bg-soft);

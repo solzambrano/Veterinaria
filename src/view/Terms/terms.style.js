@@ -55,7 +55,7 @@ export const Sumary = styled.summary`
   list-style: none;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 1.2rem;
 `;
 export const Image = styled.img`
   width: 20px;

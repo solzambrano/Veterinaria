@@ -16,7 +16,7 @@ export const Lista = styled.li`
   width: 100px;
   text-align: center;
   padding: 10px;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
 `;
 

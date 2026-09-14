@@ -26,7 +26,7 @@ export const List = styled.li`
 `;
 export const Title = styled.h1`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 3rem;
 `;
 export const Paragraph = styled.p`
   line-height: 25px;

@@ -29,7 +29,7 @@ export const SpanTitle = styled.p`
   bottom:250px;
 	color: var(--green-200);
   font-weight:600;
-  font-size: 20px;
+  font-size: 1.4rem;
   margin: 0px 10px;
   text-shadow:var(--shadow-hard);
 

@@ -39,7 +39,7 @@ export const Sumary = styled.summary`
   list-style: none;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 1.3rem;
   &:hover {
     color: var(--color-primary);
   }

@@ -5,7 +5,7 @@ export const ContainerError = styled.div`
   margin: auto;
 `;
 export const ParagraphAviso = styled.p`
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   text-align: center;
 `;
@@ -16,7 +16,7 @@ export const Image = styled.img`
 `;
 export const ParagraphNotification = styled.p`
   margin: 0;
-  font-size: 18px;
+  font-size: 1.2rem;
 `;
 export const ParagraphRedirect = styled.span`
   font-weight: 600;

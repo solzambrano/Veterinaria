@@ -42,6 +42,7 @@ export const Icons = styled.img`
 `;
 export const Title = styled.h1`
   font-weight: 900;
+  line-height: 1rem;
   font-size: 3rem;
   letter-spacing: -0.01em;
   margin: 0px;
@@ -56,15 +57,15 @@ padding-bottom: 20px;
 }
 `;
 export const Text = styled.p`
-  font-weight: 500;
+  font-weight: 400;
 `;
 export const Paragraph = styled(Text)`
   color: var(--gray-500);
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-top: 5px;
 `;
 export const Subparagraph = styled(Text)`
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
   margin: 0px;
 `;

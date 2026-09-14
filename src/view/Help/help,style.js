@@ -11,12 +11,12 @@ export const ContainerHelp = styled.div`
   margin: 0 auto;
 `;
 export const TitleHelp = styled.h1`
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: 800;
   width: 50%;
 `;
 export const Paragraph = styled.p`
-  font-size: 18px;
+  font-size: 1.2rem;
   color: var(--gray-500);
   letter-spacing: 2px;
   margin-bottom: 30px;

@@ -34,7 +34,7 @@ export const NavOptions = styled.ul`
   list-style-type: none;
   display: flex;
   width: 50%;
-  font-size: 20px;
+  font-size: 1.3rem;
   justify-content: space-around;
   a {
     text-decoration: none;

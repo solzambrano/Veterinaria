@@ -13,6 +13,7 @@ export const Label = styled.label`
 export const ContainerLabel = styled.div`
   display: flex;
   padding-bottom: 25px;
+  gap: 1.5rem;
 `;
 export const Input = styled.input`
   border: none;
@@ -20,7 +21,9 @@ export const Input = styled.input`
   width: 100%;
   padding: 15px;
   color: var(--gray-500);
-  font-size: 1em;
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
   margin-top: 10px;
 `;
 
@@ -33,21 +36,26 @@ export const TextArea = styled.textarea`
   border: none;
   resize: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--gray-500);
-  line-height: 1.5;
   padding: 15px;
+  line-height: 1.5rem;
+
   min-height: 9rem;
 `;
 
 export const ButtonSend = styled.button`
   background-color: var(--color-primary);
   width: 50%;
-  height: 50px;
+  height: 10%;
+  font-weight: 700;
   border: none;
   border-radius: 5px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.5rem;
+  padding-right: 1.5rem;
+  letter-spacing: 0.015rem;
   margin: auto;
   display: block;
   margin-top: 25px;
