@@ -15,7 +15,7 @@ import arrow from "../../assets/icons/arrow-right.svg";
 const Card = ({ item, isServices }) => {
   return (
     <ContainerCard>
-      <ContainerImage $isServices={isServices} variant={item.slug}>
+      <ContainerImage $isServices={isServices} $variant={item.slug}>
         <Imagen src={item.image} $isServices={isServices} />
       </ContainerImage>
       {item.price && <Title>{`$${item.price}`}</Title>}

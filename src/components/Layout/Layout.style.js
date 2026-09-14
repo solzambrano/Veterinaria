@@ -6,6 +6,7 @@ export const Content = styled.div`
   padding-top: 6rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
 export const Container = styled.div`
   background-color: var(--gray-50);

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { iconVariant } from "./Variant";
+
 export const ContainerCard = styled.div`
   margin: 20px 5px;
   gap: 24px;
@@ -7,7 +8,7 @@ export const ContainerCard = styled.div`
   width: 250px;
   flex-direction: column;
   align-items: center;
-  box-shadow: "var(--shadow-green-glow)";
+  box-shadow: var(--shadow-green-glow);
   border-radius: 15px;
   transition:
     transform 0.2s ease,

@@ -27,11 +27,11 @@ export const SpanTitle = styled.p`
   position:relative;
   z-index:1;
   bottom:250px;
-	color: var( -green-200);
+	color: var(--green-200);
   font-weight:600;
   font-size: 20px;
   margin: 0px 10px;
-  text-shadow: "var(--shadow-hard)";
+  text-shadow:var(--shadow-hard);
 
  }
 `;

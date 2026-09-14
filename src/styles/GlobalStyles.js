@@ -70,7 +70,7 @@ export const GlobalStyles = createGlobalStyle`
   --shadow-sm: 0 1px 2px 0 var(--black-alpha-10);
   --shadow-md: 0 4px 6px -1px var(--black-alpha-10);
   --shadow-hard: 2px 2px 8px var(--black-alpha-80);
-  --shadow-gray: 2px 2px 5px var(--gray-400);    /
+  --shadow-gray: 2px 2px 5px var(--gray-400); 
   --shadow-xl: 0 25px 50px -12px var(--black-alpha-25);
   --shadow-green-glow: 0 8px 24px var(--green-deep-alpha-46); 
   --shadow-glow-soft: 0 0 10px var(--black-alpha-10);
@@ -85,7 +85,7 @@ export const GlobalStyles = createGlobalStyle`
   --color-primary: var(--green-400);
   --color-primary-strong:  var(--green-500);
   --color-primary-muted:  rgba(25, 230, 94, 0.2);
-  --teal-soft:rgba(82, 230, 173, 0.2)
+  --teal-soft:rgba(82, 230, 173, 0.2);
   --color-text: var(--black);
   --color-text-muted:var(--green-text);
   --color-inverse:var(--white);
